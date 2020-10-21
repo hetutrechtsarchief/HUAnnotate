@@ -123,7 +123,8 @@ function keyPressed() {
     return false; //preventDefault
   } else if (keyCode==27) {
     toolbar.setTool(toolbar.CellSelect);
-  }
+  } 
+
 }
 
 function keyReleased() {

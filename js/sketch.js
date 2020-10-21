@@ -10,6 +10,7 @@ let rulers = new Rulers();
 let toolbar;
 let menu;
 let cellSelect;
+let clipboard;
 
 const META_L = 91;
 const META_R = 93;
@@ -37,7 +38,10 @@ function setup() {
   cellSelect = new CellSelect();
 
   loadSettings();
-  // toolbar.setTool(toolbar.VRuler);
+
+  toolbar.setTool(toolbar.CellSelect);
+
+  clipboard = new Clipboard();
 }
 
 function draw() {
@@ -118,10 +122,24 @@ function printCellInfo(cell) {
   for (let w of p.words) {
     let r = w.poly.getBounds();
     if (r.intersects(cell)) {
-      print("Word: ",w.txt, cell.amountOfOverlap(r));
+      if (cell.getIntersection(r).getArea() / r.getArea() > .5) {
+        print("Word:",w.txt); //, cell.getIntersection(r).getArea() / r.getArea());
+      }
     }
   }  
 }
 
+function getTextAtCell(cell) {
+  let words = [];
+  for (let w of p.words) {
+    let r = w.poly.getBounds();
+    if (r.intersects(cell)) {
+      if (cell.getIntersection(r).getArea() / r.getArea() > .5) {
+        words.push(w.txt);
+      }
+    }
+  }
+  return words.join(" ");
+}
 
 

@@ -122,6 +122,24 @@ class CellSelect {
     if (keyIsDownMeta() && key=='d') { this.deselectAll(); return true; } //return true used for 'reacted to event'
     else if (keyIsDownMeta() && key=='a') { this.selectAll(); return true; }
     else if (keyIsDownMeta() && key=='i') { this.invertSelection(); return true; }
+    else if (keyCode==LEFT_ARROW) print("LEFT");
+    else if (keyIsDownMeta() && key=='c') { this.copyData(); return true; }
+  }
+
+  isTableSelected() {
+    return true;
+  }
+
+  copyData() {
+    let table = "<table><tr>";
+    for (let c of this.selectedCells) {
+      let s = getTextAtCell(c);
+      table += "<td>"+s+"</td>"
+    }
+    table += "</tr></table>";
+
+    print("copy")
+    clipboard.copyHTML(table);
   }
 
   draw() {
