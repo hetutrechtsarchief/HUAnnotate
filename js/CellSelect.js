@@ -11,12 +11,41 @@ class CellSelect {
     this.selecting = true;
     this.area = new Rectangle(down.x, down.y);
 
-    if (!keyIsDown(SHIFT) && !keyIsDown(ALT) && !keyIsDown(META)) { // no ALT or SHIFT
-      this.selectedCells = [];
-    } else if (keyIsDown(META)) {
-      // toggleSelection()
-      print("getCellAtMouse",this.getCellAtMouse())
+    let cell = this.getCellAtMouse();
+    if (!cell) return;
+
+    if (!keyIsDown(SHIFT) && !keyIsDown(ALT) && !keyIsDownMeta()) { // no ALT or SHIFT
+      //single select
+      this.selectedCells = [ cell ];
+
+      printCellInfo(cell); //tmp
+
+    } else if (keyIsDownMeta()) { 
+      //toggle
+      this.toggleCellSelection(cell);
+    } else if (keyIsDown(ALT)) {
+      //deselect
+      this.deselectCell(cell);
     }
+  }
+
+  deselectCell(cell) {
+    if (!cell) return;
+    let i = this.selectedCells.indexOf(cell);
+    if (i>-1) this.selectedCells.splice(i,1);
+  }
+
+  selectSingleCell(cell) {
+    if (!cell) return;
+    this.deselectAll();
+    this.selectedCells.push(cell);
+  }
+
+  toggleCellSelection(cell) {
+    if (!cell) return;
+    let i = this.selectedCells.indexOf(cell);
+    if (i>-1) this.selectedCells.splice(i,1);
+    else this.selectedCells.push(cell);
   }
 
   getCellAtMouse() {
@@ -90,9 +119,9 @@ class CellSelect {
   }
 
   keyPressed() {
-    if (keyIsDown(META) && key=='d') { this.deselectAll(); return true; } //return true used for 'reacted to event'
-    else if (keyIsDown(META) && key=='a') { this.selectAll(); return true; }
-    else if (keyIsDown(META) && key=='i') { this.invertSelection(); return true; }
+    if (keyIsDownMeta() && key=='d') { this.deselectAll(); return true; } //return true used for 'reacted to event'
+    else if (keyIsDownMeta() && key=='a') { this.selectAll(); return true; }
+    else if (keyIsDownMeta() && key=='i') { this.invertSelection(); return true; }
   }
 
   draw() {

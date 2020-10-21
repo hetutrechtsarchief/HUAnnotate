@@ -5,7 +5,7 @@ class Rulers {
     this.vRulers = [];
     this.snap = 5;
     this.cells = [];
-    this.visible = true;
+    this.visible = false; //hidden by default
   }
 
   toggle() {

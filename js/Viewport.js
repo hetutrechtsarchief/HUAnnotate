@@ -1,17 +1,4 @@
 class Viewport {
-  
-  // var x, y, scale = 1; /*1=fit content to bounds*/
-  // //int mouseX, mouseY, pmouseX, pmouseY; //mouse values in this viewport
-  // var mx, my; //mouse values (in viewport?)
-  // var bounds; //Rectangle
-  // var dragging, mouseEnabled = true;
-  // var contentWidth, contentHeight;
-  // var minScale = 0.5f, maxScale = 40;
-  // var enableDrag = true;
-  // var enableZoom = true;
-  // var contentTopLeftInScreenCoords = new PVector();
-  // var contentBottomRightInScreenCoords = new PVector();
-  // float toScreenScale;
 
   constructor(x, y, w, h, contentWidth, contentHeight) {
     this.minScale = 0.5;

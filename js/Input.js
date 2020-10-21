@@ -106,10 +106,6 @@ function keyPressed() {
 
   toolbar.keyPressed();
 
-  print(key,keyCode);
-  // if (key=='q') {
-  //   print("stop loop");
-  //   noLoop();
   if (key=='c') {
     areas = [];
     tables = [];
@@ -122,31 +118,12 @@ function keyPressed() {
     loadSettings();
   } else if (key=='\'') {
     rulers.toggle();
-  } else if (keyIsDown(META) && key=='s') {
+  } else if (keyIsDownMeta() && key=='s') {
     saveSettings();
     return false; //preventDefault
   } else if (keyCode==27) {
     toolbar.setTool(toolbar.CellSelect);
   }
-
-  // print(keyIsDown(91),"asdfasdfasdf")
-  // } else if (key=='y') {
-  //   mode = "splitHorizontal";
-  // } else if (key=='x') {
-  //   mode = "splitVertical";
-  //   print(view.getScale())
-  // } else if (key=='r') {
-  //   mode = "areaSelect";
-  // } else if (key=='t') { //tmp: convert last area to table
-  //   mode = "tableSelect";
-  //   table = new Table();
-  //   table.setBounds(area);
-  //   tables = [table];
-  // } else if (key=='H') {
-  //   mode = "hRuler";
-  // } else if (key=='V') {
-  //   mode = "vRuler"
-  // }  
 }
 
 function keyReleased() {

@@ -11,7 +11,8 @@ let toolbar;
 let menu;
 let cellSelect;
 
-const META = 91;
+const META_L = 91;
+const META_R = 93;
 const SHIFT = 16;
 const ALT = 18;
 
@@ -107,5 +108,20 @@ function onToolSelected(tool) {
   if (tool==toolbar.HRuler || tool==toolbar.VRuler) {
     rulers.show();
   }
-  
 }
+
+function keyIsDownMeta() {
+  return keyIsDown(META_L) || keyIsDown(META_R);
+}
+
+function printCellInfo(cell) {
+  for (let w of p.words) {
+    let r = w.poly.getBounds();
+    if (r.intersects(cell)) {
+      print("Word: ",w.txt, cell.amountOfOverlap(r));
+    }
+  }  
+}
+
+
+
