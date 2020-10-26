@@ -1,0 +1,1906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/v2/alto-2-0.xsd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Description>
+		<MeasurementUnit>pixel</MeasurementUnit>
+		<sourceImageInformation>
+			<fileName>MMUTRA01_001487001_00041_master.jp2</fileName>
+		</sourceImageInformation>
+		<OCRProcessing ID="OCRPROCESSING_1">
+			<preProcessingStep>
+				<processingStepDescription></processingStepDescription>
+			</preProcessingStep>
+			<ocrProcessingStep>
+				<processingDateTime>2017-04-06T12:46:04</processingDateTime>
+				<processingAgency>CCS Content Conversion Specialists GmbH, Germany</processingAgency>
+				<processingStepSettings>ABBYY Fine Reader Engine</processingStepSettings>
+				<processingSoftware>
+					<softwareCreator>CCS Content Conversion Specialists GmbH, Germany</softwareCreator>
+					<softwareName>CCS docWorks</softwareName>
+					<softwareVersion>6.9.1.31</softwareVersion>
+				</processingSoftware>
+			</ocrProcessingStep>
+		</OCRProcessing>
+	</Description>
+	<Styles>
+		<TextStyle ID="TXT_0" FONTSIZE="10" FONTFAMILY="Times New Roman" FONTSTYLE="bold"/>
+		<TextStyle ID="TXT_1" FONTSIZE="10" FONTFAMILY="Times New Roman"/>
+		<TextStyle ID="TXT_2" FONTSIZE="7" FONTFAMILY="Times New Roman"/>
+		<TextStyle ID="TXT_3" FONTSIZE="9" FONTFAMILY="Times New Roman"/>
+		<TextStyle ID="TXT_4" FONTSIZE="6" FONTFAMILY="Times New Roman"/>
+		<TextStyle ID="TXT_5" FONTSIZE="9" FONTFAMILY="Times New Roman" FONTSTYLE="italics"/>
+		<TextStyle ID="TXT_6" FONTSIZE="9" FONTFAMILY="Times New Roman" FONTSTYLE="bold"/>
+		<TextStyle ID="TXT_7" FONTSIZE="9" FONTFAMILY="Times New Roman" FONTSTYLE="underline"/>
+		<TextStyle ID="TXT_8" FONTSIZE="8" FONTFAMILY="Times New Roman" FONTSTYLE="bold italics"/>
+		<ParagraphStyle ID="PAR_LEFT" ALIGN="Left"/>
+		<ParagraphStyle ID="PAR_BLOCK" ALIGN="Block"/>
+		<ParagraphStyle ID="PAR_CENTER" ALIGN="Center"/>
+		<ParagraphStyle ID="PAR_RIGHT" ALIGN="Right"/>
+	</Styles>
+	<Layout>
+		<Page ID="Page41" PHYSICAL_IMG_NR="1" HEIGHT="2911" WIDTH="1894" PRINTED_IMG_NR="35" PC="0.888">
+			<TopMargin HPOS="0" VPOS="0" WIDTH="1894" HEIGHT="154"/>
+			<LeftMargin HPOS="0" VPOS="154" WIDTH="76" HEIGHT="2622"/>
+			<RightMargin HPOS="1740" VPOS="154" WIDTH="155" HEIGHT="2622"/>
+			<BottomMargin HPOS="0" VPOS="2776" WIDTH="1894" HEIGHT="136"/>
+			<PrintSpace HPOS="76" VPOS="154" WIDTH="1664" HEIGHT="2622">
+				<TextBlock ID="TextBlock1" HPOS="407" VPOS="154" WIDTH="982" HEIGHT="38" STYLEREFS="TXT_8 PAR_CENTER">
+					<TextLine ID="TextLine1" HPOS="407" VPOS="156" WIDTH="982" HEIGHT="35">
+						<String ID="String1" HPOS="407" VPOS="157" WIDTH="204" HEIGHT="34" CONTENT="Alphabetische" WC="0.58" CC="9430906305504"/>
+						<SP ID="SP1" HPOS="612" VPOS="191" WIDTH="18"/>
+						<String ID="String2" HPOS="630" VPOS="157" WIDTH="67" HEIGHT="34" CONTENT="Lijst" WC="0.97" CC="56255"/>
+						<SP ID="SP2" HPOS="697" VPOS="191" WIDTH="19"/>
+						<String ID="String3" HPOS="716" VPOS="157" WIDTH="46" HEIGHT="26" CONTENT="der" WC="0.98" CC="022"/>
+						<SP ID="SP3" HPOS="762" VPOS="191" WIDTH="20"/>
+						<String ID="String4" HPOS="782" VPOS="156" WIDTH="109" HEIGHT="27" CONTENT="Straten" WC="0.98" CC="1681609"/>
+						<SP ID="SP4" HPOS="891" VPOS="191" WIDTH="18"/>
+						<String ID="String5" HPOS="908" VPOS="157" WIDTH="52" HEIGHT="25" CONTENT="met" WC="0.97" CC="340"/>
+						<SP ID="SP5" HPOS="960" VPOS="191" WIDTH="19"/>
+						<String ID="String6" HPOS="979" VPOS="156" WIDTH="105" HEIGHT="33" CONTENT="opgaaf" WC="0.98" CC="050980"/>
+						<SP ID="SP6" HPOS="1084" VPOS="191" WIDTH="12"/>
+						<String ID="String7" HPOS="1096" VPOS="156" WIDTH="46" HEIGHT="26" CONTENT="der" WC="1.00" CC="000"/>
+						<SP ID="SP7" HPOS="1142" VPOS="191" WIDTH="20"/>
+						<String ID="String8" HPOS="1162" VPOS="156" WIDTH="227" HEIGHT="33" CONTENT="Hoofdbewoners." WC="1.00" CC="33000407060003"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock2" HPOS="1685" VPOS="156" WIDTH="35" HEIGHT="25" STYLEREFS="TXT_1 PAR_RIGHT">
+					<TextLine ID="TextLine2" HPOS="1685" VPOS="156" WIDTH="35" HEIGHT="25">
+						<String ID="String9" HPOS="1685" VPOS="156" WIDTH="35" HEIGHT="25" CONTENT="35" WC="1.00" CC="00"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock3" HPOS="76" VPOS="234" WIDTH="423" HEIGHT="70" STYLEREFS="TXT_0 PAR_LEFT">
+					<TextLine ID="TextLine3" HPOS="78" VPOS="235" WIDTH="417" HEIGHT="26">
+						<String ID="String10" HPOS="78" VPOS="235" WIDTH="145" HEIGHT="26" CONTENT="Abraham" WC="0.98" CC="6050657"/>
+						<SP ID="SP8" HPOS="223" VPOS="261" WIDTH="17"/>
+						<String ID="String11" HPOS="240" VPOS="235" WIDTH="255" HEIGHT="26" CONTENT="Bloemaertstraat" WC="0.68" CC="009100020388068"/>
+					</TextLine>
+					<TextLine ID="TextLine4" HPOS="221" VPOS="270" WIDTH="209" HEIGHT="31">
+						<String ID="String12" HPOS="221" VPOS="270" WIDTH="93" HEIGHT="31" CONTENT="1—23;" WC="0.76" CC="08003" STYLEREFS="TXT_1"/>
+						<SP ID="SP9" HPOS="314" VPOS="301" WIDTH="22"/>
+						<String ID="String13" HPOS="337" VPOS="270" WIDTH="93" HEIGHT="26" CONTENT="2—24." WC="0.78" CC="08003" STYLEREFS="TXT_1"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock4" HPOS="96" VPOS="335" WIDTH="516" HEIGHT="618" STYLEREFS="TXT_1 PAR_BLOCK">
+					<TextLine ID="TextLine5" HPOS="135" VPOS="338" WIDTH="446" HEIGHT="33">
+						<String ID="String14" HPOS="135" VPOS="340" WIDTH="9" HEIGHT="26" CONTENT="1" WC="1.00" CC="0"/>
+						<SP ID="SP10" HPOS="144" VPOS="366" WIDTH="43"/>
+						<String ID="String15" HPOS="187" VPOS="339" WIDTH="34" HEIGHT="27" CONTENT="D." WC="1.00" CC="00"/>
+						<SP ID="SP11" HPOS="221" VPOS="366" WIDTH="22"/>
+						<String ID="String16" HPOS="243" VPOS="339" WIDTH="126" HEIGHT="32" CONTENT="Drabbe," WC="0.97" CC="0000002"/>
+						<SP ID="SP12" HPOS="370" VPOS="371" WIDTH="22"/>
+						<String ID="String17" HPOS="392" VPOS="338" WIDTH="189" HEIGHT="28" CONTENT="kantoorbed." WC="1.00" CC="00000000000"/>
+					</TextLine>
+					<TextLine ID="TextLine6" HPOS="137" VPOS="374" WIDTH="469" HEIGHT="35">
+						<String ID="String18" HPOS="137" VPOS="376" WIDTH="18" HEIGHT="27" CONTENT="3" WC="1.00" CC="0"/>
+						<SP ID="SP13" HPOS="155" VPOS="403" WIDTH="40"/>
+						<String ID="String19" HPOS="195" VPOS="376" WIDTH="32" HEIGHT="27" CONTENT="H." WC="1.00" CC="00"/>
+						<SP ID="SP14" HPOS="227" VPOS="403" WIDTH="25"/>
+						<String ID="String20" HPOS="252" VPOS="376" WIDTH="32" HEIGHT="27" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP15" HPOS="283" VPOS="403" WIDTH="24"/>
+						<String ID="String21" HPOS="307" VPOS="374" WIDTH="144" HEIGHT="34" CONTENT="Albrecht," WC="1.00" CC="000000000"/>
+						<SP ID="SP16" HPOS="451" VPOS="409" WIDTH="25"/>
+						<String ID="String22" HPOS="476" VPOS="374" WIDTH="130" HEIGHT="27" CONTENT="marktm." WC="0.84" CC="8000020"/>
+					</TextLine>
+					<TextLine ID="TextLine7" HPOS="137" VPOS="411" WIDTH="466" HEIGHT="33">
+						<String ID="String23" HPOS="137" VPOS="416" WIDTH="15" HEIGHT="25" CONTENT="5" WC="1.00" CC="0"/>
+						<SP ID="SP17" HPOS="152" VPOS="441" WIDTH="37"/>
+						<String ID="String24" HPOS="189" VPOS="413" WIDTH="41" HEIGHT="27" CONTENT="W." WC="0.96" CC="00"/>
+						<SP ID="SP18" HPOS="230" VPOS="441" WIDTH="20"/>
+						<String ID="String25" HPOS="250" VPOS="423" WIDTH="26" HEIGHT="18" CONTENT="V." WC="1.00" CC="00" STYLEREFS="TXT_2"/>
+						<SP ID="SP19" HPOS="276" VPOS="441" WIDTH="20"/>
+						<String ID="String26" HPOS="296" VPOS="412" WIDTH="144" HEIGHT="32" CONTENT="Rheenen," WC="0.86" CC="60000012"/>
+						<SP ID="SP20" HPOS="441" VPOS="444" WIDTH="19"/>
+						<String ID="String27" HPOS="459" VPOS="413" WIDTH="70" HEIGHT="26" CONTENT="baas" WC="0.97" CC="9007"/>
+						<SP ID="SP21" HPOS="529" VPOS="444" WIDTH="18"/>
+						<String ID="String28" HPOS="547" VPOS="411" WIDTH="56" HEIGHT="28" CONTENT="N.S" WC="0.51" CC="707"/>
+					</TextLine>
+					<TextLine ID="TextLine8" HPOS="189" VPOS="445" WIDTH="418" HEIGHT="35">
+						<String ID="String29" HPOS="189" VPOS="446" WIDTH="33" HEIGHT="28" CONTENT="H." WC="1.00" CC="00"/>
+						<SP ID="SP22" HPOS="222" VPOS="475" WIDTH="25"/>
+						<String ID="String30" HPOS="247" VPOS="446" WIDTH="32" HEIGHT="28" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP23" HPOS="279" VPOS="475" WIDTH="24"/>
+						<String ID="String31" HPOS="302" VPOS="455" WIDTH="26" HEIGHT="20" CONTENT="V." WC="1.00" CC="00" STYLEREFS="TXT_2"/>
+						<SP ID="SP24" HPOS="328" VPOS="475" WIDTH="25"/>
+						<String ID="String32" HPOS="353" VPOS="446" WIDTH="142" HEIGHT="33" CONTENT="Rheenen," WC="0.86" CC="54000000"/>
+						<SP ID="SP25" HPOS="495" VPOS="480" WIDTH="26"/>
+						<String ID="String33" HPOS="521" VPOS="445" WIDTH="86" HEIGHT="27" CONTENT="ambt." WC="1.00" CC="00000"/>
+					</TextLine>
+					<TextLine ID="TextLine9" HPOS="222" VPOS="485" WIDTH="81" HEIGHT="28">
+						<String ID="String34" HPOS="222" VPOS="485" WIDTH="35" HEIGHT="27" CONTENT="N." WC="0.71" CC="50"/>
+						<SP ID="SP26" HPOS="257" VPOS="513" WIDTH="18"/>
+						<String ID="String35" HPOS="275" VPOS="485" WIDTH="28" HEIGHT="28" CONTENT="S." WC="0.64" CC="70"/>
+					</TextLine>
+					<TextLine ID="TextLine10" HPOS="132" VPOS="516" WIDTH="474" HEIGHT="39">
+						<String ID="String36" HPOS="132" VPOS="521" WIDTH="18" HEIGHT="26" CONTENT="7" WC="1.00" CC="0"/>
+						<SP ID="SP27" HPOS="150" VPOS="547" WIDTH="38"/>
+						<String ID="String37" HPOS="188" VPOS="520" WIDTH="21" HEIGHT="35" CONTENT="J." WC="1.00" CC="00"/>
+						<SP ID="SP28" HPOS="209" VPOS="555" WIDTH="25"/>
+						<String ID="String38" HPOS="234" VPOS="519" WIDTH="33" HEIGHT="28" CONTENT="G." WC="1.00" CC="00"/>
+						<SP ID="SP29" HPOS="267" VPOS="555" WIDTH="22"/>
+						<String ID="String39" HPOS="289" VPOS="519" WIDTH="117" HEIGHT="34" CONTENT="Dokter," WC="1.00" CC="0000000"/>
+						<SP ID="SP30" HPOS="406" VPOS="555" WIDTH="24"/>
+						<String ID="String40" HPOS="430" VPOS="519" WIDTH="89" HEIGHT="27" CONTENT="ambt." WC="0.99" CC="08000"/>
+						<SP ID="SP31" HPOS="519" VPOS="555" WIDTH="22"/>
+						<String ID="String41" HPOS="541" VPOS="516" WIDTH="65" HEIGHT="30" CONTENT="N.S." WC="0.82" CC="7000"/>
+					</TextLine>
+					<TextLine ID="TextLine11" HPOS="130" VPOS="555" WIDTH="390" HEIGHT="33">
+						<String ID="String42" HPOS="130" VPOS="557" WIDTH="17" HEIGHT="25" CONTENT="9" WC="0.40" CC="5"/>
+						<SP ID="SP32" HPOS="146" VPOS="582" WIDTH="35"/>
+						<String ID="String43" HPOS="182" VPOS="556" WIDTH="28" HEIGHT="27" CONTENT="F." WC="0.63" CC="70"/>
+						<SP ID="SP33" HPOS="210" VPOS="583" WIDTH="24"/>
+						<String ID="String44" HPOS="234" VPOS="556" WIDTH="40" HEIGHT="27" CONTENT="W." WC="1.00" CC="00"/>
+						<SP ID="SP34" HPOS="274" VPOS="583" WIDTH="25"/>
+						<String ID="String45" HPOS="299" VPOS="556" WIDTH="71" HEIGHT="32" CONTENT="Slee," WC="0.99" CC="06000"/>
+						<SP ID="SP35" HPOS="370" VPOS="588" WIDTH="20"/>
+						<String ID="String46" HPOS="390" VPOS="555" WIDTH="130" HEIGHT="27" CONTENT="schilder." WC="0.99" CC="677047000"/>
+					</TextLine>
+					<TextLine ID="TextLine12" HPOS="110" VPOS="591" WIDTH="497" HEIGHT="34">
+						<String ID="String47" HPOS="110" VPOS="594" WIDTH="32" HEIGHT="26" CONTENT="11" WC="0.63" CC="70"/>
+						<SP ID="SP36" HPOS="142" VPOS="620" WIDTH="40"/>
+						<String ID="String48" HPOS="182" VPOS="592" WIDTH="282" HEIGHT="33" CONTENT="F.H.Ph.Jothmann," WC="0.71" CC="6470530640700000"/>
+						<SP ID="SP37" HPOS="464" VPOS="625" WIDTH="25"/>
+						<String ID="String49" HPOS="489" VPOS="591" WIDTH="118" HEIGHT="30" CONTENT="draaier." WC="0.99" CC="05900000"/>
+					</TextLine>
+					<TextLine ID="TextLine13" HPOS="116" VPOS="627" WIDTH="451" HEIGHT="32">
+						<String ID="String50" HPOS="116" VPOS="628" WIDTH="32" HEIGHT="26" CONTENT="13" WC="0.51" CC="44"/>
+						<SP ID="SP38" HPOS="148" VPOS="654" WIDTH="38"/>
+						<String ID="String51" HPOS="185" VPOS="627" WIDTH="39" HEIGHT="27" CONTENT="M." WC="0.59" CC="80"/>
+						<SP ID="SP39" HPOS="224" VPOS="654" WIDTH="22"/>
+						<String ID="String52" HPOS="247" VPOS="627" WIDTH="28" HEIGHT="27" CONTENT="E." WC="1.00" CC="00"/>
+						<SP ID="SP40" HPOS="275" VPOS="654" WIDTH="24"/>
+						<String ID="String53" HPOS="299" VPOS="627" WIDTH="102" HEIGHT="32" CONTENT="Kuiler," WC="1.00" CC="5000000"/>
+						<SP ID="SP41" HPOS="400" VPOS="659" WIDTH="21"/>
+						<String ID="String54" HPOS="422" VPOS="627" WIDTH="145" HEIGHT="26" CONTENT="architect." WC="1.00" CC="0083000000"/>
+					</TextLine>
+					<TextLine ID="TextLine14" HPOS="185" VPOS="664" WIDTH="208" HEIGHT="28">
+						<String ID="String55" HPOS="185" VPOS="664" WIDTH="90" HEIGHT="27" CONTENT="Mevr." WC="1.00" CC="30000"/>
+						<SP ID="SP42" HPOS="275" VPOS="691" WIDTH="18"/>
+						<String ID="String56" HPOS="293" VPOS="664" WIDTH="100" HEIGHT="28" CONTENT="Kwak." WC="0.99" CC="00700"/>
+					</TextLine>
+					<TextLine ID="TextLine15" HPOS="117" VPOS="698" WIDTH="487" HEIGHT="35">
+						<String ID="String57" HPOS="117" VPOS="702" WIDTH="31" HEIGHT="26" CONTENT="15" WC="1.00" CC="00"/>
+						<SP ID="SP43" HPOS="148" VPOS="728" WIDTH="40"/>
+						<String ID="String58" HPOS="188" VPOS="699" WIDTH="31" HEIGHT="28" CONTENT="C." WC="0.89" CC="20"/>
+						<SP ID="SP44" HPOS="219" VPOS="728" WIDTH="43"/>
+						<String ID="String59" HPOS="261" VPOS="700" WIDTH="39" HEIGHT="27" CONTENT="M." WC="1.00" CC="00"/>
+						<SP ID="SP45" HPOS="300" VPOS="728" WIDTH="44"/>
+						<String ID="String60" HPOS="344" VPOS="699" WIDTH="21" HEIGHT="34" CONTENT="J." WC="1.00" CC="00"/>
+						<SP ID="SP46" HPOS="365" VPOS="733" WIDTH="45"/>
+						<String ID="String61" HPOS="410" VPOS="698" WIDTH="194" HEIGHT="34" CONTENT="Goedemans," WC="1.00" CC="0000000000"/>
+					</TextLine>
+					<TextLine ID="TextLine16" HPOS="224" VPOS="736" WIDTH="223" HEIGHT="34">
+						<String ID="String62" HPOS="224" VPOS="736" WIDTH="223" HEIGHT="34" CONTENT="bouwkundige." WC="1.00" CC="000000100000"/>
+					</TextLine>
+					<TextLine ID="TextLine17" HPOS="113" VPOS="772" WIDTH="363" HEIGHT="30">
+						<String ID="String63" HPOS="113" VPOS="775" WIDTH="30" HEIGHT="25" CONTENT="17" WC="0.55" CC="08"/>
+						<SP ID="SP47" HPOS="143" VPOS="800" WIDTH="38"/>
+						<String ID="String64" HPOS="181" VPOS="774" WIDTH="34" HEIGHT="28" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP48" HPOS="215" VPOS="802" WIDTH="20"/>
+						<String ID="String65" HPOS="235" VPOS="774" WIDTH="27" HEIGHT="27" CONTENT="J." WC="0.84" CC="30"/>
+						<SP ID="SP49" HPOS="262" VPOS="802" WIDTH="21"/>
+						<String ID="String66" HPOS="283" VPOS="772" WIDTH="193" HEIGHT="28" CONTENT="Goedemans." WC="0.89" CC="7000000030"/>
+					</TextLine>
+					<TextLine ID="TextLine18" HPOS="119" VPOS="807" WIDTH="488" HEIGHT="35">
+						<String ID="String67" HPOS="119" VPOS="809" WIDTH="32" HEIGHT="26" CONTENT="19" WC="1.00" CC="00"/>
+						<SP ID="SP50" HPOS="151" VPOS="835" WIDTH="38"/>
+						<String ID="String68" HPOS="189" VPOS="808" WIDTH="21" HEIGHT="34" CONTENT="J." WC="1.00" CC="00"/>
+						<SP ID="SP51" HPOS="210" VPOS="842" WIDTH="12"/>
+						<String ID="String69" HPOS="222" VPOS="808" WIDTH="31" HEIGHT="27" CONTENT="F." WC="1.00" CC="00"/>
+						<SP ID="SP52" HPOS="253" VPOS="842" WIDTH="12"/>
+						<String ID="String70" HPOS="265" VPOS="808" WIDTH="87" HEIGHT="33" CONTENT="Bons," WC="1.00" CC="00000"/>
+						<SP ID="SP53" HPOS="352" VPOS="842" WIDTH="11"/>
+						<String ID="String71" HPOS="363" VPOS="807" WIDTH="244" HEIGHT="35" CONTENT="magazijnmeest." WC="0.95" CC="00000060000000"/>
+					</TextLine>
+					<TextLine ID="TextLine19" HPOS="111" VPOS="844" WIDTH="500" HEIGHT="29">
+						<String ID="String72" HPOS="111" VPOS="847" WIDTH="32" HEIGHT="25" CONTENT="21" WC="0.71" CC="50"/>
+						<SP ID="SP54" HPOS="143" VPOS="872" WIDTH="39"/>
+						<String ID="String73" HPOS="182" VPOS="844" WIDTH="81" HEIGHT="28" CONTENT="Wed." WC="0.97" CC="3090"/>
+						<SP ID="SP55" HPOS="263" VPOS="873" WIDTH="19"/>
+						<String ID="String74" HPOS="282" VPOS="844" WIDTH="28" HEIGHT="28" CONTENT="J." WC="0.89" CC="20"/>
+						<SP ID="SP56" HPOS="311" VPOS="873" WIDTH="18"/>
+						<String ID="String75" HPOS="328" VPOS="846" WIDTH="35" HEIGHT="26" CONTENT="N." WC="0.50" CC="90"/>
+						<SP ID="SP57" HPOS="364" VPOS="873" WIDTH="18"/>
+						<String ID="String76" HPOS="381" VPOS="853" WIDTH="59" HEIGHT="19" CONTENT="van" WC="1.00" CC="000"/>
+						<SP ID="SP58" HPOS="441" VPOS="873" WIDTH="19"/>
+						<String ID="String77" HPOS="459" VPOS="844" WIDTH="151" HEIGHT="27" CONTENT="Leeuwen." WC="1.00" CC="50020020"/>
+					</TextLine>
+					<TextLine ID="TextLine20" HPOS="110" VPOS="880" WIDTH="475" HEIGHT="35">
+						<String ID="String78" HPOS="110" VPOS="882" WIDTH="34" HEIGHT="25" CONTENT="23" WC="1.00" CC="00"/>
+						<SP ID="SP59" HPOS="144" VPOS="907" WIDTH="38"/>
+						<String ID="String79" HPOS="182" VPOS="881" WIDTH="32" HEIGHT="26" CONTENT="E." WC="1.00" CC="00"/>
+						<SP ID="SP60" HPOS="214" VPOS="907" WIDTH="20"/>
+						<String ID="String80" HPOS="234" VPOS="888" WIDTH="58" HEIGHT="19" CONTENT="van" WC="0.98" CC="004"/>
+						<SP ID="SP61" HPOS="292" VPOS="907" WIDTH="20"/>
+						<String ID="String81" HPOS="312" VPOS="880" WIDTH="83" HEIGHT="35" CONTENT="Ling," WC="0.70" CC="50090"/>
+						<SP ID="SP62" HPOS="394" VPOS="915" WIDTH="20"/>
+						<String ID="String82" HPOS="415" VPOS="880" WIDTH="170" HEIGHT="35" CONTENT="groentenh." WC="1.00" CC="0000000000"/>
+					</TextLine>
+					<TextLine ID="TextLine21" HPOS="99" VPOS="914" WIDTH="403" HEIGHT="37">
+						<String ID="String83" HPOS="99" VPOS="915" WIDTH="73" HEIGHT="35" CONTENT="t23a" WC="0.70" CC="4007"/>
+						<SP ID="SP63" HPOS="172" VPOS="951" WIDTH="18"/>
+						<String ID="String84" HPOS="190" VPOS="915" WIDTH="39" HEIGHT="28" CONTENT="M." WC="1.00" CC="00"/>
+						<SP ID="SP64" HPOS="229" VPOS="951" WIDTH="20"/>
+						<String ID="String85" HPOS="249" VPOS="915" WIDTH="22" HEIGHT="34" CONTENT="J." WC="1.00" CC="00"/>
+						<SP ID="SP65" HPOS="272" VPOS="951" WIDTH="21"/>
+						<String ID="String86" HPOS="293" VPOS="915" WIDTH="32" HEIGHT="28" CONTENT="C." WC="1.00" CC="00"/>
+						<SP ID="SP66" HPOS="325" VPOS="951" WIDTH="20"/>
+						<String ID="String87" HPOS="345" VPOS="924" WIDTH="24" HEIGHT="19" CONTENT="V." WC="1.00" CC="00" STYLEREFS="TXT_2"/>
+						<SP ID="SP67" HPOS="369" VPOS="951" WIDTH="22"/>
+						<String ID="String88" HPOS="391" VPOS="915" WIDTH="19" HEIGHT="27" CONTENT="’t" WC="0.60" CC="80"/>
+						<SP ID="SP68" HPOS="410" VPOS="951" WIDTH="21"/>
+						<String ID="String89" HPOS="431" VPOS="914" WIDTH="71" HEIGHT="31" CONTENT="Riet." WC="1.00" CC="00000"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock5" HPOS="110" VPOS="984" WIDTH="502" HEIGHT="650" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="TextLine22" HPOS="130" VPOS="987" WIDTH="480" HEIGHT="36">
+						<String ID="String90" HPOS="130" VPOS="990" WIDTH="14" HEIGHT="25" CONTENT="2" WC="1.00" CC="0"/>
+						<SP ID="SP69" HPOS="144" VPOS="1015" WIDTH="38"/>
+						<String ID="String91" HPOS="182" VPOS="987" WIDTH="31" HEIGHT="28" CONTENT="L." WC="0.67" CC="60"/>
+						<SP ID="SP70" HPOS="213" VPOS="1016" WIDTH="24"/>
+						<String ID="String92" HPOS="236" VPOS="987" WIDTH="51" HEIGHT="28" CONTENT="Ch." WC="0.73" CC="080"/>
+						<SP ID="SP71" HPOS="287" VPOS="1016" WIDTH="26"/>
+						<String ID="String93" HPOS="313" VPOS="989" WIDTH="84" HEIGHT="34" CONTENT="Dors," WC="0.99" CC="00041"/>
+						<SP ID="SP72" HPOS="397" VPOS="1023" WIDTH="25"/>
+						<String ID="String94" HPOS="422" VPOS="987" WIDTH="170" HEIGHT="27" CONTENT="bouwonder" SUBS_TYPE="HypPart1" SUBS_CONTENT="bouwondernemer." WC="0.99" CC="0059060000"/>
+						<HYP HPOS="592" VPOS="987" WIDTH="18" CONTENT="-"/>
+					</TextLine>
+					<TextLine ID="TextLine23" HPOS="217" VPOS="1031" WIDTH="106" HEIGHT="20">
+						<String ID="String95" HPOS="217" VPOS="1031" WIDTH="106" HEIGHT="20" CONTENT="nemer." SUBS_TYPE="HypPart2" SUBS_CONTENT="bouwondernemer." WC="0.99" CC="640300"/>
+					</TextLine>
+					<TextLine ID="TextLine24" HPOS="130" VPOS="1059" WIDTH="258" HEIGHT="28">
+						<String ID="String96" HPOS="130" VPOS="1062" WIDTH="15" HEIGHT="25" CONTENT="4" WC="0.12" CC="8"/>
+						<SP ID="SP73" HPOS="145" VPOS="1087" WIDTH="37"/>
+						<String ID="String97" HPOS="182" VPOS="1059" WIDTH="34" HEIGHT="27" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP74" HPOS="216" VPOS="1087" WIDTH="18"/>
+						<String ID="String98" HPOS="234" VPOS="1059" WIDTH="154" HEIGHT="27" CONTENT="Houthuis." WC="0.79" CC="403060040"/>
+					</TextLine>
+					<TextLine ID="TextLine25" HPOS="194" VPOS="1094" WIDTH="413" HEIGHT="35">
+						<String ID="String99" HPOS="194" VPOS="1096" WIDTH="83" HEIGHT="26" CONTENT="Wed." WC="1.00" CC="0000"/>
+						<SP ID="SP75" HPOS="276" VPOS="1122" WIDTH="46"/>
+						<String ID="String100" HPOS="322" VPOS="1094" WIDTH="30" HEIGHT="28" CONTENT="C." WC="0.98" CC="00"/>
+						<SP ID="SP76" HPOS="352" VPOS="1122" WIDTH="45"/>
+						<String ID="String101" HPOS="397" VPOS="1094" WIDTH="210" HEIGHT="35" CONTENT="Schregardus-" WC="0.96" CC="004000000000"/>
+					</TextLine>
+					<TextLine ID="TextLine26" HPOS="221" VPOS="1130" WIDTH="131" HEIGHT="28">
+						<String ID="String102" HPOS="221" VPOS="1130" WIDTH="26" HEIGHT="27" CONTENT="T" WC="0.98" CC="0"/>
+						<SP ID="SP77" HPOS="247" VPOS="1157" WIDTH="4"/>
+						<String ID="String103" HPOS="250" VPOS="1130" WIDTH="102" HEIGHT="28" CONTENT="uithof." WC="1.00" CC="0000070"/>
+					</TextLine>
+					<TextLine ID="TextLine27" HPOS="129" VPOS="1167" WIDTH="464" HEIGHT="34">
+						<String ID="String104" HPOS="129" VPOS="1168" WIDTH="15" HEIGHT="26" CONTENT="6" WC="0.76" CC="2"/>
+						<SP ID="SP78" HPOS="144" VPOS="1194" WIDTH="37"/>
+						<String ID="String105" HPOS="181" VPOS="1168" WIDTH="27" HEIGHT="26" CONTENT="J." WC="1.00" CC="00"/>
+						<SP ID="SP79" HPOS="208" VPOS="1194" WIDTH="19"/>
+						<String ID="String106" HPOS="227" VPOS="1175" WIDTH="58" HEIGHT="19" CONTENT="van" WC="0.95" CC="606"/>
+						<SP ID="SP80" HPOS="285" VPOS="1194" WIDTH="19"/>
+						<String ID="String107" HPOS="304" VPOS="1167" WIDTH="74" HEIGHT="34" CONTENT="Dijk," WC="0.98" CC="80500"/>
+						<SP ID="SP81" HPOS="378" VPOS="1201" WIDTH="19"/>
+						<String ID="String108" HPOS="397" VPOS="1167" WIDTH="196" HEIGHT="34" CONTENT="onderwijzer." WC="1.00" CC="000509054000"/>
+					</TextLine>
+					<TextLine ID="TextLine28" HPOS="185" VPOS="1201" WIDTH="424" HEIGHT="36">
+						<String ID="String109" HPOS="185" VPOS="1202" WIDTH="69" HEIGHT="34" CONTENT="Mej." WC="0.83" CC="6000"/>
+						<SP ID="SP82" HPOS="254" VPOS="1237" WIDTH="18"/>
+						<String ID="String110" HPOS="272" VPOS="1201" WIDTH="46" HEIGHT="28" CONTENT="W." WC="1.00" CC="00"/>
+						<SP ID="SP83" HPOS="318" VPOS="1237" WIDTH="19"/>
+						<String ID="String111" HPOS="337" VPOS="1201" WIDTH="31" HEIGHT="28" CONTENT="C." WC="0.89" CC="20"/>
+						<SP ID="SP84" HPOS="367" VPOS="1237" WIDTH="21"/>
+						<String ID="String112" HPOS="389" VPOS="1201" WIDTH="150" HEIGHT="33" CONTENT="Harmsen," WC="1.00" CC="00000000"/>
+						<SP ID="SP85" HPOS="539" VPOS="1237" WIDTH="19"/>
+						<String ID="String113" HPOS="557" VPOS="1208" WIDTH="34" HEIGHT="20" CONTENT="on" SUBS_TYPE="HypPart1" SUBS_CONTENT="onderwijzeres." WC="1.00" CC="000"/>
+						<HYP HPOS="592" VPOS="1208" WIDTH="17" CONTENT="-"/>
+					</TextLine>
+					<TextLine ID="TextLine29" HPOS="221" VPOS="1238" WIDTH="190" HEIGHT="34">
+						<String ID="String114" HPOS="221" VPOS="1238" WIDTH="190" HEIGHT="34" CONTENT="derwijzeres." SUBS_TYPE="HypPart2" SUBS_CONTENT="onderwijzeres." WC="1.00" CC="000005400000"/>
+					</TextLine>
+					<TextLine ID="TextLine30" HPOS="129" VPOS="1273" WIDTH="481" HEIGHT="36">
+						<String ID="String115" HPOS="129" VPOS="1276" WIDTH="15" HEIGHT="26" CONTENT="8" WC="0.50" CC="4"/>
+						<SP ID="SP86" HPOS="144" VPOS="1302" WIDTH="38"/>
+						<String ID="String116" HPOS="182" VPOS="1274" WIDTH="44" HEIGHT="27" CONTENT="W." WC="0.69" CC="60"/>
+						<SP ID="SP87" HPOS="226" VPOS="1302" WIDTH="15"/>
+						<String ID="String117" HPOS="241" VPOS="1283" WIDTH="59" HEIGHT="19" CONTENT="van" WC="0.95" CC="075"/>
+						<SP ID="SP88" HPOS="300" VPOS="1302" WIDTH="17"/>
+						<String ID="String118" HPOS="317" VPOS="1273" WIDTH="100" HEIGHT="35" CONTENT="Galen," WC="0.99" CC="600000"/>
+						<SP ID="SP89" HPOS="417" VPOS="1309" WIDTH="17"/>
+						<String ID="String119" HPOS="433" VPOS="1273" WIDTH="161" HEIGHT="35" CONTENT="procuratie" SUBS_TYPE="HypPart1" SUBS_CONTENT="procuratiehouder." WC="0.99" CC="90064080000"/>
+						<HYP HPOS="594" VPOS="1273" WIDTH="15" CONTENT="-"/>
+					</TextLine>
+					<TextLine ID="TextLine31" HPOS="216" VPOS="1311" WIDTH="120" HEIGHT="27">
+						<String ID="String120" HPOS="216" VPOS="1311" WIDTH="120" HEIGHT="27" CONTENT="houder." SUBS_TYPE="HypPart2" SUBS_CONTENT="procuratiehouder." WC="0.99" CC="0060003"/>
+					</TextLine>
+					<TextLine ID="TextLine32" HPOS="113" VPOS="1344" WIDTH="498" HEIGHT="33">
+						<String ID="String121" HPOS="113" VPOS="1348" WIDTH="32" HEIGHT="26" CONTENT="10" WC="0.63" CC="07"/>
+						<SP ID="SP90" HPOS="145" VPOS="1374" WIDTH="35"/>
+						<String ID="String122" HPOS="181" VPOS="1346" WIDTH="34" HEIGHT="27" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP91" HPOS="215" VPOS="1374" WIDTH="19"/>
+						<String ID="String123" HPOS="234" VPOS="1345" WIDTH="109" HEIGHT="32" CONTENT="Vroon," WC="1.00" CC="200000"/>
+						<SP ID="SP92" HPOS="343" VPOS="1377" WIDTH="18"/>
+						<String ID="String124" HPOS="360" VPOS="1345" WIDTH="98" HEIGHT="27" CONTENT="assist." WC="0.64" CC="6640700"/>
+						<SP ID="SP93" HPOS="458" VPOS="1377" WIDTH="18"/>
+						<String ID="String125" HPOS="476" VPOS="1344" WIDTH="135" HEIGHT="28" CONTENT="marktm." WC="0.90" CC="0000060"/>
+					</TextLine>
+					<TextLine ID="TextLine33" HPOS="113" VPOS="1382" WIDTH="497" HEIGHT="34">
+						<String ID="String126" HPOS="113" VPOS="1383" WIDTH="32" HEIGHT="26" CONTENT="12" WC="1.00" CC="00"/>
+						<SP ID="SP94" HPOS="145" VPOS="1409" WIDTH="37"/>
+						<String ID="String127" HPOS="182" VPOS="1383" WIDTH="34" HEIGHT="26" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP95" HPOS="216" VPOS="1409" WIDTH="18"/>
+						<String ID="String128" HPOS="234" VPOS="1382" WIDTH="45" HEIGHT="27" CONTENT="W." WC="0.58" CC="80"/>
+						<SP ID="SP96" HPOS="279" VPOS="1409" WIDTH="19"/>
+						<String ID="String129" HPOS="298" VPOS="1382" WIDTH="105" HEIGHT="34" CONTENT="Schok," WC="1.00" CC="400000"/>
+						<SP ID="SP97" HPOS="403" VPOS="1416" WIDTH="18"/>
+						<String ID="String130" HPOS="420" VPOS="1382" WIDTH="190" HEIGHT="27" CONTENT="kleermaker." WC="1.00" CC="00000040000"/>
+					</TextLine>
+					<TextLine ID="TextLine34" HPOS="116" VPOS="1416" WIDTH="495" HEIGHT="30">
+						<String ID="String131" HPOS="116" VPOS="1419" WIDTH="32" HEIGHT="26" CONTENT="14" WC="1.00" CC="00"/>
+						<SP ID="SP98" HPOS="148" VPOS="1444" WIDTH="37"/>
+						<String ID="String132" HPOS="184" VPOS="1416" WIDTH="426" HEIGHT="30" CONTENT="Wed.A.Schock-v.d.Linden." WC="0.87" CC="000000300006000505009000"/>
+					</TextLine>
+					<TextLine ID="TextLine35" HPOS="183" VPOS="1453" WIDTH="355" HEIGHT="35">
+						<String ID="String133" HPOS="183" VPOS="1454" WIDTH="89" HEIGHT="27" CONTENT="Mevr." WC="1.00" CC="00000"/>
+						<SP ID="SP99" HPOS="272" VPOS="1481" WIDTH="20"/>
+						<String ID="String134" HPOS="292" VPOS="1454" WIDTH="31" HEIGHT="27" CONTENT="E." WC="1.00" CC="00"/>
+						<SP ID="SP100" HPOS="322" VPOS="1481" WIDTH="20"/>
+						<String ID="String135" HPOS="343" VPOS="1454" WIDTH="27" HEIGHT="27" CONTENT="A" WC="1.00" CC="0"/>
+						<SP ID="SP101" HPOS="370" VPOS="1481" WIDTH="27"/>
+						<String ID="String136" HPOS="397" VPOS="1453" WIDTH="141" HEIGHT="35" CONTENT="Teijgeler" WC="0.68" CC="773090000"/>
+					</TextLine>
+					<TextLine ID="TextLine36" HPOS="217" VPOS="1488" WIDTH="123" HEIGHT="28">
+						<String ID="String137" HPOS="217" VPOS="1488" WIDTH="123" HEIGHT="28" CONTENT="Schock." WC="0.93" CC="4000000"/>
+					</TextLine>
+					<TextLine ID="TextLine37" HPOS="115" VPOS="1522" WIDTH="494" HEIGHT="37">
+						<String ID="String138" HPOS="115" VPOS="1527" WIDTH="31" HEIGHT="26" CONTENT="16" WC="0.79" CC="04"/>
+						<SP ID="SP102" HPOS="145" VPOS="1553" WIDTH="35"/>
+						<String ID="String139" HPOS="181" VPOS="1526" WIDTH="30" HEIGHT="27" CONTENT="L." WC="0.96" CC="00"/>
+						<SP ID="SP103" HPOS="210" VPOS="1553" WIDTH="14"/>
+						<String ID="String140" HPOS="224" VPOS="1526" WIDTH="33" HEIGHT="27" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP104" HPOS="257" VPOS="1553" WIDTH="13"/>
+						<String ID="String141" HPOS="270" VPOS="1525" WIDTH="130" HEIGHT="34" CONTENT="Heij'ster," WC="0.71" CC="6700860000"/>
+						<SP ID="SP105" HPOS="400" VPOS="1559" WIDTH="14"/>
+						<String ID="String142" HPOS="415" VPOS="1525" WIDTH="119" HEIGHT="28" CONTENT="oontrol." WC="0.80" CC="70004003"/>
+						<SP ID="SP106" HPOS="534" VPOS="1559" WIDTH="13"/>
+						<String ID="String143" HPOS="547" VPOS="1522" WIDTH="61" HEIGHT="31" CONTENT="N.S." WC="0.62" CC="4063"/>
+					</TextLine>
+					<TextLine ID="TextLine38" HPOS="116" VPOS="1559" WIDTH="436" HEIGHT="35">
+						<String ID="String144" HPOS="116" VPOS="1561" WIDTH="33" HEIGHT="26" CONTENT="18" WC="0.94" CC="01"/>
+						<SP ID="SP107" HPOS="149" VPOS="1587" WIDTH="39"/>
+						<String ID="String145" HPOS="188" VPOS="1560" WIDTH="81" HEIGHT="28" CONTENT="Wed." WC="0.98" CC="0070"/>
+						<SP ID="SP108" HPOS="269" VPOS="1589" WIDTH="19"/>
+						<String ID="String146" HPOS="288" VPOS="1560" WIDTH="24" HEIGHT="34" CONTENT="J." WC="1.00" CC="00"/>
+						<SP ID="SP109" HPOS="312" VPOS="1594" WIDTH="19"/>
+						<String ID="String147" HPOS="331" VPOS="1559" WIDTH="44" HEIGHT="28" CONTENT="W." WC="1.00" CC="00"/>
+						<SP ID="SP110" HPOS="374" VPOS="1594" WIDTH="21"/>
+						<String ID="String148" HPOS="396" VPOS="1559" WIDTH="156" HEIGHT="28" CONTENT="Boumans." WC="0.95" CC="30000000"/>
+					</TextLine>
+					<TextLine ID="TextLine39" HPOS="113" VPOS="1597" WIDTH="474" HEIGHT="34">
+						<String ID="String149" HPOS="113" VPOS="1598" WIDTH="37" HEIGHT="26" CONTENT="20" WC="0.66" CC="06"/>
+						<SP ID="SP111" HPOS="150" VPOS="1624" WIDTH="37"/>
+						<String ID="String150" HPOS="187" VPOS="1598" WIDTH="22" HEIGHT="33" CONTENT="J." WC="1.00" CC="00"/>
+						<SP ID="SP112" HPOS="209" VPOS="1631" WIDTH="22"/>
+						<String ID="String151" HPOS="231" VPOS="1597" WIDTH="31" HEIGHT="27" CONTENT="C." WC="1.00" CC="00"/>
+						<SP ID="SP113" HPOS="262" VPOS="1631" WIDTH="25"/>
+						<String ID="String152" HPOS="287" VPOS="1597" WIDTH="137" HEIGHT="34" CONTENT="Houtrop," WC="0.94" CC="00000040"/>
+						<SP ID="SP114" HPOS="424" VPOS="1631" WIDTH="24"/>
+						<String ID="String153" HPOS="448" VPOS="1598" WIDTH="139" HEIGHT="26" CONTENT="monteur." WC="1.00" CC="90000000"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock6" HPOS="76" VPOS="1704" WIDTH="539" HEIGHT="502" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="TextLine40" HPOS="77" VPOS="1707" WIDTH="536" HEIGHT="34">
+						<String ID="String154" HPOS="77" VPOS="1707" WIDTH="317" HEIGHT="34" CONTENT="Abrahamdolensteeg" WC="0.68" CC="60907080008603004" STYLEREFS="TXT_0"/>
+						<SP ID="SP115" HPOS="393" VPOS="1741" WIDTH="15"/>
+						<String ID="String155" HPOS="409" VPOS="1708" WIDTH="93" HEIGHT="32" CONTENT="1—15;" WC="0.65" CC="18502"/>
+						<SP ID="SP116" HPOS="502" VPOS="1741" WIDTH="15"/>
+						<String ID="String156" HPOS="517" VPOS="1707" WIDTH="96" HEIGHT="27" CONTENT="2—12," WC="0.56" CC="08580"/>
+					</TextLine>
+					<TextLine ID="TextLine41" HPOS="133" VPOS="1776" WIDTH="480" HEIGHT="36">
+						<String ID="String157" HPOS="133" VPOS="1780" WIDTH="12" HEIGHT="25" CONTENT="1" WC="1.00" CC="0"/>
+						<SP ID="SP117" HPOS="145" VPOS="1805" WIDTH="38"/>
+						<String ID="String158" HPOS="183" VPOS="1778" WIDTH="67" HEIGHT="34" CONTENT="Mej." WC="0.69" CC="0470"/>
+						<SP ID="SP118" HPOS="250" VPOS="1812" WIDTH="25"/>
+						<String ID="String159" HPOS="275" VPOS="1778" WIDTH="35" HEIGHT="27" CONTENT="A." WC="0.64" CC="70"/>
+						<SP ID="SP119" HPOS="311" VPOS="1812" WIDTH="25"/>
+						<String ID="String160" HPOS="335" VPOS="1778" WIDTH="35" HEIGHT="27" CONTENT="M." WC="0.64" CC="70"/>
+						<SP ID="SP120" HPOS="371" VPOS="1812" WIDTH="25"/>
+						<String ID="String161" HPOS="396" VPOS="1776" WIDTH="217" HEIGHT="34" CONTENT="Veerenschild," WC="0.79" CC="6003045070000"/>
+					</TextLine>
+					<TextLine ID="TextLine42" HPOS="217" VPOS="1813" WIDTH="138" HEIGHT="27">
+						<String ID="String162" HPOS="217" VPOS="1813" WIDTH="138" HEIGHT="27" CONTENT="naaister." WC="0.99" CC="715040010"/>
+					</TextLine>
+					<TextLine ID="TextLine43" HPOS="130" VPOS="1848" WIDTH="304" HEIGHT="29">
+						<String ID="String163" HPOS="130" VPOS="1850" WIDTH="18" HEIGHT="26" CONTENT="3" WC="0.59" CC="4"/>
+						<SP ID="SP121" HPOS="148" VPOS="1876" WIDTH="35"/>
+						<String ID="String164" HPOS="183" VPOS="1850" WIDTH="83" HEIGHT="27" CONTENT="Wed." WC="0.99" CC="3000"/>
+						<SP ID="SP122" HPOS="266" VPOS="1877" WIDTH="18"/>
+						<String ID="String165" HPOS="283" VPOS="1848" WIDTH="34" HEIGHT="28" CONTENT="R." WC="0.71" CC="50"/>
+						<SP ID="SP123" HPOS="318" VPOS="1877" WIDTH="20"/>
+						<String ID="String166" HPOS="338" VPOS="1848" WIDTH="96" HEIGHT="28" CONTENT="Jolen." WC="0.99" CC="820000"/>
+					</TextLine>
+					<TextLine ID="TextLine44" HPOS="130" VPOS="1884" WIDTH="429" HEIGHT="34">
+						<String ID="String167" HPOS="130" VPOS="1885" WIDTH="17" HEIGHT="26" CONTENT="7" WC="0.53" CC="4"/>
+						<SP ID="SP124" HPOS="146" VPOS="1911" WIDTH="37"/>
+						<String ID="String168" HPOS="183" VPOS="1885" WIDTH="22" HEIGHT="33" CONTENT="j." WC="1.00" CC="00"/>
+						<SP ID="SP125" HPOS="206" VPOS="1918" WIDTH="18"/>
+						<String ID="String169" HPOS="223" VPOS="1884" WIDTH="31" HEIGHT="27" CONTENT="C." WC="1.00" CC="00"/>
+						<SP ID="SP126" HPOS="254" VPOS="1918" WIDTH="18"/>
+						<String ID="String170" HPOS="272" VPOS="1885" WIDTH="113" HEIGHT="33" CONTENT="Jansen," WC="1.00" CC="7000000"/>
+						<SP ID="SP127" HPOS="385" VPOS="1918" WIDTH="19"/>
+						<String ID="String171" HPOS="404" VPOS="1885" WIDTH="155" HEIGHT="26" CONTENT="werkman." WC="1.00" CC="00000000"/>
+					</TextLine>
+					<TextLine ID="TextLine45" HPOS="130" VPOS="1918" WIDTH="462" HEIGHT="36">
+						<String ID="String172" HPOS="130" VPOS="1920" WIDTH="17" HEIGHT="26" CONTENT="9" WC="1.00" CC="0"/>
+						<SP ID="SP128" HPOS="146" VPOS="1946" WIDTH="40"/>
+						<String ID="String173" HPOS="187" VPOS="1918" WIDTH="31" HEIGHT="30" CONTENT="B." WC="1.00" CC="00"/>
+						<SP ID="SP129" HPOS="217" VPOS="1948" WIDTH="20"/>
+						<String ID="String174" HPOS="237" VPOS="1919" WIDTH="183" HEIGHT="34" CONTENT="Fokkelman," WC="1.00" CC="0000000000"/>
+						<SP ID="SP130" HPOS="420" VPOS="1954" WIDTH="19"/>
+						<String ID="String175" HPOS="439" VPOS="1919" WIDTH="152" HEIGHT="34" CONTENT="kleeripak." WC="0.86" CC="0000067000"/>
+					</TextLine>
+					<TextLine ID="TextLine46" HPOS="117" VPOS="1956" WIDTH="441" HEIGHT="34">
+						<String ID="String176" HPOS="117" VPOS="1957" WIDTH="31" HEIGHT="26" CONTENT="15" WC="1.00" CC="00"/>
+						<SP ID="SP131" HPOS="148" VPOS="1983" WIDTH="35"/>
+						<String ID="String177" HPOS="183" VPOS="1956" WIDTH="35" HEIGHT="27" CONTENT="H." WC="1.00" CC="00"/>
+						<SP ID="SP132" HPOS="219" VPOS="1983" WIDTH="22"/>
+						<String ID="String178" HPOS="241" VPOS="1964" WIDTH="58" HEIGHT="19" CONTENT="van" WC="0.93" CC="764"/>
+						<SP ID="SP133" HPOS="299" VPOS="1983" WIDTH="20"/>
+						<String ID="String179" HPOS="319" VPOS="1956" WIDTH="239" HEIGHT="34" CONTENT="Leeuwensteijn." WC="0.72" CC="80056005020530"/>
+					</TextLine>
+					<TextLine ID="TextLine47" HPOS="131" VPOS="2027" WIDTH="425" HEIGHT="34">
+						<String ID="String180" HPOS="131" VPOS="2029" WIDTH="18" HEIGHT="25" CONTENT="4" WC="0.37" CC="6"/>
+						<SP ID="SP134" HPOS="149" VPOS="2054" WIDTH="34"/>
+						<String ID="String181" HPOS="183" VPOS="2027" WIDTH="28" HEIGHT="27" CONTENT="J." WC="0.56" CC="80"/>
+						<SP ID="SP135" HPOS="211" VPOS="2054" WIDTH="22"/>
+						<String ID="String182" HPOS="234" VPOS="2027" WIDTH="113" HEIGHT="34" CONTENT="Swaak," WC="0.70" CC="460060"/>
+						<SP ID="SP136" HPOS="347" VPOS="2061" WIDTH="21"/>
+						<String ID="String183" HPOS="369" VPOS="2028" WIDTH="187" HEIGHT="33" CONTENT="loopknecht." WC="0.99" CC="07590203400"/>
+					</TextLine>
+					<TextLine ID="TextLine48" HPOS="130" VPOS="2061" WIDTH="210" HEIGHT="30">
+						<String ID="String184" HPOS="130" VPOS="2063" WIDTH="19" HEIGHT="26" CONTENT="6" WC="0.70" CC="2"/>
+						<SP ID="SP137" HPOS="149" VPOS="2089" WIDTH="34"/>
+						<String ID="String185" HPOS="183" VPOS="2062" WIDTH="35" HEIGHT="27" CONTENT="H." WC="0.73" CC="50"/>
+						<SP ID="SP138" HPOS="219" VPOS="2089" WIDTH="22"/>
+						<String ID="String186" HPOS="241" VPOS="2061" WIDTH="99" HEIGHT="30" CONTENT="Stelte." WC="0.90" CC="6000000"/>
+					</TextLine>
+					<TextLine ID="TextLine49" HPOS="130" VPOS="2099" WIDTH="359" HEIGHT="28">
+						<String ID="String187" HPOS="130" VPOS="2101" WIDTH="18" HEIGHT="25" CONTENT="8" WC="1.00" CC="0"/>
+						<SP ID="SP139" HPOS="148" VPOS="2126" WIDTH="35"/>
+						<String ID="String188" HPOS="183" VPOS="2099" WIDTH="34" HEIGHT="27" CONTENT="A." WC="0.81" CC="30"/>
+						<SP ID="SP140" HPOS="217" VPOS="2126" WIDTH="17"/>
+						<String ID="String189" HPOS="234" VPOS="2107" WIDTH="58" HEIGHT="19" CONTENT="van" WC="0.96" CC="630"/>
+						<SP ID="SP141" HPOS="292" VPOS="2126" WIDTH="17"/>
+						<String ID="String190" HPOS="308" VPOS="2100" WIDTH="56" HEIGHT="27" CONTENT="den" WC="0.97" CC="701"/>
+						<SP ID="SP142" HPOS="364" VPOS="2127" WIDTH="18"/>
+						<String ID="String191" HPOS="381" VPOS="2100" WIDTH="107" HEIGHT="27" CONTENT="Akker." WC="0.97" CC="958030"/>
+					</TextLine>
+					<TextLine ID="TextLine50" HPOS="120" VPOS="2133" WIDTH="416" HEIGHT="34">
+						<String ID="String192" HPOS="120" VPOS="2133" WIDTH="33" HEIGHT="27" CONTENT="10" WC="0.81" CC="03"/>
+						<SP ID="SP143" HPOS="154" VPOS="2160" WIDTH="35"/>
+						<String ID="String193" HPOS="189" VPOS="2133" WIDTH="83" HEIGHT="27" CONTENT="Wed." WC="1.00" CC="0000"/>
+						<SP ID="SP144" HPOS="272" VPOS="2160" WIDTH="21"/>
+						<String ID="String194" HPOS="293" VPOS="2133" WIDTH="22" HEIGHT="34" CONTENT="J." WC="1.00" CC="00"/>
+						<SP ID="SP145" HPOS="315" VPOS="2167" WIDTH="24"/>
+						<String ID="String195" HPOS="339" VPOS="2140" WIDTH="54" HEIGHT="20" CONTENT="van" WC="1.00" CC="000"/>
+						<SP ID="SP146" HPOS="393" VPOS="2167" WIDTH="24"/>
+						<String ID="String196" HPOS="417" VPOS="2133" WIDTH="119" HEIGHT="27" CONTENT="Drenth." WC="1.00" CC="0000000"/>
+					</TextLine>
+					<TextLine ID="TextLine51" HPOS="119" VPOS="2169" WIDTH="455" HEIGHT="35">
+						<String ID="String197" HPOS="119" VPOS="2169" WIDTH="33" HEIGHT="28" CONTENT="12" WC="1.00" CC="00"/>
+						<SP ID="SP147" HPOS="152" VPOS="2197" WIDTH="37"/>
+						<String ID="String198" HPOS="189" VPOS="2169" WIDTH="21" HEIGHT="35" CONTENT="J." WC="1.00" CC="00"/>
+						<SP ID="SP148" HPOS="210" VPOS="2204" WIDTH="22"/>
+						<String ID="String199" HPOS="233" VPOS="2169" WIDTH="165" HEIGHT="34" CONTENT="Grootveld," WC="0.92" CC="8000000000"/>
+						<SP ID="SP149" HPOS="398" VPOS="2204" WIDTH="20"/>
+						<String ID="String200" HPOS="418" VPOS="2170" WIDTH="156" HEIGHT="27" CONTENT="werkman." WC="1.00" CC="00000100"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock7" HPOS="80" VPOS="2282" WIDTH="535" HEIGHT="494" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="TextLine52" HPOS="84" VPOS="2283" WIDTH="378" HEIGHT="35">
+						<String ID="String201" HPOS="84" VPOS="2284" WIDTH="145" HEIGHT="28" CONTENT="Abraham" WC="0.98" CC="4140703" STYLEREFS="TXT_0"/>
+						<SP ID="SP150" HPOS="229" VPOS="2313" WIDTH="22"/>
+						<String ID="String202" HPOS="252" VPOS="2283" WIDTH="210" HEIGHT="35" CONTENT="Kuijperstraat" WC="0.80" CC="0053004000046" STYLEREFS="TXT_0"/>
+					</TextLine>
+					<TextLine ID="TextLine53" HPOS="236" VPOS="2322" WIDTH="227" HEIGHT="33">
+						<String ID="String203" HPOS="236" VPOS="2322" WIDTH="102" HEIGHT="33" CONTENT="1—33;" WC="0.72" CC="38002"/>
+						<SP ID="SP151" HPOS="338" VPOS="2355" WIDTH="24"/>
+						<String ID="String204" HPOS="361" VPOS="2322" WIDTH="102" HEIGHT="27" CONTENT="2—34." WC="0.70" CC="08060"/>
+					</TextLine>
+					<TextLine ID="TextLine54" HPOS="207" VPOS="2367" WIDTH="282" HEIGHT="28">
+						<String ID="String205" HPOS="207" VPOS="2368" WIDTH="156" HEIGHT="27" CONTENT="Gemeente" WC="1.00" CC="30000000"/>
+						<SP ID="SP152" HPOS="363" VPOS="2395" WIDTH="18"/>
+						<String ID="String206" HPOS="380" VPOS="2367" WIDTH="109" HEIGHT="27" CONTENT="Zuilen." WC="1.00" CC="0060000"/>
+					</TextLine>
+					<TextLine ID="TextLine55" HPOS="137" VPOS="2418" WIDTH="476" HEIGHT="37">
+						<String ID="String207" HPOS="137" VPOS="2422" WIDTH="12" HEIGHT="26" CONTENT="1" WC="0.55" CC="4"/>
+						<SP ID="SP153" HPOS="149" VPOS="2448" WIDTH="40"/>
+						<String ID="String208" HPOS="189" VPOS="2420" WIDTH="81" HEIGHT="30" CONTENT="Wed." WC="0.98" CC="8000"/>
+						<SP ID="SP154" HPOS="270" VPOS="2450" WIDTH="21"/>
+						<String ID="String209" HPOS="292" VPOS="2420" WIDTH="33" HEIGHT="28" CONTENT="A." WC="0.74" CC="50"/>
+						<SP ID="SP155" HPOS="325" VPOS="2450" WIDTH="22"/>
+						<String ID="String210" HPOS="347" VPOS="2418" WIDTH="246" HEIGHT="37" CONTENT="Heeg—Roekhui" SUBS_TYPE="HypPart1" SUBS_CONTENT="Heeg—Roekhuizen." WC="0.84" CC="1006073610500"/>
+						<HYP HPOS="593" VPOS="2418" WIDTH="20" CONTENT="-"/>
+					</TextLine>
+					<TextLine ID="TextLine56" HPOS="224" VPOS="2465" WIDTH="61" HEIGHT="20">
+						<String ID="String211" HPOS="224" VPOS="2465" WIDTH="61" HEIGHT="20" CONTENT="zen." SUBS_TYPE="HypPart2" SUBS_CONTENT="Heeg—Roekhuizen." WC="0.99" CC="3000"/>
+					</TextLine>
+					<TextLine ID="TextLine57" HPOS="135" VPOS="2491" WIDTH="478" HEIGHT="37">
+						<String ID="String212" HPOS="135" VPOS="2493" WIDTH="18" HEIGHT="28" CONTENT="3" WC="1.00" CC="0"/>
+						<SP ID="SP156" HPOS="152" VPOS="2522" WIDTH="37"/>
+						<String ID="String213" HPOS="189" VPOS="2492" WIDTH="22" HEIGHT="35" CONTENT="J." WC="0.70" CC="50"/>
+						<SP ID="SP157" HPOS="211" VPOS="2528" WIDTH="24"/>
+						<String ID="String214" HPOS="235" VPOS="2492" WIDTH="131" HEIGHT="32" CONTENT="Fabriek," WC="0.99" CC="40900000"/>
+						<SP ID="SP158" HPOS="366" VPOS="2528" WIDTH="32"/>
+						<String ID="String215" HPOS="398" VPOS="2491" WIDTH="215" HEIGHT="34" CONTENT="wagenmaker." WC="1.00" CC="03900700000"/>
+					</TextLine>
+					<TextLine ID="TextLine58" HPOS="130" VPOS="2526" WIDTH="367" HEIGHT="37">
+						<String ID="String216" HPOS="130" VPOS="2530" WIDTH="19" HEIGHT="27" CONTENT="5" WC="0.64" CC="3"/>
+						<SP ID="SP159" HPOS="149" VPOS="2557" WIDTH="39"/>
+						<String ID="String217" HPOS="188" VPOS="2529" WIDTH="30" HEIGHT="28" CONTENT="P." WC="1.00" CC="00"/>
+						<SP ID="SP160" HPOS="217" VPOS="2557" WIDTH="22"/>
+						<String ID="String218" HPOS="240" VPOS="2529" WIDTH="89" HEIGHT="34" CONTENT="Wigt," WC="0.60" CC="80072"/>
+						<SP ID="SP161" HPOS="328" VPOS="2563" WIDTH="24"/>
+						<String ID="String219" HPOS="352" VPOS="2528" WIDTH="59" HEIGHT="30" CONTENT="arb." WC="1.00" CC="0000"/>
+						<SP ID="SP162" HPOS="411" VPOS="2563" WIDTH="21"/>
+						<String ID="String220" HPOS="432" VPOS="2526" WIDTH="65" HEIGHT="28" CONTENT="N.S." WC="1.00" CC="0000"/>
+					</TextLine>
+					<TextLine ID="TextLine59" HPOS="135" VPOS="2563" WIDTH="476" HEIGHT="34">
+						<String ID="String221" HPOS="135" VPOS="2565" WIDTH="17" HEIGHT="26" CONTENT="7" WC="0.71" CC="2"/>
+						<SP ID="SP163" HPOS="151" VPOS="2591" WIDTH="39"/>
+						<String ID="String222" HPOS="190" VPOS="2564" WIDTH="45" HEIGHT="28" CONTENT="W." WC="0.58" CC="80"/>
+						<SP ID="SP164" HPOS="235" VPOS="2593" WIDTH="19"/>
+						<String ID="String223" HPOS="254" VPOS="2564" WIDTH="90" HEIGHT="33" CONTENT="Jesse," WC="1.00" CC="300000"/>
+						<SP ID="SP165" HPOS="344" VPOS="2597" WIDTH="19"/>
+						<String ID="String224" HPOS="363" VPOS="2563" WIDTH="131" HEIGHT="27" CONTENT="arbeider" WC="1.00" CC="00000000"/>
+						<SP ID="SP166" HPOS="494" VPOS="2597" WIDTH="15"/>
+						<String ID="String225" HPOS="509" VPOS="2563" WIDTH="81" HEIGHT="27" CONTENT="Werk" SUBS_TYPE="HypPart1" SUBS_CONTENT="Werkspoor." WC="0.98" CC="80000"/>
+						<HYP HPOS="591" VPOS="2563" WIDTH="20" CONTENT="-"/>
+					</TextLine>
+					<TextLine ID="TextLine60" HPOS="228" VPOS="2608" WIDTH="97" HEIGHT="27">
+						<String ID="String226" HPOS="228" VPOS="2608" WIDTH="97" HEIGHT="27" CONTENT="spoor." SUBS_TYPE="HypPart2" SUBS_CONTENT="Werkspoor." WC="0.99" CC="050800"/>
+					</TextLine>
+					<TextLine ID="TextLine61" HPOS="137" VPOS="2635" WIDTH="475" HEIGHT="34">
+						<String ID="String227" HPOS="137" VPOS="2637" WIDTH="18" HEIGHT="26" CONTENT="9" WC="1.00" CC="0"/>
+						<SP ID="SP167" HPOS="155" VPOS="2663" WIDTH="39"/>
+						<String ID="String228" HPOS="194" VPOS="2635" WIDTH="31" HEIGHT="30" CONTENT="C." WC="1.00" CC="00"/>
+						<SP ID="SP168" HPOS="224" VPOS="2665" WIDTH="40"/>
+						<String ID="String229" HPOS="265" VPOS="2637" WIDTH="35" HEIGHT="27" CONTENT="de" WC="1.00" CC="00"/>
+						<SP ID="SP169" HPOS="300" VPOS="2665" WIDTH="41"/>
+						<String ID="String230" HPOS="341" VPOS="2635" WIDTH="99" HEIGHT="34" CONTENT="Kogel," WC="0.98" CC="609090"/>
+						<SP ID="SP170" HPOS="441" VPOS="2669" WIDTH="40"/>
+						<String ID="String231" HPOS="481" VPOS="2635" WIDTH="131" HEIGHT="27" CONTENT="arbeider" WC="1.00" CC="00000000"/>
+					</TextLine>
+					<TextLine ID="TextLine62" HPOS="228" VPOS="2673" WIDTH="187" HEIGHT="34">
+						<String ID="String232" HPOS="228" VPOS="2673" WIDTH="187" HEIGHT="34" CONTENT="Werkspoor." WC="1.00" CC="0000050000"/>
+					</TextLine>
+					<TextLine ID="TextLine63" HPOS="123" VPOS="2707" WIDTH="492" HEIGHT="37">
+						<String ID="String233" HPOS="123" VPOS="2711" WIDTH="31" HEIGHT="27" CONTENT="11" WC="0.46" CC="46" STYLEREFS="TXT_0"/>
+						<SP ID="SP171" HPOS="154" VPOS="2738" WIDTH="41"/>
+						<String ID="String234" HPOS="195" VPOS="2708" WIDTH="20" HEIGHT="30" CONTENT="I." WC="0.59" CC="80" STYLEREFS="TXT_0"/>
+						<SP ID="SP172" HPOS="215" VPOS="2738" WIDTH="32"/>
+						<String ID="String235" HPOS="247" VPOS="2717" WIDTH="57" HEIGHT="20" CONTENT="van" WC="1.00" CC="000"/>
+						<SP ID="SP173" HPOS="304" VPOS="2738" WIDTH="34"/>
+						<String ID="String236" HPOS="338" VPOS="2708" WIDTH="48" HEIGHT="33" CONTENT="Ee," WC="0.99" CC="000"/>
+						<SP ID="SP174" HPOS="386" VPOS="2741" WIDTH="34"/>
+						<String ID="String237" HPOS="420" VPOS="2707" WIDTH="177" HEIGHT="37" CONTENT="magazijnbe" SUBS_TYPE="HypPart1" SUBS_CONTENT="magazijnbeambte" WC="0.96" CC="00003000000"/>
+						<HYP HPOS="598" VPOS="2707" WIDTH="17" CONTENT="-"/>
+					</TextLine>
+					<TextLine ID="TextLine64" HPOS="228" VPOS="2744" WIDTH="184" HEIGHT="30">
+						<String ID="String238" HPOS="228" VPOS="2745" WIDTH="97" HEIGHT="28" CONTENT="ambte" SUBS_TYPE="HypPart2" SUBS_CONTENT="magazijnbeambte" WC="1.00" CC="00000"/>
+						<SP ID="SP175" HPOS="325" VPOS="2773" WIDTH="21"/>
+						<String ID="String239" HPOS="346" VPOS="2744" WIDTH="66" HEIGHT="28" CONTENT="N.S." WC="0.77" CC="7100"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock8" HPOS="672" VPOS="230" WIDTH="496" HEIGHT="72" STYLEREFS="TXT_3 PAR_LEFT">
+					<TextLine ID="TextLine65" HPOS="674" VPOS="230" WIDTH="493" HEIGHT="35">
+						<String ID="String240" HPOS="674" VPOS="231" WIDTH="33" HEIGHT="26" CONTENT="13" WC="1.00" CC="00"/>
+						<SP ID="SP176" HPOS="707" VPOS="257" WIDTH="38"/>
+						<String ID="String241" HPOS="745" VPOS="231" WIDTH="22" HEIGHT="33" CONTENT="J." WC="0.94" CC="10"/>
+						<SP ID="SP177" HPOS="768" VPOS="265" WIDTH="18"/>
+						<String ID="String242" HPOS="785" VPOS="230" WIDTH="45" HEIGHT="27" CONTENT="W." WC="1.00" CC="00"/>
+						<SP ID="SP178" HPOS="830" VPOS="265" WIDTH="17"/>
+						<String ID="String243" HPOS="847" VPOS="239" WIDTH="26" HEIGHT="19" CONTENT="V." WC="1.00" CC="00" STYLEREFS="TXT_2"/>
+						<SP ID="SP179" HPOS="873" VPOS="265" WIDTH="19"/>
+						<String ID="String244" HPOS="892" VPOS="230" WIDTH="196" HEIGHT="33" CONTENT="Hoogenvest," WC="0.98" CC="20000000000"/>
+						<SP ID="SP180" HPOS="1088" VPOS="265" WIDTH="19"/>
+						<String ID="String245" HPOS="1107" VPOS="236" WIDTH="40" HEIGHT="20" CONTENT="ma" SUBS_TYPE="HypPart1" SUBS_CONTENT="machinedrijver." WC="0.57" CC="920"/>
+						<HYP HPOS="1147" VPOS="236" WIDTH="20" CONTENT="-"/>
+					</TextLine>
+					<TextLine ID="TextLine66" HPOS="784" VPOS="267" WIDTH="195" HEIGHT="33">
+						<String ID="String246" HPOS="784" VPOS="267" WIDTH="195" HEIGHT="33" CONTENT="chinedrijver." SUBS_TYPE="HypPart2" SUBS_CONTENT="machinedrijver." WC="0.89" CC="5000080000000"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock9" HPOS="670" VPOS="302" WIDTH="501" HEIGHT="359" STYLEREFS="TXT_3 PAR_LEFT">
+					<TextLine ID="TextLine67" HPOS="678" VPOS="302" WIDTH="491" HEIGHT="33">
+						<String ID="String247" HPOS="678" VPOS="304" WIDTH="33" HEIGHT="27" CONTENT="15" WC="0.71" CC="05"/>
+						<SP ID="SP181" HPOS="711" VPOS="331" WIDTH="38"/>
+						<String ID="String248" HPOS="749" VPOS="302" WIDTH="32" HEIGHT="28" CONTENT="A." WC="0.64" CC="60"/>
+						<SP ID="SP182" HPOS="781" VPOS="331" WIDTH="26"/>
+						<String ID="String249" HPOS="807" VPOS="302" WIDTH="34" HEIGHT="27" CONTENT="H." WC="1.00" CC="00"/>
+						<SP ID="SP183" HPOS="841" VPOS="331" WIDTH="24"/>
+						<String ID="String250" HPOS="865" VPOS="302" WIDTH="32" HEIGHT="27" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP184" HPOS="896" VPOS="331" WIDTH="22"/>
+						<String ID="String251" HPOS="919" VPOS="302" WIDTH="110" HEIGHT="33" CONTENT="Meijer," WC="1.00" CC="2005000"/>
+						<SP ID="SP185" HPOS="1029" VPOS="335" WIDTH="22"/>
+						<String ID="String252" HPOS="1051" VPOS="308" WIDTH="99" HEIGHT="27" CONTENT="wagen" SUBS_TYPE="HypPart1" SUBS_CONTENT="wagenmaker" WC="0.99" CC="019000"/>
+						<HYP HPOS="1150" VPOS="308" WIDTH="19" CONTENT="-"/>
+					</TextLine>
+					<TextLine ID="TextLine68" HPOS="782" VPOS="338" WIDTH="187" HEIGHT="28">
+						<String ID="String253" HPOS="782" VPOS="338" WIDTH="98" HEIGHT="28" CONTENT="maker" SUBS_TYPE="HypPart2" SUBS_CONTENT="wagenmaker" WC="0.99" CC="40005"/>
+						<SP ID="SP186" HPOS="880" VPOS="366" WIDTH="22"/>
+						<String ID="String254" HPOS="902" VPOS="338" WIDTH="66" HEIGHT="28" CONTENT="N.S." WC="0.97" CC="0000"/>
+					</TextLine>
+					<TextLine ID="TextLine69" HPOS="673" VPOS="373" WIDTH="476" HEIGHT="33">
+						<String ID="String255" HPOS="673" VPOS="376" WIDTH="33" HEIGHT="27" CONTENT="17" WC="0.59" CC="80"/>
+						<SP ID="SP187" HPOS="706" VPOS="403" WIDTH="38"/>
+						<String ID="String256" HPOS="744" VPOS="373" WIDTH="32" HEIGHT="30" CONTENT="H." WC="1.00" CC="00"/>
+						<SP ID="SP188" HPOS="776" VPOS="403" WIDTH="26"/>
+						<String ID="String257" HPOS="802" VPOS="374" WIDTH="27" HEIGHT="27" CONTENT="F." WC="1.00" CC="00"/>
+						<SP ID="SP189" HPOS="829" VPOS="403" WIDTH="25"/>
+						<String ID="String258" HPOS="854" VPOS="373" WIDTH="155" HEIGHT="33" CONTENT="Gerritsen," WC="1.00" CC="0000000000"/>
+						<SP ID="SP190" HPOS="1009" VPOS="406" WIDTH="22"/>
+						<String ID="String259" HPOS="1031" VPOS="374" WIDTH="118" HEIGHT="26" CONTENT="werkm." WC="0.80" CC="200090"/>
+					</TextLine>
+					<TextLine ID="TextLine70" HPOS="678" VPOS="410" WIDTH="422" HEIGHT="34">
+						<String ID="String260" HPOS="678" VPOS="411" WIDTH="32" HEIGHT="27" CONTENT="19" WC="1.00" CC="00"/>
+						<SP ID="SP191" HPOS="710" VPOS="438" WIDTH="37"/>
+						<String ID="String261" HPOS="746" VPOS="410" WIDTH="22" HEIGHT="34" CONTENT="J." WC="0.76" CC="40"/>
+						<SP ID="SP192" HPOS="769" VPOS="444" WIDTH="19"/>
+						<String ID="String262" HPOS="788" VPOS="410" WIDTH="69" HEIGHT="33" CONTENT="Mol," WC="0.99" CC="0050"/>
+						<SP ID="SP193" HPOS="856" VPOS="444" WIDTH="20"/>
+						<String ID="String263" HPOS="876" VPOS="417" WIDTH="117" HEIGHT="27" CONTENT="gepens." WC="0.86" CC="9000000"/>
+						<SP ID="SP194" HPOS="993" VPOS="444" WIDTH="19"/>
+						<String ID="String264" HPOS="1012" VPOS="410" WIDTH="87" HEIGHT="27" CONTENT="ambt." WC="0.98" CC="09500"/>
+					</TextLine>
+					<TextLine ID="TextLine71" HPOS="673" VPOS="444" WIDTH="478" HEIGHT="35">
+						<String ID="String265" HPOS="673" VPOS="446" WIDTH="32" HEIGHT="27" CONTENT="21" WC="0.82" CC="30"/>
+						<SP ID="SP195" HPOS="705" VPOS="474" WIDTH="41"/>
+						<String ID="String266" HPOS="746" VPOS="445" WIDTH="32" HEIGHT="28" CONTENT="C." WC="0.90" CC="10"/>
+						<SP ID="SP196" HPOS="778" VPOS="474" WIDTH="18"/>
+						<String ID="String267" HPOS="796" VPOS="445" WIDTH="123" HEIGHT="33" CONTENT="Alberts," WC="0.87" CC="04500000"/>
+						<SP ID="SP197" HPOS="919" VPOS="478" WIDTH="18"/>
+						<String ID="String268" HPOS="937" VPOS="444" WIDTH="214" HEIGHT="35" CONTENT="wagenmaker." WC="1.00" CC="40000000000"/>
+					</TextLine>
+					<TextLine ID="TextLine72" HPOS="674" VPOS="480" WIDTH="494" HEIGHT="37">
+						<String ID="String269" HPOS="674" VPOS="482" WIDTH="35" HEIGHT="27" CONTENT="25" WC="0.75" CC="04"/>
+						<SP ID="SP198" HPOS="710" VPOS="509" WIDTH="38"/>
+						<String ID="String270" HPOS="748" VPOS="482" WIDTH="21" HEIGHT="34" CONTENT="J." WC="0.81" CC="30"/>
+						<SP ID="SP199" HPOS="769" VPOS="516" WIDTH="20"/>
+						<String ID="String271" HPOS="789" VPOS="490" WIDTH="25" HEIGHT="19" CONTENT="V." WC="1.00" CC="00" STYLEREFS="TXT_2"/>
+						<SP ID="SP200" HPOS="814" VPOS="516" WIDTH="21"/>
+						<String ID="String272" HPOS="835" VPOS="481" WIDTH="111" HEIGHT="34" CONTENT="Ginkel," WC="0.84" CC="0020070"/>
+						<SP ID="SP201" HPOS="946" VPOS="516" WIDTH="20"/>
+						<String ID="String273" HPOS="966" VPOS="481" WIDTH="116" HEIGHT="27" CONTENT="werkm." WC="0.99" CC="000000"/>
+						<SP ID="SP202" HPOS="1082" VPOS="516" WIDTH="20"/>
+						<String ID="String274" HPOS="1102" VPOS="480" WIDTH="66" HEIGHT="28" CONTENT="N.S." WC="0.77" CC="2060"/>
+					</TextLine>
+					<TextLine ID="TextLine73" HPOS="679" VPOS="516" WIDTH="488" HEIGHT="33">
+						<String ID="String275" HPOS="679" VPOS="517" WIDTH="37" HEIGHT="27" CONTENT="27" WC="1.00" CC="00"/>
+						<SP ID="SP203" HPOS="716" VPOS="544" WIDTH="39"/>
+						<String ID="String276" HPOS="755" VPOS="517" WIDTH="45" HEIGHT="27" CONTENT="W." WC="0.81" CC="30"/>
+						<SP ID="SP204" HPOS="800" VPOS="544" WIDTH="31"/>
+						<String ID="String277" HPOS="830" VPOS="516" WIDTH="33" HEIGHT="28" CONTENT="G." WC="0.96" CC="00"/>
+						<SP ID="SP205" HPOS="863" VPOS="544" WIDTH="33"/>
+						<String ID="String278" HPOS="896" VPOS="516" WIDTH="32" HEIGHT="28" CONTENT="B." WC="1.00" CC="00"/>
+						<SP ID="SP206" HPOS="928" VPOS="544" WIDTH="30"/>
+						<String ID="String279" HPOS="958" VPOS="526" WIDTH="26" HEIGHT="19" CONTENT="V." WC="1.00" CC="00" STYLEREFS="TXT_2"/>
+						<SP ID="SP207" HPOS="984" VPOS="544" WIDTH="31"/>
+						<String ID="String280" HPOS="1015" VPOS="517" WIDTH="152" HEIGHT="32" CONTENT="Waveren," WC="1.00" CC="00000000"/>
+					</TextLine>
+					<TextLine ID="TextLine74" HPOS="791" VPOS="554" WIDTH="130" HEIGHT="27">
+						<String ID="String281" HPOS="791" VPOS="554" WIDTH="130" HEIGHT="27" CONTENT="schilder." WC="0.99" CC="074009000"/>
+					</TextLine>
+					<TextLine ID="TextLine75" HPOS="678" VPOS="588" WIDTH="436" HEIGHT="36">
+						<String ID="String282" HPOS="678" VPOS="589" WIDTH="37" HEIGHT="27" CONTENT="29" WC="0.78" CC="04"/>
+						<SP ID="SP208" HPOS="715" VPOS="617" WIDTH="40"/>
+						<String ID="String283" HPOS="755" VPOS="588" WIDTH="32" HEIGHT="28" CONTENT="H." WC="1.00" CC="00"/>
+						<SP ID="SP209" HPOS="787" VPOS="617" WIDTH="17"/>
+						<String ID="String284" HPOS="803" VPOS="588" WIDTH="136" HEIGHT="35" CONTENT="Dijkstra," WC="1.00" CC="006000000"/>
+						<SP ID="SP210" HPOS="939" VPOS="624" WIDTH="19"/>
+						<String ID="String285" HPOS="958" VPOS="589" WIDTH="156" HEIGHT="26" CONTENT="werkman." WC="1.00" CC="00000000"/>
+					</TextLine>
+					<TextLine ID="TextLine76" HPOS="672" VPOS="624" WIDTH="475" HEIGHT="35">
+						<String ID="String286" HPOS="672" VPOS="627" WIDTH="32" HEIGHT="26" CONTENT="31" WC="1.00" CC="00"/>
+						<SP ID="SP211" HPOS="704" VPOS="653" WIDTH="44"/>
+						<String ID="String287" HPOS="748" VPOS="627" WIDTH="32" HEIGHT="26" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP212" HPOS="780" VPOS="653" WIDTH="21"/>
+						<String ID="String288" HPOS="801" VPOS="626" WIDTH="115" HEIGHT="33" CONTENT="Faasse," WC="1.00" CC="0000000"/>
+						<SP ID="SP213" HPOS="915" VPOS="659" WIDTH="21"/>
+						<String ID="String289" HPOS="937" VPOS="627" WIDTH="87" HEIGHT="32" CONTENT="agent" WC="1.00" CC="00000"/>
+						<SP ID="SP214" HPOS="1024" VPOS="659" WIDTH="19"/>
+						<String ID="String290" HPOS="1043" VPOS="634" WIDTH="27" HEIGHT="18" CONTENT="v." WC="1.00" CC="00"/>
+						<SP ID="SP215" HPOS="1070" VPOS="659" WIDTH="21"/>
+						<String ID="String291" HPOS="1091" VPOS="624" WIDTH="56" HEIGHT="35" CONTENT="pol." WC="0.99" CC="4000"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock10" HPOS="670" VPOS="694" WIDTH="503" HEIGHT="398" STYLEREFS="TXT_1 PAR_LEFT">
+					<Shape>
+						<Polygon POINTS="670,694 1173,694 1173,1058 946,1058 946,1093 670,1093"/>
+					</Shape>
+					<TextLine ID="TextLine77" HPOS="689" VPOS="697" WIDTH="480" HEIGHT="33">
+						<String ID="String292" HPOS="689" VPOS="698" WIDTH="17" HEIGHT="27" CONTENT="2" WC="1.00" CC="0"/>
+						<SP ID="SP216" HPOS="705" VPOS="725" WIDTH="38"/>
+						<String ID="String293" HPOS="743" VPOS="698" WIDTH="45" HEIGHT="27" CONTENT="W." WC="0.86" CC="20"/>
+						<SP ID="SP217" HPOS="788" VPOS="725" WIDTH="14"/>
+						<String ID="String294" HPOS="802" VPOS="698" WIDTH="52" HEIGHT="27" CONTENT="Ph." WC="0.90" CC="200"/>
+						<SP ID="SP218" HPOS="854" VPOS="725" WIDTH="17"/>
+						<String ID="String295" HPOS="870" VPOS="697" WIDTH="172" HEIGHT="33" CONTENT="Verschuur," WC="1.00" CC="0000000302"/>
+						<SP ID="SP219" HPOS="1043" VPOS="730" WIDTH="18"/>
+						<String ID="String296" HPOS="1061" VPOS="697" WIDTH="107" HEIGHT="26" CONTENT="letterz." WC="0.88" CC="30010030"/>
+					</TextLine>
+					<TextLine ID="TextLine78" HPOS="691" VPOS="732" WIDTH="476" HEIGHT="36">
+						<String ID="String297" HPOS="691" VPOS="736" WIDTH="18" HEIGHT="25" CONTENT="4" WC="1.00" CC="0"/>
+						<SP ID="SP220" HPOS="709" VPOS="761" WIDTH="39"/>
+						<String ID="String298" HPOS="748" VPOS="733" WIDTH="45" HEIGHT="28" CONTENT="W." WC="0.73" CC="32"/>
+						<SP ID="SP221" HPOS="793" VPOS="762" WIDTH="47"/>
+						<String ID="String299" HPOS="840" VPOS="732" WIDTH="145" HEIGHT="35" CONTENT="Schipper," WC="0.99" CC="054080102"/>
+						<SP ID="SP222" HPOS="985" VPOS="768" WIDTH="45"/>
+						<String ID="String300" HPOS="1030" VPOS="732" WIDTH="137" HEIGHT="34" CONTENT="schrijver" WC="1.00" CC="400005030"/>
+					</TextLine>
+					<TextLine ID="TextLine79" HPOS="784" VPOS="770" WIDTH="65" HEIGHT="27">
+						<String ID="String301" HPOS="784" VPOS="770" WIDTH="65" HEIGHT="27" CONTENT="N.S." WC="0.89" CC="3000"/>
+					</TextLine>
+					<TextLine ID="TextLine80" HPOS="690" VPOS="806" WIDTH="478" HEIGHT="35">
+						<String ID="String302" HPOS="690" VPOS="808" WIDTH="17" HEIGHT="27" CONTENT="6" WC="0.73" CC="2"/>
+						<SP ID="SP223" HPOS="706" VPOS="835" WIDTH="38"/>
+						<String ID="String303" HPOS="744" VPOS="807" WIDTH="30" HEIGHT="28" CONTENT="P." WC="0.81" CC="30"/>
+						<SP ID="SP224" HPOS="774" VPOS="835" WIDTH="22"/>
+						<String ID="String304" HPOS="796" VPOS="807" WIDTH="202" HEIGHT="34" CONTENT="Jongeneelen," WC="0.88" CC="500900000000"/>
+						<SP ID="SP225" HPOS="998" VPOS="841" WIDTH="45"/>
+						<String ID="String305" HPOS="1043" VPOS="806" WIDTH="125" HEIGHT="27" CONTENT="ambten." WC="0.99" CC="0009000"/>
+					</TextLine>
+					<TextLine ID="TextLine81" HPOS="785" VPOS="842" WIDTH="236" HEIGHT="33">
+						<String ID="String306" HPOS="785" VPOS="842" WIDTH="94" HEIGHT="27" CONTENT="electr." WC="0.91" CC="0000600"/>
+						<SP ID="SP226" HPOS="880" VPOS="869" WIDTH="31"/>
+						<String ID="String307" HPOS="911" VPOS="842" WIDTH="110" HEIGHT="33" CONTENT="bedrijf." WC="0.99" CC="40100650"/>
+					</TextLine>
+					<TextLine ID="TextLine82" HPOS="691" VPOS="879" WIDTH="385" HEIGHT="34">
+						<String ID="String308" HPOS="691" VPOS="881" WIDTH="15" HEIGHT="26" CONTENT="8" WC="0.56" CC="4"/>
+						<SP ID="SP227" HPOS="706" VPOS="907" WIDTH="40"/>
+						<String ID="String309" HPOS="746" VPOS="879" WIDTH="28" HEIGHT="28" CONTENT="S." WC="1.00" CC="00"/>
+						<SP ID="SP228" HPOS="775" VPOS="907" WIDTH="21"/>
+						<String ID="String310" HPOS="796" VPOS="879" WIDTH="65" HEIGHT="34" CONTENT="Pos," WC="1.00" CC="0000"/>
+						<SP ID="SP229" HPOS="861" VPOS="913" WIDTH="25"/>
+						<String ID="String311" HPOS="886" VPOS="879" WIDTH="190" HEIGHT="34" CONTENT="magazijnkn." WC="0.88" CC="10640000000"/>
+					</TextLine>
+					<TextLine ID="TextLine83" HPOS="672" VPOS="913" WIDTH="496" HEIGHT="35">
+						<String ID="String312" HPOS="672" VPOS="915" WIDTH="34" HEIGHT="26" CONTENT="10" WC="0.74" CC="50"/>
+						<SP ID="SP230" HPOS="706" VPOS="941" WIDTH="37"/>
+						<String ID="String313" HPOS="743" VPOS="914" WIDTH="31" HEIGHT="28" CONTENT="E." WC="0.89" CC="20"/>
+						<SP ID="SP231" HPOS="774" VPOS="943" WIDTH="17"/>
+						<String ID="String314" HPOS="790" VPOS="914" WIDTH="24" HEIGHT="34" CONTENT="J." WC="1.00" CC="00"/>
+						<SP ID="SP232" HPOS="814" VPOS="948" WIDTH="19"/>
+						<String ID="String315" HPOS="833" VPOS="914" WIDTH="32" HEIGHT="27" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP233" HPOS="865" VPOS="948" WIDTH="19"/>
+						<String ID="String316" HPOS="883" VPOS="913" WIDTH="96" HEIGHT="33" CONTENT="Roest," WC="0.99" CC="200054"/>
+						<SP ID="SP234" HPOS="979" VPOS="948" WIDTH="18"/>
+						<String ID="String317" HPOS="997" VPOS="913" WIDTH="171" HEIGHT="27" CONTENT="winkelbed." WC="0.92" CC="0060010000"/>
+					</TextLine>
+					<TextLine ID="TextLine84" HPOS="678" VPOS="947" WIDTH="491" HEIGHT="34">
+						<String ID="String318" HPOS="678" VPOS="950" WIDTH="33" HEIGHT="28" CONTENT="12" WC="0.32" CC="85"/>
+						<SP ID="SP235" HPOS="711" VPOS="978" WIDTH="39"/>
+						<String ID="String319" HPOS="750" VPOS="950" WIDTH="32" HEIGHT="27" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP236" HPOS="782" VPOS="978" WIDTH="25"/>
+						<String ID="String320" HPOS="807" VPOS="950" WIDTH="34" HEIGHT="27" CONTENT="de" WC="1.00" CC="00"/>
+						<SP ID="SP237" HPOS="841" VPOS="978" WIDTH="24"/>
+						<String ID="String321" HPOS="865" VPOS="948" WIDTH="91" HEIGHT="33" CONTENT="Vries," WC="1.00" CC="400000"/>
+						<SP ID="SP238" HPOS="956" VPOS="981" WIDTH="25"/>
+						<String ID="String322" HPOS="980" VPOS="947" WIDTH="189" HEIGHT="28" CONTENT="kantoorbed." WC="1.00" CC="00000000000"/>
+					</TextLine>
+					<TextLine ID="TextLine85" HPOS="679" VPOS="983" WIDTH="492" HEIGHT="37">
+						<String ID="String323" HPOS="679" VPOS="986" WIDTH="33" HEIGHT="27" CONTENT="14" WC="0.85" CC="20"/>
+						<SP ID="SP239" HPOS="712" VPOS="1013" WIDTH="37"/>
+						<String ID="String324" HPOS="749" VPOS="985" WIDTH="22" HEIGHT="34" CONTENT="J." WC="0.81" CC="30"/>
+						<SP ID="SP240" HPOS="771" VPOS="1019" WIDTH="25"/>
+						<String ID="String325" HPOS="796" VPOS="985" WIDTH="116" HEIGHT="34" CONTENT="Jansen," WC="1.00" CC="0000010"/>
+						<SP ID="SP241" HPOS="912" VPOS="1019" WIDTH="25"/>
+						<String ID="String326" HPOS="937" VPOS="992" WIDTH="142" HEIGHT="26" CONTENT="wagenm." WC="0.95" CC="0000030"/>
+						<SP ID="SP242" HPOS="1078" VPOS="1019" WIDTH="27"/>
+						<String ID="String327" HPOS="1106" VPOS="983" WIDTH="65" HEIGHT="28" CONTENT="N.S." WC="0.83" CC="0060"/>
+					</TextLine>
+					<TextLine ID="TextLine86" HPOS="679" VPOS="1020" WIDTH="493" HEIGHT="34">
+						<String ID="String328" HPOS="679" VPOS="1022" WIDTH="33" HEIGHT="28" CONTENT="16" WC="0.98" CC="00"/>
+						<SP ID="SP243" HPOS="712" VPOS="1050" WIDTH="38"/>
+						<String ID="String329" HPOS="750" VPOS="1022" WIDTH="32" HEIGHT="27" CONTENT="C." WC="1.00" CC="00"/>
+						<SP ID="SP244" HPOS="782" VPOS="1050" WIDTH="26"/>
+						<String ID="String330" HPOS="808" VPOS="1020" WIDTH="37" HEIGHT="28" CONTENT="D." WC="1.00" CC="00"/>
+						<SP ID="SP245" HPOS="844" VPOS="1050" WIDTH="28"/>
+						<String ID="String331" HPOS="873" VPOS="1020" WIDTH="156" HEIGHT="33" CONTENT="Landzaat," WC="0.99" CC="500039500"/>
+						<SP ID="SP246" HPOS="1029" VPOS="1054" WIDTH="37"/>
+						<String ID="String332" HPOS="1065" VPOS="1026" WIDTH="89" HEIGHT="27" CONTENT="propa" SUBS_TYPE="HypPart1" SUBS_CONTENT="propajgandist." WC="1.00" CC="000000"/>
+						<HYP HPOS="1154" VPOS="1026" WIDTH="18" CONTENT="-"/>
+					</TextLine>
+					<TextLine ID="TextLine87" HPOS="776" VPOS="1057" WIDTH="133" HEIGHT="35">
+						<String ID="String333" HPOS="776" VPOS="1057" WIDTH="133" HEIGHT="35" CONTENT="jgandist." SUBS_TYPE="HypPart2" SUBS_CONTENT="propajgandist." WC="0.80" CC="890000000"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock11" HPOS="670" VPOS="1081" WIDTH="503" HEIGHT="410" STYLEREFS="TXT_1 PAR_LEFT">
+					<Shape>
+						<Polygon POINTS="1173,1491 670,1491 670,1093 947,1093 947,1081 1173,1081"/>
+					</Shape>
+					<TextLine ID="TextLine88" HPOS="670" VPOS="1088" WIDTH="498" HEIGHT="38">
+						<String ID="String334" HPOS="670" VPOS="1088" WIDTH="39" HEIGHT="33" CONTENT="Ts" WC="0.31" CC="76"/>
+						<SP ID="SP247" HPOS="709" VPOS="1121" WIDTH="40"/>
+						<String ID="String335" HPOS="749" VPOS="1088" WIDTH="17" HEIGHT="38" CONTENT="W" WC="0.16" CC="9"/>
+						<SP ID="SP248" HPOS="765" VPOS="1126" WIDTH="17"/>
+						<String ID="String336" HPOS="782" VPOS="1088" WIDTH="17" HEIGHT="38" CONTENT="7" WC="1.00" CC="0"/>
+						<SP ID="SP249" HPOS="798" VPOS="1126" WIDTH="17"/>
+						<String ID="String337" HPOS="815" VPOS="1088" WIDTH="32" HEIGHT="38" CONTENT="H." WC="1.00" CC="00"/>
+						<SP ID="SP250" HPOS="847" VPOS="1126" WIDTH="21"/>
+						<String ID="String338" HPOS="868" VPOS="1093" WIDTH="116" HEIGHT="33" CONTENT="Kunzel," WC="0.76" CC="9003020"/>
+						<SP ID="SP251" HPOS="984" VPOS="1126" WIDTH="22"/>
+						<String ID="String339" HPOS="1006" VPOS="1093" WIDTH="162" HEIGHT="27" CONTENT="controleur" WC="1.00" CC="0000003000"/>
+					</TextLine>
+					<TextLine ID="TextLine89" HPOS="784" VPOS="1129" WIDTH="187" HEIGHT="34">
+						<String ID="String340" HPOS="784" VPOS="1129" WIDTH="187" HEIGHT="34" CONTENT="Werkspoor." WC="1.00" CC="0200020000"/>
+					</TextLine>
+					<TextLine ID="TextLine90" HPOS="677" VPOS="1165" WIDTH="387" HEIGHT="30">
+						<String ID="String341" HPOS="677" VPOS="1167" WIDTH="37" HEIGHT="27" CONTENT="20" WC="0.96" CC="00"/>
+						<SP ID="SP252" HPOS="713" VPOS="1194" WIDTH="37"/>
+						<String ID="String342" HPOS="750" VPOS="1167" WIDTH="81" HEIGHT="27" CONTENT="Wed." WC="0.99" CC="4001"/>
+						<SP ID="SP253" HPOS="831" VPOS="1194" WIDTH="19"/>
+						<String ID="String343" HPOS="850" VPOS="1165" WIDTH="35" HEIGHT="28" CONTENT="T." WC="0.74" CC="50"/>
+						<SP ID="SP254" HPOS="886" VPOS="1194" WIDTH="20"/>
+						<String ID="String344" HPOS="906" VPOS="1174" WIDTH="54" HEIGHT="19" CONTENT="van" WC="1.00" CC="000"/>
+						<SP ID="SP255" HPOS="960" VPOS="1194" WIDTH="20"/>
+						<String ID="String345" HPOS="980" VPOS="1165" WIDTH="84" HEIGHT="28" CONTENT="Vliet." WC="0.99" CC="004040"/>
+					</TextLine>
+					<TextLine ID="TextLine91" HPOS="677" VPOS="1201" WIDTH="419" HEIGHT="34">
+						<String ID="String346" HPOS="677" VPOS="1202" WIDTH="34" HEIGHT="27" CONTENT="22" WC="1.00" CC="00"/>
+						<SP ID="SP256" HPOS="711" VPOS="1230" WIDTH="39"/>
+						<String ID="String347" HPOS="750" VPOS="1201" WIDTH="32" HEIGHT="28" CONTENT="B." WC="1.00" CC="00"/>
+						<SP ID="SP257" HPOS="782" VPOS="1230" WIDTH="20"/>
+						<String ID="String348" HPOS="802" VPOS="1201" WIDTH="111" HEIGHT="34" CONTENT="Meijer," WC="0.99" CC="7005051"/>
+						<SP ID="SP258" HPOS="913" VPOS="1235" WIDTH="22"/>
+						<String ID="String349" HPOS="935" VPOS="1201" WIDTH="161" HEIGHT="27" CONTENT="machinist." WC="1.00" CC="7020000000"/>
+					</TextLine>
+					<TextLine ID="TextLine92" HPOS="672" VPOS="1238" WIDTH="461" HEIGHT="34">
+						<String ID="String350" HPOS="672" VPOS="1239" WIDTH="37" HEIGHT="26" CONTENT="24" WC="1.00" CC="00"/>
+						<SP ID="SP259" HPOS="709" VPOS="1265" WIDTH="39"/>
+						<String ID="String351" HPOS="748" VPOS="1238" WIDTH="34" HEIGHT="28" CONTENT="D." WC="1.00" CC="00"/>
+						<SP ID="SP260" HPOS="782" VPOS="1266" WIDTH="22"/>
+						<String ID="String352" HPOS="804" VPOS="1238" WIDTH="151" HEIGHT="34" CONTENT="Burghart," WC="0.72" CC="360500602"/>
+						<SP ID="SP261" HPOS="956" VPOS="1272" WIDTH="21"/>
+						<String ID="String353" HPOS="977" VPOS="1238" WIDTH="156" HEIGHT="27" CONTENT="werkman." WC="0.99" CC="50604000"/>
+					</TextLine>
+					<TextLine ID="TextLine93" HPOS="674" VPOS="1272" WIDTH="494" HEIGHT="34">
+						<String ID="String354" HPOS="674" VPOS="1273" WIDTH="35" HEIGHT="27" CONTENT="26" WC="0.91" CC="01"/>
+						<SP ID="SP262" HPOS="710" VPOS="1300" WIDTH="64"/>
+						<String ID="String355" HPOS="774" VPOS="1273" WIDTH="33" HEIGHT="27" CONTENT="A." WC="0.79" CC="40"/>
+						<SP ID="SP263" HPOS="807" VPOS="1300" WIDTH="26"/>
+						<String ID="String356" HPOS="833" VPOS="1273" WIDTH="33" HEIGHT="27" CONTENT="A." WC="0.87" CC="20"/>
+						<SP ID="SP264" HPOS="866" VPOS="1300" WIDTH="25"/>
+						<String ID="String357" HPOS="891" VPOS="1281" WIDTH="26" HEIGHT="19" CONTENT="V." WC="1.00" CC="00" STYLEREFS="TXT_2"/>
+						<SP ID="SP265" HPOS="917" VPOS="1300" WIDTH="24"/>
+						<String ID="String358" HPOS="940" VPOS="1272" WIDTH="94" HEIGHT="34" CONTENT="Soest," WC="1.00" CC="000003"/>
+						<SP ID="SP266" HPOS="1035" VPOS="1306" WIDTH="26"/>
+						<String ID="String359" HPOS="1061" VPOS="1272" WIDTH="107" HEIGHT="27" CONTENT="klinker" WC="1.00" CC="0000000"/>
+					</TextLine>
+					<TextLine ID="TextLine94" HPOS="782" VPOS="1309" WIDTH="64" HEIGHT="30">
+						<String ID="String360" HPOS="782" VPOS="1309" WIDTH="64" HEIGHT="30" CONTENT="N.S." WC="0.75" CC="9000"/>
+					</TextLine>
+					<TextLine ID="TextLine95" HPOS="674" VPOS="1344" WIDTH="493" HEIGHT="33">
+						<String ID="String361" HPOS="674" VPOS="1345" WIDTH="35" HEIGHT="27" CONTENT="28" WC="1.00" CC="00"/>
+						<SP ID="SP267" HPOS="710" VPOS="1372" WIDTH="39"/>
+						<String ID="String362" HPOS="749" VPOS="1345" WIDTH="39" HEIGHT="27" CONTENT="M." WC="0.66" CC="60"/>
+						<SP ID="SP268" HPOS="788" VPOS="1372" WIDTH="24"/>
+						<String ID="String363" HPOS="811" VPOS="1354" WIDTH="26" HEIGHT="19" CONTENT="V." WC="0.90" CC="20" STYLEREFS="TXT_2"/>
+						<SP ID="SP269" HPOS="837" VPOS="1372" WIDTH="25"/>
+						<String ID="String364" HPOS="862" VPOS="1345" WIDTH="151" HEIGHT="32" CONTENT="Leeuwen," WC="0.99" CC="70000004"/>
+						<SP ID="SP270" HPOS="1013" VPOS="1377" WIDTH="24"/>
+						<String ID="String365" HPOS="1037" VPOS="1344" WIDTH="130" HEIGHT="27" CONTENT="schilder." WC="1.00" CC="000000000"/>
+					</TextLine>
+					<TextLine ID="TextLine96" HPOS="676" VPOS="1382" WIDTH="444" HEIGHT="34">
+						<String ID="String366" HPOS="676" VPOS="1382" WIDTH="37" HEIGHT="27" CONTENT="30" WC="0.87" CC="02"/>
+						<SP ID="SP271" HPOS="712" VPOS="1409" WIDTH="35"/>
+						<String ID="String367" HPOS="748" VPOS="1382" WIDTH="22" HEIGHT="34" CONTENT="J." WC="0.81" CC="30"/>
+						<SP ID="SP272" HPOS="770" VPOS="1416" WIDTH="19"/>
+						<String ID="String368" HPOS="789" VPOS="1382" WIDTH="193" HEIGHT="33" CONTENT="Romanesko," WC="0.96" CC="1000000002"/>
+						<SP ID="SP273" HPOS="981" VPOS="1416" WIDTH="20"/>
+						<String ID="String369" HPOS="1002" VPOS="1388" WIDTH="118" HEIGHT="28" CONTENT="gepens." WC="0.70" CC="8060050"/>
+					</TextLine>
+					<TextLine ID="TextLine97" HPOS="674" VPOS="1417" WIDTH="379" HEIGHT="36">
+						<String ID="String370" HPOS="674" VPOS="1419" WIDTH="34" HEIGHT="27" CONTENT="32" WC="0.72" CC="50"/>
+						<SP ID="SP274" HPOS="709" VPOS="1446" WIDTH="39"/>
+						<String ID="String371" HPOS="748" VPOS="1419" WIDTH="21" HEIGHT="34" CONTENT="J." WC="1.00" CC="00"/>
+						<SP ID="SP275" HPOS="769" VPOS="1453" WIDTH="24"/>
+						<String ID="String372" HPOS="793" VPOS="1417" WIDTH="106" HEIGHT="33" CONTENT="Visser," WC="1.00" CC="0000000"/>
+						<SP ID="SP276" HPOS="899" VPOS="1453" WIDTH="24"/>
+						<String ID="String373" HPOS="922" VPOS="1417" WIDTH="131" HEIGHT="27" CONTENT="schilder." WC="1.00" CC="000000100"/>
+					</TextLine>
+					<TextLine ID="TextLine98" HPOS="677" VPOS="1454" WIDTH="386" HEIGHT="34">
+						<String ID="String374" HPOS="677" VPOS="1455" WIDTH="35" HEIGHT="26" CONTENT="34" WC="1.00" CC="00"/>
+						<SP ID="SP277" HPOS="712" VPOS="1481" WIDTH="38"/>
+						<String ID="String375" HPOS="750" VPOS="1455" WIDTH="32" HEIGHT="26" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP278" HPOS="782" VPOS="1481" WIDTH="24"/>
+						<String ID="String376" HPOS="806" VPOS="1454" WIDTH="100" HEIGHT="34" CONTENT="Budel," WC="1.00" CC="000000"/>
+						<SP ID="SP279" HPOS="906" VPOS="1488" WIDTH="22"/>
+						<String ID="String377" HPOS="928" VPOS="1454" WIDTH="135" HEIGHT="27" CONTENT="schilder." WC="1.00" CC="000000000"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock12" HPOS="638" VPOS="1527" WIDTH="487" HEIGHT="34" STYLEREFS="TXT_0 PAR_CENTER">
+					<TextLine ID="TextLine99" HPOS="639" VPOS="1527" WIDTH="483" HEIGHT="32">
+						<String ID="String378" HPOS="639" VPOS="1528" WIDTH="240" HEIGHT="28" CONTENT="Abrikoosstraat" WC="0.99" CC="90508970066000"/>
+						<SP ID="SP280" HPOS="879" VPOS="1557" WIDTH="27"/>
+						<String ID="String379" HPOS="906" VPOS="1527" WIDTH="93" HEIGHT="32" CONTENT="1—39;" WC="0.72" CC="08006"/>
+						<SP ID="SP281" HPOS="999" VPOS="1559" WIDTH="27"/>
+						<String ID="String380" HPOS="1026" VPOS="1527" WIDTH="96" HEIGHT="31" CONTENT="2—40." WC="0.58" CC="08264"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock13" HPOS="674" VPOS="1594" WIDTH="496" HEIGHT="252" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="TextLine100" HPOS="697" VPOS="1597" WIDTH="453" HEIGHT="34">
+						<String ID="String381" HPOS="697" VPOS="1599" WIDTH="8" HEIGHT="26" CONTENT="1" WC="1.00" CC="0"/>
+						<SP ID="SP282" HPOS="705" VPOS="1625" WIDTH="45"/>
+						<String ID="String382" HPOS="750" VPOS="1597" WIDTH="30" HEIGHT="28" CONTENT="P." WC="1.00" CC="00"/>
+						<SP ID="SP283" HPOS="780" VPOS="1625" WIDTH="27"/>
+						<String ID="String383" HPOS="807" VPOS="1598" WIDTH="34" HEIGHT="27" CONTENT="G." WC="1.00" CC="00"/>
+						<SP ID="SP284" HPOS="841" VPOS="1625" WIDTH="26"/>
+						<String ID="String384" HPOS="867" VPOS="1598" WIDTH="104" HEIGHT="33" CONTENT="Iseger," WC="0.88" CC="8000000"/>
+						<SP ID="SP285" HPOS="971" VPOS="1631" WIDTH="25"/>
+						<String ID="String385" HPOS="996" VPOS="1597" WIDTH="154" HEIGHT="34" CONTENT="sigarenm." WC="0.97" CC="002000000"/>
+					</TextLine>
+					<TextLine ID="TextLine101" HPOS="693" VPOS="1631" WIDTH="456" HEIGHT="39">
+						<String ID="String386" HPOS="693" VPOS="1636" WIDTH="17" HEIGHT="26" CONTENT="3" WC="1.00" CC="0"/>
+						<SP ID="SP286" HPOS="710" VPOS="1662" WIDTH="40"/>
+						<String ID="String387" HPOS="750" VPOS="1636" WIDTH="20" HEIGHT="34" CONTENT="j." WC="1.00" CC="00"/>
+						<SP ID="SP287" HPOS="770" VPOS="1670" WIDTH="25"/>
+						<String ID="String388" HPOS="795" VPOS="1635" WIDTH="117" HEIGHT="33" CONTENT="Hubert," WC="1.00" CC="0000000"/>
+						<SP ID="SP288" HPOS="912" VPOS="1670" WIDTH="22"/>
+						<String ID="String389" HPOS="934" VPOS="1633" WIDTH="131" HEIGHT="27" CONTENT="arbeider" WC="1.00" CC="00000000"/>
+						<SP ID="SP289" HPOS="1065" VPOS="1670" WIDTH="20"/>
+						<String ID="String390" HPOS="1085" VPOS="1631" WIDTH="64" HEIGHT="30" CONTENT="N.S." WC="1.00" CC="0000"/>
+					</TextLine>
+					<TextLine ID="TextLine102" HPOS="692" VPOS="1670" WIDTH="476" HEIGHT="33">
+						<String ID="String391" HPOS="692" VPOS="1672" WIDTH="18" HEIGHT="26" CONTENT="5" WC="1.00" CC="0"/>
+						<SP ID="SP290" HPOS="710" VPOS="1698" WIDTH="40"/>
+						<String ID="String392" HPOS="750" VPOS="1670" WIDTH="30" HEIGHT="28" CONTENT="P." WC="1.00" CC="00"/>
+						<SP ID="SP291" HPOS="780" VPOS="1698" WIDTH="19"/>
+						<String ID="String393" HPOS="798" VPOS="1670" WIDTH="45" HEIGHT="28" CONTENT="W." WC="0.79" CC="40"/>
+						<SP ID="SP292" HPOS="843" VPOS="1698" WIDTH="20"/>
+						<String ID="String394" HPOS="863" VPOS="1670" WIDTH="129" HEIGHT="33" CONTENT="Klaaren," WC="0.96" CC="20000000"/>
+						<SP ID="SP293" HPOS="992" VPOS="1703" WIDTH="19"/>
+						<String ID="String395" HPOS="1011" VPOS="1670" WIDTH="157" HEIGHT="26" CONTENT="werkman." WC="1.00" CC="00000000"/>
+					</TextLine>
+					<TextLine ID="TextLine103" HPOS="691" VPOS="1708" WIDTH="426" HEIGHT="31">
+						<String ID="String396" HPOS="691" VPOS="1710" WIDTH="15" HEIGHT="25" CONTENT="7" WC="1.00" CC="0"/>
+						<SP ID="SP294" HPOS="706" VPOS="1735" WIDTH="38"/>
+						<String ID="String397" HPOS="744" VPOS="1708" WIDTH="32" HEIGHT="27" CONTENT="G." WC="1.00" CC="00"/>
+						<SP ID="SP295" HPOS="776" VPOS="1735" WIDTH="24"/>
+						<String ID="String398" HPOS="800" VPOS="1708" WIDTH="142" HEIGHT="31" CONTENT="Rietveld," WC="0.99" CC="501007400"/>
+						<SP ID="SP296" HPOS="941" VPOS="1739" WIDTH="21"/>
+						<String ID="String399" HPOS="963" VPOS="1708" WIDTH="154" HEIGHT="27" CONTENT="werkman." WC="0.99" CC="00906470"/>
+					</TextLine>
+					<TextLine ID="TextLine104" HPOS="691" VPOS="1742" WIDTH="467" HEIGHT="36">
+						<String ID="String400" HPOS="691" VPOS="1746" WIDTH="17" HEIGHT="25" CONTENT="9" WC="1.00" CC="0"/>
+						<SP ID="SP297" HPOS="707" VPOS="1770" WIDTH="37"/>
+						<String ID="String401" HPOS="744" VPOS="1744" WIDTH="32" HEIGHT="27" CONTENT="F." WC="1.00" CC="00"/>
+						<SP ID="SP298" HPOS="776" VPOS="1772" WIDTH="21"/>
+						<String ID="String402" HPOS="797" VPOS="1744" WIDTH="30" HEIGHT="26" CONTENT="la" WC="0.58" CC="08"/>
+						<SP ID="SP299" HPOS="827" VPOS="1772" WIDTH="21"/>
+						<String ID="String403" HPOS="848" VPOS="1743" WIDTH="98" HEIGHT="34" CONTENT="Malre," WC="0.84" CC="090000"/>
+						<SP ID="SP300" HPOS="946" VPOS="1778" WIDTH="20"/>
+						<String ID="String404" HPOS="966" VPOS="1742" WIDTH="191" HEIGHT="28" CONTENT="timmerman." WC="1.00" CC="0000000000"/>
+					</TextLine>
+					<TextLine ID="TextLine105" HPOS="677" VPOS="1780" WIDTH="493" HEIGHT="34">
+						<String ID="String405" HPOS="677" VPOS="1782" WIDTH="28" HEIGHT="26" CONTENT="11" WC="1.00" CC="00"/>
+						<SP ID="SP301" HPOS="705" VPOS="1808" WIDTH="40"/>
+						<String ID="String406" HPOS="745" VPOS="1780" WIDTH="28" HEIGHT="27" CONTENT="C." WC="1.00" CC="00"/>
+						<SP ID="SP302" HPOS="774" VPOS="1808" WIDTH="27"/>
+						<String ID="String407" HPOS="801" VPOS="1781" WIDTH="30" HEIGHT="26" CONTENT="P." WC="1.00" CC="00"/>
+						<SP ID="SP303" HPOS="830" VPOS="1808" WIDTH="27"/>
+						<String ID="String408" HPOS="857" VPOS="1780" WIDTH="104" HEIGHT="34" CONTENT="Wlese," WC="0.90" CC="000500"/>
+						<SP ID="SP304" HPOS="961" VPOS="1814" WIDTH="24"/>
+						<String ID="String409" HPOS="985" VPOS="1780" WIDTH="168" HEIGHT="27" CONTENT="instrument" SUBS_TYPE="HypPart1" SUBS_CONTENT="instrumentmaker." WC="0.99" CC="60500200700"/>
+						<HYP HPOS="1153" VPOS="1780" WIDTH="17" CONTENT="-"/>
+					</TextLine>
+					<TextLine ID="TextLine106" HPOS="780" VPOS="1817" WIDTH="107" HEIGHT="26">
+						<String ID="String410" HPOS="780" VPOS="1817" WIDTH="107" HEIGHT="26" CONTENT="maker." SUBS_TYPE="HypPart2" SUBS_CONTENT="instrumentmaker." WC="0.99" CC="900000"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock14" HPOS="671" VPOS="1848" WIDTH="507" HEIGHT="508" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="TextLine107" HPOS="679" VPOS="1850" WIDTH="471" HEIGHT="35">
+						<String ID="String411" HPOS="679" VPOS="1852" WIDTH="31" HEIGHT="27" CONTENT="13" WC="1.00" CC="00"/>
+						<SP ID="SP305" HPOS="710" VPOS="1879" WIDTH="39"/>
+						<String ID="String412" HPOS="749" VPOS="1851" WIDTH="21" HEIGHT="34" CONTENT="J." WC="0.68" CC="60"/>
+						<SP ID="SP306" HPOS="770" VPOS="1885" WIDTH="19"/>
+						<String ID="String413" HPOS="789" VPOS="1851" WIDTH="45" HEIGHT="27" CONTENT="W." WC="0.90" CC="10"/>
+						<SP ID="SP307" HPOS="834" VPOS="1885" WIDTH="19"/>
+						<String ID="String414" HPOS="853" VPOS="1852" WIDTH="34" HEIGHT="26" CONTENT="de" WC="1.00" CC="00"/>
+						<SP ID="SP308" HPOS="887" VPOS="1885" WIDTH="19"/>
+						<String ID="String415" HPOS="906" VPOS="1850" WIDTH="71" HEIGHT="34" CONTENT="Rijk," WC="0.99" CC="00900"/>
+						<SP ID="SP309" HPOS="977" VPOS="1885" WIDTH="20"/>
+						<String ID="String416" HPOS="997" VPOS="1857" WIDTH="73" HEIGHT="28" CONTENT="gem." WC="0.84" CC="6000"/>
+						<SP ID="SP310" HPOS="1070" VPOS="1885" WIDTH="20"/>
+						<String ID="String417" HPOS="1090" VPOS="1850" WIDTH="60" HEIGHT="27" CONTENT="arb." WC="0.75" CC="1080"/>
+					</TextLine>
+					<TextLine ID="TextLine108" HPOS="678" VPOS="1886" WIDTH="403" HEIGHT="34">
+						<String ID="String418" HPOS="678" VPOS="1889" WIDTH="32" HEIGHT="26" CONTENT="15" WC="1.00" CC="00"/>
+						<SP ID="SP311" HPOS="710" VPOS="1915" WIDTH="40"/>
+						<String ID="String419" HPOS="750" VPOS="1886" WIDTH="31" HEIGHT="28" CONTENT="P." WC="0.79" CC="40"/>
+						<SP ID="SP312" HPOS="781" VPOS="1915" WIDTH="20"/>
+						<String ID="String420" HPOS="801" VPOS="1886" WIDTH="70" HEIGHT="34" CONTENT="Lith," WC="0.92" CC="40000"/>
+						<SP ID="SP313" HPOS="870" VPOS="1920" WIDTH="19"/>
+						<String ID="String421" HPOS="889" VPOS="1886" WIDTH="191" HEIGHT="27" CONTENT="timmerman." WC="1.00" CC="0000000000"/>
+					</TextLine>
+					<TextLine ID="TextLine109" HPOS="678" VPOS="1923" WIDTH="486" HEIGHT="32">
+						<String ID="String422" HPOS="678" VPOS="1926" WIDTH="30" HEIGHT="25" CONTENT="17" WC="1.00" CC="00"/>
+						<SP ID="SP314" HPOS="707" VPOS="1951" WIDTH="35"/>
+						<String ID="String423" HPOS="743" VPOS="1924" WIDTH="32" HEIGHT="28" CONTENT="C." WC="0.63" CC="70"/>
+						<SP ID="SP315" HPOS="775" VPOS="1952" WIDTH="22"/>
+						<String ID="String424" HPOS="797" VPOS="1933" WIDTH="26" HEIGHT="18" CONTENT="V." WC="0.63" CC="70" STYLEREFS="TXT_4"/>
+						<SP ID="SP316" HPOS="823" VPOS="1952" WIDTH="22"/>
+						<String ID="String425" HPOS="846" VPOS="1923" WIDTH="318" HEIGHT="32" CONTENT="Maarschalkerweerd," WC="0.75" CC="900067006070000070"/>
+					</TextLine>
+					<TextLine ID="TextLine110" HPOS="787" VPOS="1963" WIDTH="183" HEIGHT="28">
+						<String ID="String426" HPOS="787" VPOS="1963" WIDTH="183" HEIGHT="28" CONTENT="letterzetter." WC="1.00" CC="0105003000004"/>
+					</TextLine>
+					<TextLine ID="TextLine111" HPOS="685" VPOS="1997" WIDTH="472" HEIGHT="31">
+						<String ID="String427" HPOS="685" VPOS="2000" WIDTH="32" HEIGHT="26" CONTENT="19" WC="0.50" CC="09"/>
+						<SP ID="SP317" HPOS="717" VPOS="2026" WIDTH="33"/>
+						<String ID="String428" HPOS="750" VPOS="1997" WIDTH="35" HEIGHT="28" CONTENT="A." WC="0.86" CC="02"/>
+						<SP ID="SP318" HPOS="785" VPOS="2026" WIDTH="20"/>
+						<String ID="String429" HPOS="806" VPOS="2007" WIDTH="27" HEIGHT="19" CONTENT="V." WC="0.44" CC="73" STYLEREFS="TXT_4"/>
+						<SP ID="SP319" HPOS="833" VPOS="2026" WIDTH="21"/>
+						<String ID="String430" HPOS="854" VPOS="1997" WIDTH="47" HEIGHT="27" CONTENT="der" WC="0.95" CC="805"/>
+						<SP ID="SP320" HPOS="901" VPOS="2026" WIDTH="22"/>
+						<String ID="String431" HPOS="924" VPOS="1997" WIDTH="78" HEIGHT="31" CONTENT="Waa," WC="1.00" CC="0000"/>
+						<SP ID="SP321" HPOS="1002" VPOS="2028" WIDTH="18"/>
+						<String ID="String432" HPOS="1019" VPOS="2000" WIDTH="138" HEIGHT="25" CONTENT="monteur." WC="1.00" CC="00000504"/>
+					</TextLine>
+					<TextLine ID="TextLine112" HPOS="674" VPOS="2033" WIDTH="480" HEIGHT="34">
+						<String ID="String433" HPOS="674" VPOS="2035" WIDTH="32" HEIGHT="26" CONTENT="21" WC="0.77" CC="40"/>
+						<SP ID="SP322" HPOS="706" VPOS="2061" WIDTH="40"/>
+						<String ID="String434" HPOS="746" VPOS="2034" WIDTH="34" HEIGHT="27" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP323" HPOS="781" VPOS="2061" WIDTH="17"/>
+						<String ID="String435" HPOS="797" VPOS="2034" WIDTH="28" HEIGHT="27" CONTENT="J." WC="0.65" CC="60"/>
+						<SP ID="SP324" HPOS="826" VPOS="2061" WIDTH="20"/>
+						<String ID="String436" HPOS="846" VPOS="2034" WIDTH="34" HEIGHT="27" CONTENT="de" WC="1.00" CC="00"/>
+						<SP ID="SP325" HPOS="880" VPOS="2061" WIDTH="20"/>
+						<String ID="String437" HPOS="900" VPOS="2033" WIDTH="117" HEIGHT="34" CONTENT="Winter," WC="0.98" CC="6655700"/>
+						<SP ID="SP326" HPOS="1017" VPOS="2067" WIDTH="20"/>
+						<String ID="String438" HPOS="1037" VPOS="2040" WIDTH="117" HEIGHT="27" CONTENT="voeger." WC="0.98" CC="7709000"/>
+					</TextLine>
+					<TextLine ID="TextLine113" HPOS="678" VPOS="2067" WIDTH="495" HEIGHT="34">
+						<String ID="String439" HPOS="678" VPOS="2068" WIDTH="37" HEIGHT="27" CONTENT="23" WC="1.00" CC="00"/>
+						<SP ID="SP327" HPOS="715" VPOS="2095" WIDTH="38"/>
+						<String ID="String440" HPOS="752" VPOS="2068" WIDTH="34" HEIGHT="27" CONTENT="G." WC="0.76" CC="40"/>
+						<SP ID="SP328" HPOS="787" VPOS="2095" WIDTH="22"/>
+						<String ID="String441" HPOS="809" VPOS="2068" WIDTH="30" HEIGHT="26" CONTENT="L." WC="0.94" CC="10"/>
+						<SP ID="SP329" HPOS="839" VPOS="2095" WIDTH="25"/>
+						<String ID="String442" HPOS="863" VPOS="2067" WIDTH="136" HEIGHT="34" CONTENT="Keultjes," WC="0.86" CC="700005000"/>
+						<SP ID="SP330" HPOS="999" VPOS="2101" WIDTH="24"/>
+						<String ID="String443" HPOS="1023" VPOS="2067" WIDTH="150" HEIGHT="27" CONTENT="timmerm." WC="1.00" CC="00000000"/>
+					</TextLine>
+					<TextLine ID="TextLine114" HPOS="673" VPOS="2104" WIDTH="468" HEIGHT="34">
+						<String ID="String444" HPOS="673" VPOS="2106" WIDTH="35" HEIGHT="26" CONTENT="25" WC="1.00" CC="00"/>
+						<SP ID="SP331" HPOS="709" VPOS="2132" WIDTH="35"/>
+						<String ID="String445" HPOS="744" VPOS="2104" WIDTH="33" HEIGHT="28" CONTENT="E." WC="0.87" CC="20"/>
+						<SP ID="SP332" HPOS="777" VPOS="2132" WIDTH="20"/>
+						<String ID="String446" HPOS="797" VPOS="2104" WIDTH="161" HEIGHT="34" CONTENT="Meerbeek," WC="1.00" CC="000000000"/>
+						<SP ID="SP333" HPOS="958" VPOS="2138" WIDTH="20"/>
+						<String ID="String447" HPOS="978" VPOS="2104" WIDTH="163" HEIGHT="27" CONTENT="metselaar." WC="0.99" CC="0033003043"/>
+					</TextLine>
+					<TextLine ID="TextLine115" HPOS="678" VPOS="2140" WIDTH="417" HEIGHT="32">
+						<String ID="String448" HPOS="678" VPOS="2140" WIDTH="35" HEIGHT="27" CONTENT="27" WC="1.00" CC="00"/>
+						<SP ID="SP334" HPOS="713" VPOS="2167" WIDTH="39"/>
+						<String ID="String449" HPOS="752" VPOS="2140" WIDTH="31" HEIGHT="26" CONTENT="B." WC="1.00" CC="00"/>
+						<SP ID="SP335" HPOS="783" VPOS="2167" WIDTH="25"/>
+						<String ID="String450" HPOS="808" VPOS="2147" WIDTH="26" HEIGHT="20" CONTENT="V." WC="1.00" CC="00" STYLEREFS="TXT_4"/>
+						<SP ID="SP336" HPOS="834" VPOS="2167" WIDTH="24"/>
+						<String ID="String451" HPOS="857" VPOS="2140" WIDTH="59" HEIGHT="32" CONTENT="Eik," WC="0.97" CC="0580"/>
+						<SP ID="SP337" HPOS="917" VPOS="2172" WIDTH="22"/>
+						<String ID="String452" HPOS="939" VPOS="2140" WIDTH="156" HEIGHT="27" CONTENT="werkman." WC="0.99" CC="70603000"/>
+					</TextLine>
+					<TextLine ID="TextLine116" HPOS="681" VPOS="2177" WIDTH="495" HEIGHT="33">
+						<String ID="String453" HPOS="681" VPOS="2179" WIDTH="35" HEIGHT="26" CONTENT="29" WC="0.07" CC="89"/>
+						<SP ID="SP338" HPOS="717" VPOS="2205" WIDTH="33"/>
+						<String ID="String454" HPOS="750" VPOS="2179" WIDTH="33" HEIGHT="26" CONTENT="iB." WC="0.58" CC="750"/>
+						<SP ID="SP339" HPOS="783" VPOS="2205" WIDTH="25"/>
+						<String ID="String455" HPOS="808" VPOS="2185" WIDTH="57" HEIGHT="20" CONTENT="van" WC="0.96" CC="703"/>
+						<SP ID="SP340" HPOS="865" VPOS="2205" WIDTH="21"/>
+						<String ID="String456" HPOS="886" VPOS="2178" WIDTH="79" HEIGHT="32" CONTENT="Dam," WC="0.98" CC="0800"/>
+						<SP ID="SP341" HPOS="965" VPOS="2210" WIDTH="24"/>
+						<String ID="String457" HPOS="989" VPOS="2177" WIDTH="187" HEIGHT="28" CONTENT="meubelmak." WC="0.93" CC="0000070000"/>
+					</TextLine>
+					<TextLine ID="TextLine117" HPOS="676" VPOS="2211" WIDTH="494" HEIGHT="33">
+						<String ID="String458" HPOS="676" VPOS="2212" WIDTH="31" HEIGHT="27" CONTENT="31" WC="1.00" CC="00"/>
+						<SP ID="SP342" HPOS="706" VPOS="2239" WIDTH="44"/>
+						<String ID="String459" HPOS="750" VPOS="2211" WIDTH="39" HEIGHT="28" CONTENT="M." WC="0.72" CC="50"/>
+						<SP ID="SP343" HPOS="789" VPOS="2239" WIDTH="19"/>
+						<String ID="String460" HPOS="808" VPOS="2211" WIDTH="157" HEIGHT="33" CONTENT="Roowaan," WC="0.92" CC="60000000"/>
+						<SP ID="SP344" HPOS="965" VPOS="2244" WIDTH="20"/>
+						<String ID="String461" HPOS="985" VPOS="2211" WIDTH="184" HEIGHT="27" CONTENT="kleermaker." WC="1.00" CC="00001000000"/>
+					</TextLine>
+					<TextLine ID="TextLine118" HPOS="677" VPOS="2248" WIDTH="497" HEIGHT="34">
+						<String ID="String462" HPOS="677" VPOS="2250" WIDTH="34" HEIGHT="26" CONTENT="33" WC="0.73" CC="50"/>
+						<SP ID="SP345" HPOS="711" VPOS="2276" WIDTH="37"/>
+						<String ID="String463" HPOS="748" VPOS="2248" WIDTH="426" HEIGHT="34" CONTENT="J.W.H.Weusman,meubelm." WC="0.78" CC="0060606044060000400070"/>
+					</TextLine>
+					<TextLine ID="TextLine119" HPOS="678" VPOS="2284" WIDTH="494" HEIGHT="35">
+						<String ID="String464" HPOS="678" VPOS="2287" WIDTH="32" HEIGHT="26" CONTENT="35" WC="1.00" CC="00"/>
+						<SP ID="SP346" HPOS="710" VPOS="2313" WIDTH="39"/>
+						<String ID="String465" HPOS="749" VPOS="2284" WIDTH="31" HEIGHT="30" CONTENT="G." WC="1.00" CC="00"/>
+						<SP ID="SP347" HPOS="780" VPOS="2314" WIDTH="18"/>
+						<String ID="String466" HPOS="797" VPOS="2285" WIDTH="26" HEIGHT="27" CONTENT="J." WC="1.00" CC="00"/>
+						<SP ID="SP348" HPOS="823" VPOS="2314" WIDTH="19"/>
+						<String ID="String467" HPOS="842" VPOS="2295" WIDTH="27" HEIGHT="18" CONTENT="V." WC="1.00" CC="00" STYLEREFS="TXT_4"/>
+						<SP ID="SP349" HPOS="869" VPOS="2314" WIDTH="18"/>
+						<String ID="String468" HPOS="887" VPOS="2284" WIDTH="83" HEIGHT="34" CONTENT="Wijk," WC="0.97" CC="27900"/>
+						<SP ID="SP350" HPOS="970" VPOS="2319" WIDTH="17"/>
+						<String ID="String469" HPOS="986" VPOS="2284" WIDTH="185" HEIGHT="27" CONTENT="letterzetter." WC="1.00" CC="6000105900000"/>
+					</TextLine>
+					<TextLine ID="TextLine120" HPOS="676" VPOS="2321" WIDTH="398" HEIGHT="34">
+						<String ID="String470" HPOS="676" VPOS="2322" WIDTH="33" HEIGHT="26" CONTENT="37" WC="0.70" CC="50"/>
+						<SP ID="SP351" HPOS="709" VPOS="2348" WIDTH="38"/>
+						<String ID="String471" HPOS="746" VPOS="2322" WIDTH="43" HEIGHT="26" CONTENT="W." WC="1.00" CC="00"/>
+						<SP ID="SP352" HPOS="789" VPOS="2348" WIDTH="28"/>
+						<String ID="String472" HPOS="817" VPOS="2321" WIDTH="71" HEIGHT="34" CONTENT="Helj," WC="0.76" CC="60050"/>
+						<SP ID="SP353" HPOS="888" VPOS="2355" WIDTH="30"/>
+						<String ID="String473" HPOS="918" VPOS="2321" WIDTH="156" HEIGHT="27" CONTENT="werkman." WC="0.98" CC="00199700"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock15" HPOS="677" VPOS="2372" WIDTH="500" HEIGHT="397" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="TextLine121" HPOS="697" VPOS="2374" WIDTH="474" HEIGHT="37">
+						<String ID="String474" HPOS="697" VPOS="2378" WIDTH="17" HEIGHT="26" CONTENT="2" WC="1.00" CC="0"/>
+						<SP ID="SP354" HPOS="713" VPOS="2404" WIDTH="38"/>
+						<String ID="String475" HPOS="751" VPOS="2376" WIDTH="22" HEIGHT="34" CONTENT="J." WC="0.74" CC="50"/>
+						<SP ID="SP355" HPOS="774" VPOS="2411" WIDTH="15"/>
+						<String ID="String476" HPOS="789" VPOS="2386" WIDTH="27" HEIGHT="19" CONTENT="V." WC="1.00" CC="00" STYLEREFS="TXT_4"/>
+						<SP ID="SP356" HPOS="816" VPOS="2411" WIDTH="18"/>
+						<String ID="String477" HPOS="834" VPOS="2376" WIDTH="54" HEIGHT="27" CONTENT="den" WC="1.00" CC="000"/>
+						<SP ID="SP357" HPOS="888" VPOS="2411" WIDTH="18"/>
+						<String ID="String478" HPOS="906" VPOS="2374" WIDTH="94" HEIGHT="34" CONTENT="Brink," WC="0.99" CC="600000"/>
+						<SP ID="SP358" HPOS="1000" VPOS="2411" WIDTH="18"/>
+						<String ID="String479" HPOS="1018" VPOS="2375" WIDTH="152" HEIGHT="27" CONTENT="timmerm." WC="1.00" CC="00000000"/>
+					</TextLine>
+					<TextLine ID="TextLine122" HPOS="697" VPOS="2411" WIDTH="476" HEIGHT="35">
+						<String ID="String480" HPOS="697" VPOS="2414" WIDTH="18" HEIGHT="26" CONTENT="4" WC="1.00" CC="0"/>
+						<SP ID="SP359" HPOS="715" VPOS="2440" WIDTH="37"/>
+						<String ID="String481" HPOS="751" VPOS="2413" WIDTH="31" HEIGHT="27" CONTENT="P." WC="0.92" CC="10"/>
+						<SP ID="SP360" HPOS="782" VPOS="2440" WIDTH="20"/>
+						<String ID="String482" HPOS="802" VPOS="2413" WIDTH="35" HEIGHT="27" CONTENT="de" WC="1.00" CC="00"/>
+						<SP ID="SP361" HPOS="837" VPOS="2440" WIDTH="20"/>
+						<String ID="String483" HPOS="857" VPOS="2413" WIDTH="97" HEIGHT="33" CONTENT="Korte," WC="1.00" CC="003000"/>
+						<SP ID="SP362" HPOS="954" VPOS="2446" WIDTH="20"/>
+						<String ID="String484" HPOS="974" VPOS="2411" WIDTH="198" HEIGHT="28" CONTENT="bankwerker." WC="1.00" CC="00010000000"/>
+					</TextLine>
+					<TextLine ID="TextLine123" HPOS="691" VPOS="2448" WIDTH="484" HEIGHT="36">
+						<String ID="String485" HPOS="691" VPOS="2452" WIDTH="17" HEIGHT="25" CONTENT="6" WC="1.00" CC="0"/>
+						<SP ID="SP363" HPOS="707" VPOS="2477" WIDTH="37"/>
+						<String ID="String486" HPOS="744" VPOS="2451" WIDTH="27" HEIGHT="27" CONTENT="S." WC="0.69" CC="60"/>
+						<SP ID="SP364" HPOS="771" VPOS="2478" WIDTH="20"/>
+						<String ID="String487" HPOS="791" VPOS="2450" WIDTH="31" HEIGHT="28" CONTENT="P." WC="0.66" CC="60"/>
+						<SP ID="SP365" HPOS="822" VPOS="2478" WIDTH="21"/>
+						<String ID="String488" HPOS="843" VPOS="2450" WIDTH="110" HEIGHT="34" CONTENT="Plomp," WC="0.98" CC="850040"/>
+						<SP ID="SP366" HPOS="953" VPOS="2484" WIDTH="20"/>
+						<String ID="String489" HPOS="973" VPOS="2448" WIDTH="202" HEIGHT="28" CONTENT="bankwerker." WC="0.99" CC="09409000200"/>
+					</TextLine>
+					<TextLine ID="TextLine124" HPOS="693" VPOS="2484" WIDTH="479" HEIGHT="34">
+						<String ID="String490" HPOS="693" VPOS="2486" WIDTH="18" HEIGHT="26" CONTENT="8" WC="1.00" CC="0"/>
+						<SP ID="SP367" HPOS="711" VPOS="2512" WIDTH="39"/>
+						<String ID="String491" HPOS="750" VPOS="2484" WIDTH="32" HEIGHT="28" CONTENT="C." WC="1.00" CC="00"/>
+						<SP ID="SP368" HPOS="782" VPOS="2512" WIDTH="18"/>
+						<String ID="String492" HPOS="800" VPOS="2485" WIDTH="33" HEIGHT="27" CONTENT="H." WC="1.00" CC="00"/>
+						<SP ID="SP369" HPOS="833" VPOS="2512" WIDTH="15"/>
+						<String ID="String493" HPOS="848" VPOS="2492" WIDTH="27" HEIGHT="19" CONTENT="V." WC="1.00" CC="00" STYLEREFS="TXT_4"/>
+						<SP ID="SP370" HPOS="875" VPOS="2512" WIDTH="18"/>
+						<String ID="String494" HPOS="893" VPOS="2485" WIDTH="26" HEIGHT="27" CONTENT="d." WC="1.00" CC="00"/>
+						<SP ID="SP371" HPOS="919" VPOS="2512" WIDTH="19"/>
+						<String ID="String495" HPOS="938" VPOS="2484" WIDTH="122" HEIGHT="34" CONTENT="Straten," WC="1.00" CC="00000000"/>
+						<SP ID="SP372" HPOS="1059" VPOS="2518" WIDTH="18"/>
+						<String ID="String496" HPOS="1077" VPOS="2484" WIDTH="76" HEIGHT="27" CONTENT="werk" SUBS_TYPE="HypPart1" SUBS_CONTENT="werkman." WC="1.00" CC="00000"/>
+						<HYP HPOS="1153" VPOS="2484" WIDTH="19" CONTENT="-"/>
+					</TextLine>
+					<TextLine ID="TextLine125" HPOS="789" VPOS="2530" WIDTH="77" HEIGHT="19">
+						<String ID="String497" HPOS="789" VPOS="2530" WIDTH="77" HEIGHT="19" CONTENT="man." SUBS_TYPE="HypPart2" SUBS_CONTENT="werkman." WC="1.00" CC="0000"/>
+					</TextLine>
+					<TextLine ID="TextLine126" HPOS="679" VPOS="2557" WIDTH="493" HEIGHT="33">
+						<String ID="String498" HPOS="679" VPOS="2558" WIDTH="34" HEIGHT="27" CONTENT="10" WC="1.00" CC="00"/>
+						<SP ID="SP373" HPOS="713" VPOS="2585" WIDTH="38"/>
+						<String ID="String499" HPOS="751" VPOS="2557" WIDTH="33" HEIGHT="28" CONTENT="H." WC="1.00" CC="00"/>
+						<SP ID="SP374" HPOS="784" VPOS="2585" WIDTH="25"/>
+						<String ID="String500" HPOS="809" VPOS="2567" WIDTH="26" HEIGHT="19" CONTENT="V." WC="0.72" CC="50" STYLEREFS="TXT_4"/>
+						<SP ID="SP375" HPOS="835" VPOS="2585" WIDTH="25"/>
+						<String ID="String501" HPOS="860" VPOS="2558" WIDTH="27" HEIGHT="27" CONTENT="d." WC="1.00" CC="00"/>
+						<SP ID="SP376" HPOS="887" VPOS="2585" WIDTH="25"/>
+						<String ID="String502" HPOS="912" VPOS="2557" WIDTH="191" HEIGHT="33" CONTENT="Oudenalder," WC="1.00" CC="00000000000"/>
+						<SP ID="SP377" HPOS="1103" VPOS="2590" WIDTH="25"/>
+						<String ID="String503" HPOS="1128" VPOS="2558" WIDTH="30" HEIGHT="25" CONTENT="ta" SUBS_TYPE="HypPart1" SUBS_CONTENT="tabakshand." WC="0.98" CC="050"/>
+						<HYP HPOS="1157" VPOS="2558" WIDTH="14" CONTENT="-"/>
+					</TextLine>
+					<TextLine ID="TextLine127" HPOS="789" VPOS="2594" WIDTH="161" HEIGHT="28">
+						<String ID="String504" HPOS="789" VPOS="2594" WIDTH="161" HEIGHT="28" CONTENT="bakshand." SUBS_TYPE="HypPart2" SUBS_CONTENT="tabakshand." WC="1.00" CC="000003000"/>
+					</TextLine>
+					<TextLine ID="TextLine128" HPOS="679" VPOS="2629" WIDTH="474" HEIGHT="34">
+						<String ID="String505" HPOS="679" VPOS="2631" WIDTH="33" HEIGHT="27" CONTENT="12" WC="1.00" CC="00"/>
+						<SP ID="SP378" HPOS="712" VPOS="2659" WIDTH="38"/>
+						<String ID="String506" HPOS="750" VPOS="2630" WIDTH="34" HEIGHT="28" CONTENT="T." WC="0.74" CC="50"/>
+						<SP ID="SP379" HPOS="784" VPOS="2659" WIDTH="24"/>
+						<String ID="String507" HPOS="808" VPOS="2630" WIDTH="151" HEIGHT="33" CONTENT="Overeem," WC="0.91" CC="15000000"/>
+						<SP ID="SP380" HPOS="959" VPOS="2663" WIDTH="25"/>
+						<String ID="String508" HPOS="984" VPOS="2629" WIDTH="169" HEIGHT="27" CONTENT="electricien." WC="0.96" CC="000004000000"/>
+					</TextLine>
+					<TextLine ID="TextLine129" HPOS="681" VPOS="2667" WIDTH="413" HEIGHT="34">
+						<String ID="String509" HPOS="681" VPOS="2668" WIDTH="33" HEIGHT="26" CONTENT="14" WC="1.00" CC="00"/>
+						<SP ID="SP381" HPOS="715" VPOS="2694" WIDTH="38"/>
+						<String ID="String510" HPOS="752" VPOS="2668" WIDTH="24" HEIGHT="33" CONTENT="J." WC="0.81" CC="30" STYLEREFS="TXT_0"/>
+						<SP ID="SP382" HPOS="776" VPOS="2701" WIDTH="25"/>
+						<String ID="String511" HPOS="801" VPOS="2667" WIDTH="113" HEIGHT="33" CONTENT="Eshuis," WC="1.00" CC="4000000"/>
+						<SP ID="SP383" HPOS="914" VPOS="2701" WIDTH="25"/>
+						<String ID="String512" HPOS="939" VPOS="2667" WIDTH="155" HEIGHT="27" CONTENT="werkman." WC="1.00" CC="00700300"/>
+					</TextLine>
+					<TextLine ID="TextLine130" HPOS="680" VPOS="2701" WIDTH="493" HEIGHT="34">
+						<String ID="String513" HPOS="680" VPOS="2704" WIDTH="34" HEIGHT="27" CONTENT="16" WC="0.59" CC="52"/>
+						<SP ID="SP384" HPOS="715" VPOS="2731" WIDTH="39"/>
+						<String ID="String514" HPOS="754" VPOS="2702" WIDTH="28" HEIGHT="28" CONTENT="F." WC="0.86" CC="20"/>
+						<SP ID="SP385" HPOS="782" VPOS="2731" WIDTH="28"/>
+						<String ID="String515" HPOS="810" VPOS="2701" WIDTH="31" HEIGHT="31" CONTENT="C." WC="1.00" CC="00"/>
+						<SP ID="SP386" HPOS="841" VPOS="2732" WIDTH="31"/>
+						<String ID="String516" HPOS="872" VPOS="2711" WIDTH="54" HEIGHT="19" CONTENT="van" WC="1.00" CC="000"/>
+						<SP ID="SP387" HPOS="926" VPOS="2732" WIDTH="30"/>
+						<String ID="String517" HPOS="956" VPOS="2701" WIDTH="83" HEIGHT="34" CONTENT="Berk," WC="1.00" CC="00000"/>
+						<SP ID="SP388" HPOS="1038" VPOS="2735" WIDTH="31"/>
+						<String ID="String518" HPOS="1069" VPOS="2701" WIDTH="87" HEIGHT="27" CONTENT="beton" SUBS_TYPE="HypPart1" SUBS_CONTENT="betonwerker." WC="0.98" CC="800800"/>
+						<HYP HPOS="1156" VPOS="2701" WIDTH="17" CONTENT="-"/>
+					</TextLine>
+					<TextLine ID="TextLine131" HPOS="789" VPOS="2740" WIDTH="119" HEIGHT="26">
+						<String ID="String519" HPOS="789" VPOS="2740" WIDTH="119" HEIGHT="26" CONTENT="werker." SUBS_TYPE="HypPart2" SUBS_CONTENT="betonwerker." WC="1.00" CC="0000040"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock16" HPOS="1231" VPOS="228" WIDTH="500" HEIGHT="178" STYLEREFS="TXT_3 PAR_LEFT">
+					<TextLine ID="TextLine132" HPOS="1234" VPOS="229" WIDTH="441" HEIGHT="32">
+						<String ID="String520" HPOS="1234" VPOS="230" WIDTH="33" HEIGHT="27" CONTENT="18" WC="1.00" CC="00"/>
+						<SP ID="SP389" HPOS="1267" VPOS="257" WIDTH="38"/>
+						<String ID="String521" HPOS="1305" VPOS="229" WIDTH="32" HEIGHT="28" CONTENT="H." WC="0.73" CC="50"/>
+						<SP ID="SP390" HPOS="1337" VPOS="257" WIDTH="19"/>
+						<String ID="String522" HPOS="1356" VPOS="229" WIDTH="46" HEIGHT="28" CONTENT="W." WC="0.98" CC="00"/>
+						<SP ID="SP391" HPOS="1402" VPOS="257" WIDTH="19"/>
+						<String ID="String523" HPOS="1421" VPOS="229" WIDTH="79" HEIGHT="32" CONTENT="Ram," WC="0.97" CC="0094"/>
+						<SP ID="SP392" HPOS="1500" VPOS="261" WIDTH="18"/>
+						<String ID="String524" HPOS="1518" VPOS="229" WIDTH="157" HEIGHT="27" CONTENT="werkman." WC="1.00" CC="00000000"/>
+					</TextLine>
+					<TextLine ID="TextLine133" HPOS="1234" VPOS="263" WIDTH="407" HEIGHT="37">
+						<String ID="String525" HPOS="1234" VPOS="266" WIDTH="37" HEIGHT="27" CONTENT="20" WC="0.53" CC="09"/>
+						<SP ID="SP393" HPOS="1271" VPOS="293" WIDTH="37"/>
+						<String ID="String526" HPOS="1307" VPOS="265" WIDTH="22" HEIGHT="35" CONTENT="J." WC="0.81" CC="30"/>
+						<SP ID="SP394" HPOS="1330" VPOS="300" WIDTH="21"/>
+						<String ID="String527" HPOS="1351" VPOS="265" WIDTH="133" HEIGHT="33" CONTENT="Verheul," WC="1.00" CC="00000000"/>
+						<SP ID="SP395" HPOS="1485" VPOS="300" WIDTH="21"/>
+						<String ID="String528" HPOS="1506" VPOS="263" WIDTH="135" HEIGHT="28" CONTENT="koetsier." WC="1.00" CC="000000000"/>
+					</TextLine>
+					<TextLine ID="TextLine134" HPOS="1232" VPOS="301" WIDTH="483" HEIGHT="34">
+						<String ID="String529" HPOS="1232" VPOS="304" WIDTH="33" HEIGHT="25" CONTENT="22" WC="1.00" CC="00"/>
+						<SP ID="SP396" HPOS="1265" VPOS="328" WIDTH="39"/>
+						<String ID="String530" HPOS="1304" VPOS="301" WIDTH="32" HEIGHT="27" CONTENT="G." WC="0.65" CC="60"/>
+						<SP ID="SP397" HPOS="1336" VPOS="328" WIDTH="17"/>
+						<String ID="String531" HPOS="1352" VPOS="301" WIDTH="28" HEIGHT="27" CONTENT="J." WC="0.80" CC="30"/>
+						<SP ID="SP398" HPOS="1381" VPOS="328" WIDTH="15"/>
+						<String ID="String532" HPOS="1396" VPOS="301" WIDTH="110" HEIGHT="34" CONTENT="Boven," WC="0.98" CC="805060"/>
+						<SP ID="SP399" HPOS="1506" VPOS="335" WIDTH="19"/>
+						<String ID="String533" HPOS="1525" VPOS="301" WIDTH="190" HEIGHT="27" CONTENT="timmerman." WC="1.00" CC="1000206000"/>
+					</TextLine>
+					<TextLine ID="TextLine135" HPOS="1233" VPOS="338" WIDTH="495" HEIGHT="33">
+						<String ID="String534" HPOS="1233" VPOS="340" WIDTH="34" HEIGHT="26" CONTENT="34" WC="0.15" CC="79"/>
+						<SP ID="SP400" HPOS="1267" VPOS="366" WIDTH="37"/>
+						<String ID="String535" HPOS="1304" VPOS="339" WIDTH="30" HEIGHT="27" CONTENT="F." WC="0.70" CC="50"/>
+						<SP ID="SP401" HPOS="1333" VPOS="366" WIDTH="20"/>
+						<String ID="String536" HPOS="1354" VPOS="338" WIDTH="30" HEIGHT="28" CONTENT="C." WC="0.81" CC="30"/>
+						<SP ID="SP402" HPOS="1383" VPOS="366" WIDTH="18"/>
+						<String ID="String537" HPOS="1401" VPOS="339" WIDTH="118" HEIGHT="32" CONTENT="Jacobs," WC="0.98" CC="6040763"/>
+						<SP ID="SP403" HPOS="1519" VPOS="371" WIDTH="20"/>
+						<String ID="String538" HPOS="1539" VPOS="338" WIDTH="189" HEIGHT="27" CONTENT="kleermaker." WC="0.99" CC="96000070090"/>
+					</TextLine>
+					<TextLine ID="TextLine136" HPOS="1232" VPOS="372" WIDTH="442" HEIGHT="33">
+						<String ID="String539" HPOS="1232" VPOS="373" WIDTH="38" HEIGHT="26" CONTENT="26" WC="1.00" CC="00"/>
+						<SP ID="SP404" HPOS="1270" VPOS="399" WIDTH="39"/>
+						<String ID="String540" HPOS="1309" VPOS="372" WIDTH="32" HEIGHT="27" CONTENT="H." WC="1.00" CC="00"/>
+						<SP ID="SP405" HPOS="1341" VPOS="399" WIDTH="19"/>
+						<String ID="String541" HPOS="1359" VPOS="372" WIDTH="178" HEIGHT="33" CONTENT="Vermeulen," WC="1.00" CC="0009000000"/>
+						<SP ID="SP406" HPOS="1538" VPOS="405" WIDTH="19"/>
+						<String ID="String542" HPOS="1557" VPOS="372" WIDTH="117" HEIGHT="26" CONTENT="bakker." WC="1.00" CC="0100000"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock17" HPOS="1235" VPOS="407" WIDTH="497" HEIGHT="106" STYLEREFS="TXT_3 PAR_LEFT">
+					<TextLine ID="TextLine137" HPOS="1239" VPOS="411" WIDTH="476" HEIGHT="33">
+						<String ID="String543" HPOS="1239" VPOS="412" WIDTH="32" HEIGHT="26" CONTENT="28" WC="0.81" CC="03"/>
+						<SP ID="SP407" HPOS="1271" VPOS="438" WIDTH="39"/>
+						<String ID="String544" HPOS="1310" VPOS="411" WIDTH="28" HEIGHT="30" CONTENT="F." WC="0.78" CC="40"/>
+						<SP ID="SP408" HPOS="1338" VPOS="441" WIDTH="20"/>
+						<String ID="String545" HPOS="1358" VPOS="411" WIDTH="26" HEIGHT="27" CONTENT="J." WC="1.00" CC="00"/>
+						<SP ID="SP409" HPOS="1384" VPOS="441" WIDTH="18"/>
+						<String ID="String546" HPOS="1402" VPOS="411" WIDTH="98" HEIGHT="33" CONTENT="'Siljee," WC="0.75" CC="06027200"/>
+						<SP ID="SP410" HPOS="1500" VPOS="444" WIDTH="19"/>
+						<String ID="String547" HPOS="1519" VPOS="411" WIDTH="196" HEIGHT="27" CONTENT="brouwerskm" WC="0.47" CC="7075830279"/>
+					</TextLine>
+					<TextLine ID="TextLine138" HPOS="1239" VPOS="445" WIDTH="493" HEIGHT="34">
+						<String ID="String548" HPOS="1239" VPOS="449" WIDTH="32" HEIGHT="26" CONTENT="30" WC="0.63" CC="07"/>
+						<SP ID="SP411" HPOS="1271" VPOS="475" WIDTH="39"/>
+						<String ID="String549" HPOS="1310" VPOS="446" WIDTH="28" HEIGHT="31" CONTENT="C." WC="0.86" CC="20"/>
+						<SP ID="SP412" HPOS="1338" VPOS="477" WIDTH="26"/>
+						<String ID="String550" HPOS="1364" VPOS="448" WIDTH="196" HEIGHT="30" CONTENT="Hooi’schuur," WC="0.68" CC="600586070202"/>
+						<SP ID="SP413" HPOS="1560" VPOS="477" WIDTH="25"/>
+						<String ID="String551" HPOS="1585" VPOS="445" WIDTH="146" HEIGHT="34" CONTENT="rangeerd." WC="0.61" CC="077900090"/>
+					</TextLine>
+					<TextLine ID="TextLine139" HPOS="1345" VPOS="483" WIDTH="76" HEIGHT="27">
+						<String ID="String552" HPOS="1345" VPOS="483" WIDTH="33" HEIGHT="27" CONTENT="N." WC="0.59" CC="70" STYLEREFS="TXT_5"/>
+						<SP ID="SP414" HPOS="1378" VPOS="510" WIDTH="17"/>
+						<String ID="String553" HPOS="1395" VPOS="483" WIDTH="26" HEIGHT="27" CONTENT="S." WC="0.73" CC="50"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock18" HPOS="1231" VPOS="519" WIDTH="500" HEIGHT="213" STYLEREFS="TXT_3 PAR_LEFT">
+					<TextLine ID="TextLine140" HPOS="1232" VPOS="519" WIDTH="491" HEIGHT="33">
+						<String ID="String554" HPOS="1232" VPOS="520" WIDTH="33" HEIGHT="26" CONTENT="32" WC="0.77" CC="04"/>
+						<SP ID="SP415" HPOS="1265" VPOS="546" WIDTH="39"/>
+						<String ID="String555" HPOS="1304" VPOS="519" WIDTH="33" HEIGHT="26" CONTENT="G." WC="0.53" CC="90"/>
+						<SP ID="SP416" HPOS="1337" VPOS="546" WIDTH="17"/>
+						<String ID="String556" HPOS="1354" VPOS="519" WIDTH="44" HEIGHT="26" CONTENT="W." WC="0.74" CC="50"/>
+						<SP ID="SP417" HPOS="1397" VPOS="546" WIDTH="17"/>
+						<String ID="String557" HPOS="1414" VPOS="519" WIDTH="164" HEIGHT="33" CONTENT="Koopman," WC="0.99" CC="01480250"/>
+						<SP ID="SP418" HPOS="1578" VPOS="552" WIDTH="17"/>
+						<String ID="String558" HPOS="1594" VPOS="524" WIDTH="46" HEIGHT="27" CONTENT="ag." WC="0.37" CC="890"/>
+						<SP ID="SP419" HPOS="1641" VPOS="552" WIDTH="18"/>
+						<String ID="String559" HPOS="1658" VPOS="524" WIDTH="28" HEIGHT="19" CONTENT="v." WC="0.82" CC="30"/>
+						<SP ID="SP420" HPOS="1687" VPOS="552" WIDTH="18"/>
+						<String ID="String560" HPOS="1704" VPOS="524" WIDTH="19" HEIGHT="26" CONTENT="p" WC="0.46" CC="5"/>
+					</TextLine>
+					<TextLine ID="TextLine141" HPOS="1232" VPOS="554" WIDTH="483" HEIGHT="34">
+						<String ID="String561" HPOS="1232" VPOS="556" WIDTH="33" HEIGHT="25" CONTENT="34" WC="0.52" CC="09"/>
+						<SP ID="SP421" HPOS="1265" VPOS="581" WIDTH="37"/>
+						<String ID="String562" HPOS="1302" VPOS="555" WIDTH="33" HEIGHT="26" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP422" HPOS="1335" VPOS="581" WIDTH="21"/>
+						<String ID="String563" HPOS="1356" VPOS="554" WIDTH="110" HEIGHT="32" CONTENT="Kroon," WC="1.00" CC="004000"/>
+						<SP ID="SP423" HPOS="1466" VPOS="586" WIDTH="22"/>
+						<String ID="String564" HPOS="1488" VPOS="554" WIDTH="227" HEIGHT="34" CONTENT="rijkswerkman." WC="0.99" CC="1050490273060"/>
+					</TextLine>
+					<TextLine ID="TextLine142" HPOS="1233" VPOS="588" WIDTH="494" HEIGHT="36">
+						<String ID="String565" HPOS="1233" VPOS="589" WIDTH="37" HEIGHT="27" CONTENT="36" WC="1.00" CC="00"/>
+						<SP ID="SP424" HPOS="1270" VPOS="617" WIDTH="38"/>
+						<String ID="String566" HPOS="1307" VPOS="589" WIDTH="22" HEIGHT="34" CONTENT="J." WC="1.00" CC="00"/>
+						<SP ID="SP425" HPOS="1330" VPOS="624" WIDTH="20"/>
+						<String ID="String567" HPOS="1350" VPOS="589" WIDTH="26" HEIGHT="27" CONTENT="L." WC="0.56" CC="80"/>
+						<SP ID="SP426" HPOS="1376" VPOS="624" WIDTH="19"/>
+						<String ID="String568" HPOS="1395" VPOS="598" WIDTH="25" HEIGHT="18" CONTENT="V." WC="0.89" CC="20" STYLEREFS="TXT_2"/>
+						<SP ID="SP427" HPOS="1420" VPOS="624" WIDTH="18"/>
+						<String ID="String569" HPOS="1437" VPOS="589" WIDTH="26" HEIGHT="27" CONTENT="d." WC="1.00" CC="00"/>
+						<SP ID="SP428" HPOS="1463" VPOS="624" WIDTH="18"/>
+						<String ID="String570" HPOS="1481" VPOS="588" WIDTH="123" HEIGHT="33" CONTENT="Straten," WC="1.00" CC="30000000"/>
+						<SP ID="SP429" HPOS="1604" VPOS="624" WIDTH="15"/>
+						<String ID="String571" HPOS="1619" VPOS="588" WIDTH="107" HEIGHT="26" CONTENT="arbeid." WC="1.00" CC="0000000"/>
+					</TextLine>
+					<TextLine ID="TextLine143" HPOS="1345" VPOS="625" WIDTH="65" HEIGHT="28">
+						<String ID="String572" HPOS="1345" VPOS="625" WIDTH="65" HEIGHT="28" CONTENT="N.S." WC="0.88" CC="4000"/>
+					</TextLine>
+					<TextLine ID="TextLine144" HPOS="1235" VPOS="660" WIDTH="478" HEIGHT="34">
+						<String ID="String573" HPOS="1235" VPOS="663" WIDTH="35" HEIGHT="27" CONTENT="38" WC="1.00" CC="00"/>
+						<SP ID="SP430" HPOS="1271" VPOS="690" WIDTH="39"/>
+						<String ID="String574" HPOS="1310" VPOS="661" WIDTH="33" HEIGHT="28" CONTENT="H." WC="1.00" CC="00"/>
+						<SP ID="SP431" HPOS="1343" VPOS="690" WIDTH="24"/>
+						<String ID="String575" HPOS="1367" VPOS="660" WIDTH="30" HEIGHT="28" CONTENT="P." WC="1.00" CC="00"/>
+						<SP ID="SP432" HPOS="1396" VPOS="690" WIDTH="24"/>
+						<String ID="String576" HPOS="1420" VPOS="660" WIDTH="135" HEIGHT="34" CONTENT="Enklaar," WC="1.00" CC="00000000"/>
+						<SP ID="SP433" HPOS="1554" VPOS="694" WIDTH="22"/>
+						<String ID="String577" HPOS="1577" VPOS="660" WIDTH="136" HEIGHT="27" CONTENT="kraandr." WC="1.00" CC="00000000"/>
+					</TextLine>
+					<TextLine ID="TextLine145" HPOS="1237" VPOS="697" WIDTH="437" HEIGHT="34">
+						<String ID="String578" HPOS="1237" VPOS="698" WIDTH="37" HEIGHT="26" CONTENT="40" WC="0.83" CC="03"/>
+						<SP ID="SP434" HPOS="1273" VPOS="724" WIDTH="38"/>
+						<String ID="String579" HPOS="1311" VPOS="698" WIDTH="32" HEIGHT="26" CONTENT="C." WC="1.00" CC="00"/>
+						<SP ID="SP435" HPOS="1343" VPOS="724" WIDTH="25"/>
+						<String ID="String580" HPOS="1368" VPOS="697" WIDTH="126" HEIGHT="34" CONTENT="Lauffer," WC="0.75" CC="80055000"/>
+						<SP ID="SP436" HPOS="1494" VPOS="731" WIDTH="24"/>
+						<String ID="String581" HPOS="1518" VPOS="697" WIDTH="156" HEIGHT="27" CONTENT="werkman." WC="1.00" CC="00006030"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock19" HPOS="1199" VPOS="806" WIDTH="478" HEIGHT="34" STYLEREFS="TXT_6 PAR_RIGHT">
+					<TextLine ID="TextLine146" HPOS="1200" VPOS="808" WIDTH="477" HEIGHT="32">
+						<String ID="String582" HPOS="1200" VPOS="808" WIDTH="204" HEIGHT="32" CONTENT="Abstederdijk" WC="0.65" CC="994505430000"/>
+						<SP ID="SP437" HPOS="1404" VPOS="840" WIDTH="26"/>
+						<String ID="String583" HPOS="1430" VPOS="808" WIDTH="111" HEIGHT="32" CONTENT="1—333j" WC="0.68" CC="880002"/>
+						<SP ID="SP438" HPOS="1541" VPOS="840" WIDTH="24"/>
+						<String ID="String584" HPOS="1565" VPOS="808" WIDTH="112" HEIGHT="27" CONTENT="2—212." WC="0.76" CC="080600"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock20" HPOS="1252" VPOS="876" WIDTH="433" HEIGHT="67" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="TextLine147" HPOS="1254" VPOS="878" WIDTH="429" HEIGHT="34">
+						<String ID="String585" HPOS="1254" VPOS="881" WIDTH="11" HEIGHT="24" CONTENT="1" WC="1.00" CC="0"/>
+						<SP ID="SP439" HPOS="1265" VPOS="905" WIDTH="39"/>
+						<String ID="String586" HPOS="1304" VPOS="879" WIDTH="28" HEIGHT="27" CONTENT="J." WC="0.89" CC="20"/>
+						<SP ID="SP440" HPOS="1332" VPOS="906" WIDTH="18"/>
+						<String ID="String587" HPOS="1350" VPOS="887" WIDTH="28" HEIGHT="18" CONTENT="V." WC="0.62" CC="70" STYLEREFS="TXT_4"/>
+						<SP ID="SP441" HPOS="1378" VPOS="906" WIDTH="17"/>
+						<String ID="String588" HPOS="1395" VPOS="878" WIDTH="172" HEIGHT="34" CONTENT="Beusekom," WC="0.85" CC="303500000"/>
+						<SP ID="SP442" HPOS="1567" VPOS="912" WIDTH="17"/>
+						<String ID="String589" HPOS="1584" VPOS="878" WIDTH="99" HEIGHT="27" CONTENT="landb." WC="0.95" CC="020000"/>
+					</TextLine>
+					<TextLine ID="TextLine148" HPOS="1304" VPOS="914" WIDTH="234" HEIGHT="26">
+						<String ID="String590" HPOS="1304" VPOS="914" WIDTH="34" HEIGHT="26" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP443" HPOS="1338" VPOS="940" WIDTH="20"/>
+						<String ID="String591" HPOS="1358" VPOS="914" WIDTH="180" HEIGHT="26" CONTENT="Hillebrand." WC="0.87" CC="40000000080"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock21" HPOS="1234" VPOS="948" WIDTH="503" HEIGHT="143" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="TextLine149" HPOS="1252" VPOS="948" WIDTH="462" HEIGHT="35">
+						<String ID="String592" HPOS="1252" VPOS="950" WIDTH="17" HEIGHT="27" CONTENT="3" WC="1.00" CC="0"/>
+						<SP ID="SP444" HPOS="1269" VPOS="977" WIDTH="37"/>
+						<String ID="String593" HPOS="1305" VPOS="950" WIDTH="67" HEIGHT="33" CONTENT="Mej." WC="0.72" CC="5140"/>
+						<SP ID="SP445" HPOS="1372" VPOS="983" WIDTH="27"/>
+						<String ID="String594" HPOS="1400" VPOS="948" WIDTH="32" HEIGHT="30" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP446" HPOS="1431" VPOS="983" WIDTH="27"/>
+						<String ID="String595" HPOS="1459" VPOS="957" WIDTH="56" HEIGHT="19" CONTENT="van" WC="0.98" CC="302"/>
+						<SP ID="SP447" HPOS="1514" VPOS="983" WIDTH="27"/>
+						<String ID="String596" HPOS="1541" VPOS="948" WIDTH="172" HEIGHT="27" CONTENT="Beusekom." WC="0.89" CC="005400000"/>
+					</TextLine>
+					<TextLine ID="TextLine150" HPOS="1258" VPOS="985" WIDTH="477" HEIGHT="33">
+						<String ID="String597" HPOS="1258" VPOS="989" WIDTH="14" HEIGHT="24" CONTENT="7" WC="0.55" CC="4"/>
+						<SP ID="SP448" HPOS="1272" VPOS="1012" WIDTH="39"/>
+						<String ID="String598" HPOS="1311" VPOS="985" WIDTH="31" HEIGHT="28" CONTENT="G." WC="0.69" CC="60"/>
+						<SP ID="SP449" HPOS="1342" VPOS="1013" WIDTH="21"/>
+						<String ID="String599" HPOS="1363" VPOS="986" WIDTH="190" HEIGHT="32" CONTENT="Kamerbeek," WC="0.99" CC="9300503000"/>
+						<SP ID="SP450" HPOS="1553" VPOS="1018" WIDTH="21"/>
+						<String ID="String600" HPOS="1574" VPOS="993" WIDTH="161" HEIGHT="20" CONTENT="aannemer." WC="0.99" CC="005400070"/>
+					</TextLine>
+					<TextLine ID="TextLine151" HPOS="1237" VPOS="1020" WIDTH="400" HEIGHT="35">
+						<String ID="String601" HPOS="1237" VPOS="1022" WIDTH="33" HEIGHT="27" CONTENT="13" WC="1.00" CC="00"/>
+						<SP ID="SP451" HPOS="1270" VPOS="1049" WIDTH="38"/>
+						<String ID="String602" HPOS="1307" VPOS="1020" WIDTH="32" HEIGHT="28" CONTENT="K." WC="0.63" CC="70"/>
+						<SP ID="SP452" HPOS="1339" VPOS="1049" WIDTH="25"/>
+						<String ID="String603" HPOS="1364" VPOS="1020" WIDTH="103" HEIGHT="34" CONTENT="Kuiler," WC="0.99" CC="1309004"/>
+						<SP ID="SP453" HPOS="1467" VPOS="1055" WIDTH="25"/>
+						<String ID="String604" HPOS="1492" VPOS="1020" WIDTH="145" HEIGHT="27" CONTENT="architect." WC="1.00" CC="0005040500"/>
+					</TextLine>
+					<TextLine ID="TextLine152" HPOS="1245" VPOS="1057" WIDTH="475" HEIGHT="33">
+						<String ID="String605" HPOS="1245" VPOS="1061" WIDTH="30" HEIGHT="25" CONTENT="15" WC="1.00" CC="00"/>
+						<SP ID="SP454" HPOS="1274" VPOS="1085" WIDTH="38"/>
+						<String ID="String606" HPOS="1312" VPOS="1058" WIDTH="32" HEIGHT="28" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP455" HPOS="1344" VPOS="1087" WIDTH="21"/>
+						<String ID="String607" HPOS="1365" VPOS="1058" WIDTH="116" HEIGHT="32" CONTENT="Jenner," WC="0.90" CC="0050001"/>
+						<SP ID="SP456" HPOS="1481" VPOS="1090" WIDTH="21"/>
+						<String ID="String608" HPOS="1502" VPOS="1057" WIDTH="133" HEIGHT="28" CONTENT="arbeider" WC="0.99" CC="00700700"/>
+						<SP ID="SP457" HPOS="1636" VPOS="1090" WIDTH="21"/>
+						<String ID="String609" HPOS="1657" VPOS="1057" WIDTH="63" HEIGHT="28" CONTENT="N.S." WC="0.66" CC="6070"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock22" HPOS="1232" VPOS="1091" WIDTH="500" HEIGHT="180" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="TextLine153" HPOS="1239" VPOS="1093" WIDTH="475" HEIGHT="34">
+						<String ID="String610" HPOS="1239" VPOS="1096" WIDTH="30" HEIGHT="26" CONTENT="17" WC="0.58" CC="52"/>
+						<SP ID="SP458" HPOS="1269" VPOS="1122" WIDTH="39"/>
+						<String ID="String611" HPOS="1307" VPOS="1094" WIDTH="31" HEIGHT="28" CONTENT="G." WC="0.68" CC="60"/>
+						<SP ID="SP459" HPOS="1338" VPOS="1122" WIDTH="19"/>
+						<String ID="String612" HPOS="1357" VPOS="1095" WIDTH="34" HEIGHT="27" CONTENT="A." WC="0.66" CC="51"/>
+						<SP ID="SP460" HPOS="1391" VPOS="1122" WIDTH="22"/>
+						<String ID="String613" HPOS="1414" VPOS="1093" WIDTH="28" HEIGHT="30" CONTENT="C." WC="1.00" CC="00"/>
+						<SP ID="SP461" HPOS="1442" VPOS="1122" WIDTH="19"/>
+						<String ID="String614" HPOS="1461" VPOS="1094" WIDTH="118" HEIGHT="33" CONTENT="Jacobs," WC="0.98" CC="7240062"/>
+						<SP ID="SP462" HPOS="1579" VPOS="1127" WIDTH="19"/>
+						<String ID="String615" HPOS="1598" VPOS="1094" WIDTH="116" HEIGHT="27" CONTENT="bankw." WC="0.56" CC="906090"/>
+					</TextLine>
+					<TextLine ID="TextLine154" HPOS="1235" VPOS="1128" WIDTH="442" HEIGHT="33">
+						<String ID="String616" HPOS="1235" VPOS="1129" WIDTH="32" HEIGHT="26" CONTENT="19" WC="0.59" CC="70"/>
+						<SP ID="SP463" HPOS="1267" VPOS="1155" WIDTH="41"/>
+						<String ID="String617" HPOS="1309" VPOS="1129" WIDTH="32" HEIGHT="27" CONTENT="H." WC="0.85" CC="20"/>
+						<SP ID="SP464" HPOS="1341" VPOS="1156" WIDTH="20"/>
+						<String ID="String618" HPOS="1361" VPOS="1129" WIDTH="32" HEIGHT="27" CONTENT="A." WC="0.83" CC="03"/>
+						<SP ID="SP465" HPOS="1393" VPOS="1156" WIDTH="19"/>
+						<String ID="String619" HPOS="1411" VPOS="1129" WIDTH="165" HEIGHT="32" CONTENT="Vloemans," WC="0.77" CC="057014000"/>
+						<SP ID="SP466" HPOS="1577" VPOS="1161" WIDTH="18"/>
+						<String ID="String620" HPOS="1594" VPOS="1128" WIDTH="83" HEIGHT="27" CONTENT="smid." WC="0.99" CC="07100"/>
+					</TextLine>
+					<TextLine ID="TextLine155" HPOS="1235" VPOS="1163" WIDTH="409" HEIGHT="35">
+						<String ID="String621" HPOS="1235" VPOS="1167" WIDTH="31" HEIGHT="25" CONTENT="21" WC="0.92" CC="01"/>
+						<SP ID="SP467" HPOS="1266" VPOS="1192" WIDTH="39"/>
+						<String ID="String622" HPOS="1305" VPOS="1165" WIDTH="27" HEIGHT="27" CONTENT="J." WC="0.60" CC="70"/>
+						<SP ID="SP468" HPOS="1332" VPOS="1192" WIDTH="21"/>
+						<String ID="String623" HPOS="1354" VPOS="1165" WIDTH="51" HEIGHT="27" CONTENT="Th." WC="0.98" CC="050"/>
+						<SP ID="SP469" HPOS="1404" VPOS="1192" WIDTH="22"/>
+						<String ID="String624" HPOS="1427" VPOS="1165" WIDTH="112" HEIGHT="33" CONTENT="Albers," WC="0.76" CC="0600550"/>
+						<SP ID="SP470" HPOS="1539" VPOS="1198" WIDTH="21"/>
+						<String ID="String625" HPOS="1560" VPOS="1163" WIDTH="84" HEIGHT="27" CONTENT="smid." WC="0.98" CC="72080"/>
+					</TextLine>
+					<TextLine ID="TextLine156" HPOS="1235" VPOS="1200" WIDTH="467" HEIGHT="33">
+						<String ID="String626" HPOS="1235" VPOS="1201" WIDTH="34" HEIGHT="26" CONTENT="23" WC="0.70" CC="50"/>
+						<SP ID="SP471" HPOS="1270" VPOS="1227" WIDTH="35"/>
+						<String ID="String627" HPOS="1305" VPOS="1201" WIDTH="35" HEIGHT="26" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP472" HPOS="1341" VPOS="1227" WIDTH="20"/>
+						<String ID="String628" HPOS="1361" VPOS="1200" WIDTH="164" HEIGHT="33" CONTENT="Houtveen," WC="0.74" CC="762000051"/>
+						<SP ID="SP473" HPOS="1525" VPOS="1233" WIDTH="20"/>
+						<String ID="String629" HPOS="1545" VPOS="1200" WIDTH="157" HEIGHT="27" CONTENT="werkman." WC="0.99" CC="90000470"/>
+					</TextLine>
+					<TextLine ID="TextLine157" HPOS="1235" VPOS="1234" WIDTH="495" HEIGHT="36">
+						<String ID="String630" HPOS="1235" VPOS="1238" WIDTH="35" HEIGHT="26" CONTENT="25" WC="0.99" CC="00"/>
+						<SP ID="SP474" HPOS="1271" VPOS="1264" WIDTH="39"/>
+						<String ID="String631" HPOS="1310" VPOS="1237" WIDTH="34" HEIGHT="27" CONTENT="G." WC="1.00" CC="00"/>
+						<SP ID="SP475" HPOS="1344" VPOS="1264" WIDTH="17"/>
+						<String ID="String632" HPOS="1361" VPOS="1235" WIDTH="107" HEIGHT="34" CONTENT="Meijer," WC="0.99" CC="2405402"/>
+						<SP ID="SP476" HPOS="1468" VPOS="1270" WIDTH="17"/>
+						<String ID="String633" HPOS="1485" VPOS="1235" WIDTH="100" HEIGHT="33" CONTENT="mach.," WC="0.99" CC="900001"/>
+						<SP ID="SP477" HPOS="1585" VPOS="1270" WIDTH="19"/>
+						<String ID="String634" HPOS="1604" VPOS="1234" WIDTH="126" HEIGHT="34" CONTENT="gasfabr." WC="0.80" CC="90060000"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock23" HPOS="1204" VPOS="1271" WIDTH="535" HEIGHT="207" STYLEREFS="TXT_3 PAR_BLOCK">
+					<Shape>
+						<Polygon POINTS="1204,1271 1739,1271 1739,1450 1472,1450 1472,1478 1204,1478"/>
+					</Shape>
+					<TextLine ID="TextLine158" HPOS="1234" VPOS="1272" WIDTH="449" HEIGHT="29">
+						<String ID="String635" HPOS="1234" VPOS="1276" WIDTH="33" HEIGHT="25" CONTENT="27" WC="0.69" CC="60"/>
+						<SP ID="SP478" HPOS="1267" VPOS="1300" WIDTH="38"/>
+						<String ID="String636" HPOS="1305" VPOS="1272" WIDTH="32" HEIGHT="27" CONTENT="E." WC="1.00" CC="00"/>
+						<SP ID="SP479" HPOS="1337" VPOS="1300" WIDTH="18"/>
+						<String ID="String637" HPOS="1355" VPOS="1273" WIDTH="34" HEIGHT="27" CONTENT="de" WC="0.60" CC="15"/>
+						<SP ID="SP480" HPOS="1389" VPOS="1300" WIDTH="104"/>
+						<String ID="String638" HPOS="1493" VPOS="1272" WIDTH="190" HEIGHT="27" CONTENT="timmerman." WC="1.00" CC="2400030020"/>
+					</TextLine>
+					<TextLine ID="TextLine159" HPOS="1234" VPOS="1306" WIDTH="501" HEIGHT="36">
+						<String ID="String639" HPOS="1234" VPOS="1311" WIDTH="34" HEIGHT="26" CONTENT="29" WC="0.39" CC="38"/>
+						<SP ID="SP481" HPOS="1269" VPOS="1337" WIDTH="35"/>
+						<String ID="String640" HPOS="1304" VPOS="1309" WIDTH="35" HEIGHT="27" CONTENT="H." WC="0.83" CC="30"/>
+						<SP ID="SP482" HPOS="1339" VPOS="1337" WIDTH="19"/>
+						<String ID="String641" HPOS="1358" VPOS="1309" WIDTH="31" HEIGHT="27" CONTENT="P." WC="0.72" CC="50"/>
+						<SP ID="SP483" HPOS="1389" VPOS="1337" WIDTH="18"/>
+						<String ID="String642" HPOS="1407" VPOS="1317" WIDTH="60" HEIGHT="19" CONTENT="van" WC="0.95" CC="680"/>
+						<SP ID="SP484" HPOS="1467" VPOS="1337" WIDTH="18"/>
+						<String ID="String643" HPOS="1485" VPOS="1307" WIDTH="130" HEIGHT="34" CONTENT="Rooijen," WC="0.74" CC="10057060"/>
+						<SP ID="SP485" HPOS="1615" VPOS="1342" WIDTH="19"/>
+						<String ID="String644" HPOS="1633" VPOS="1306" WIDTH="102" HEIGHT="28" CONTENT="schild." WC="0.99" CC="6070140"/>
+					</TextLine>
+					<TextLine ID="TextLine160" HPOS="1234" VPOS="1343" WIDTH="500" HEIGHT="35">
+						<String ID="String645" HPOS="1234" VPOS="1345" WIDTH="31" HEIGHT="26" CONTENT="31" WC="0.74" CC="05"/>
+						<SP ID="SP486" HPOS="1265" VPOS="1371" WIDTH="41"/>
+						<String ID="String646" HPOS="1306" VPOS="1344" WIDTH="22" HEIGHT="34" CONTENT="J." WC="0.71" CC="50"/>
+						<SP ID="SP487" HPOS="1329" VPOS="1378" WIDTH="18"/>
+						<String ID="String647" HPOS="1346" VPOS="1344" WIDTH="28" HEIGHT="27" CONTENT="L." WC="0.76" CC="40"/>
+						<SP ID="SP488" HPOS="1375" VPOS="1378" WIDTH="17"/>
+						<String ID="String648" HPOS="1391" VPOS="1344" WIDTH="138" HEIGHT="33" CONTENT="Lettinck," WC="0.84" CC="302500020"/>
+						<SP ID="SP489" HPOS="1530" VPOS="1378" WIDTH="17"/>
+						<String ID="String649" HPOS="1546" VPOS="1343" WIDTH="172" HEIGHT="34" CONTENT="drijfriemen" SUBS_TYPE="HypPart1" SUBS_CONTENT="drijfriemenfabriek." WC="0.84" CC="005530000000"/>
+						<HYP HPOS="1719" VPOS="1343" WIDTH="15" CONTENT="-"/>
+					</TextLine>
+					<TextLine ID="TextLine161" HPOS="1346" VPOS="1380" WIDTH="119" HEIGHT="28">
+						<String ID="String650" HPOS="1346" VPOS="1380" WIDTH="119" HEIGHT="28" CONTENT="fabriek." SUBS_TYPE="HypPart2" SUBS_CONTENT="drijfriemenfabriek." WC="0.77" CC="43046000"/>
+					</TextLine>
+					<TextLine ID="TextLine162" HPOS="1306" VPOS="1414" WIDTH="428" HEIGHT="34">
+						<String ID="String651" HPOS="1306" VPOS="1415" WIDTH="34" HEIGHT="28" CONTENT="O." WC="0.72" CC="50"/>
+						<SP ID="SP490" HPOS="1341" VPOS="1443" WIDTH="34"/>
+						<String ID="String652" HPOS="1375" VPOS="1416" WIDTH="138" HEIGHT="32" CONTENT="Lettinck," WC="0.79" CC="400001804"/>
+						<SP ID="SP491" HPOS="1513" VPOS="1448" WIDTH="32"/>
+						<String ID="String653" HPOS="1545" VPOS="1414" WIDTH="189" HEIGHT="34" CONTENT="sigarenwin-" WC="0.78" CC="05900000440"/>
+					</TextLine>
+					<TextLine ID="TextLine163" HPOS="1343" VPOS="1452" WIDTH="136" HEIGHT="26">
+						<String ID="String654" HPOS="1343" VPOS="1452" WIDTH="94" HEIGHT="26" CONTENT="keiler." WC="0.99" CC="0300370" STYLEREFS="TXT_7"/>
+						<SP ID="SP492" HPOS="1437" VPOS="1478" WIDTH="38"/>
+						<String ID="String655" HPOS="1475" VPOS="1452" WIDTH="4" HEIGHT="26" CONTENT="I" WC="0.53" CC="4" STYLEREFS="TXT_7"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock24" HPOS="1204" VPOS="1469" WIDTH="535" HEIGHT="340" STYLEREFS="TXT_3 PAR_LEFT">
+					<Shape>
+						<Polygon POINTS="1739,1469 1739,1809 1204,1809 1204,1485 1473,1485 1473,1469 1739,1469"/>
+					</Shape>
+					<TextLine ID="TextLine164" HPOS="1234" VPOS="1485" WIDTH="505" HEIGHT="35">
+						<String ID="String656" HPOS="1234" VPOS="1488" WIDTH="37" HEIGHT="27" CONTENT="33" WC="1.00" CC="00"/>
+						<SP ID="SP493" HPOS="1271" VPOS="1515" WIDTH="35"/>
+						<String ID="String657" HPOS="1306" VPOS="1486" WIDTH="34" HEIGHT="30" CONTENT="B." WC="1.00" CC="00"/>
+						<SP ID="SP494" HPOS="1341" VPOS="1515" WIDTH="15"/>
+						<String ID="String658" HPOS="1356" VPOS="1485" WIDTH="33" HEIGHT="32" CONTENT="C." WC="0.79" CC="04"/>
+						<SP ID="SP495" HPOS="1389" VPOS="1517" WIDTH="14"/>
+						<String ID="String659" HPOS="1403" VPOS="1485" WIDTH="99" HEIGHT="35" CONTENT="Pouw," WC="0.75" CC="70050"/>
+						<SP ID="SP496" HPOS="1502" VPOS="1520" WIDTH="17"/>
+						<String ID="String660" HPOS="1519" VPOS="1486" WIDTH="220" HEIGHT="34" CONTENT="rijwielhandel.;" WC="1.00" CC="045000010000007"/>
+					</TextLine>
+					<TextLine ID="TextLine165" HPOS="1205" VPOS="1521" WIDTH="529" HEIGHT="35">
+						<String ID="String661" HPOS="1205" VPOS="1524" WIDTH="85" HEIGHT="30" CONTENT="35-37" WC="0.72" CC="45400"/>
+						<SP ID="SP497" HPOS="1290" VPOS="1553" WIDTH="20"/>
+						<String ID="String662" HPOS="1310" VPOS="1524" WIDTH="33" HEIGHT="28" CONTENT="G." WC="0.78" CC="40"/>
+						<SP ID="SP498" HPOS="1343" VPOS="1553" WIDTH="30"/>
+						<String ID="String663" HPOS="1372" VPOS="1524" WIDTH="31" HEIGHT="27" CONTENT="B." WC="0.93" CC="10"/>
+						<SP ID="SP499" HPOS="1403" VPOS="1553" WIDTH="31"/>
+						<String ID="String664" HPOS="1434" VPOS="1522" WIDTH="103" HEIGHT="33" CONTENT="Greve," WC="0.85" CC="300103"/>
+						<SP ID="SP500" HPOS="1537" VPOS="1556" WIDTH="28"/>
+						<String ID="String665" HPOS="1565" VPOS="1521" WIDTH="152" HEIGHT="28" CONTENT="brandstof" SUBS_TYPE="HypPart1" SUBS_CONTENT="brandstoffenhandel." WC="0.99" CC="0660404540"/>
+						<HYP HPOS="1717" VPOS="1521" WIDTH="17" CONTENT="-"/>
+					</TextLine>
+					<TextLine ID="TextLine166" HPOS="1345" VPOS="1559" WIDTH="163" HEIGHT="27">
+						<String ID="String666" HPOS="1345" VPOS="1559" WIDTH="163" HEIGHT="27" CONTENT="fenhandel." SUBS_TYPE="HypPart2" SUBS_CONTENT="brandstoffenhandel." WC="0.99" CC="6001102070"/>
+					</TextLine>
+					<TextLine ID="TextLine167" HPOS="1235" VPOS="1594" WIDTH="499" HEIGHT="34">
+						<String ID="String667" HPOS="1235" VPOS="1597" WIDTH="35" HEIGHT="27" CONTENT="39" WC="1.00" CC="00"/>
+						<SP ID="SP501" HPOS="1271" VPOS="1624" WIDTH="37"/>
+						<String ID="String668" HPOS="1307" VPOS="1596" WIDTH="45" HEIGHT="28" CONTENT="W." WC="0.67" CC="60"/>
+						<SP ID="SP502" HPOS="1352" VPOS="1624" WIDTH="19"/>
+						<String ID="String669" HPOS="1371" VPOS="1596" WIDTH="31" HEIGHT="28" CONTENT="P." WC="1.00" CC="00"/>
+						<SP ID="SP503" HPOS="1402" VPOS="1624" WIDTH="19"/>
+						<String ID="String670" HPOS="1421" VPOS="1596" WIDTH="143" HEIGHT="32" CONTENT="Roussou," WC="0.91" CC="03300000"/>
+						<SP ID="SP504" HPOS="1564" VPOS="1628" WIDTH="18"/>
+						<String ID="String671" HPOS="1581" VPOS="1594" WIDTH="27" HEIGHT="28" CONTENT="in" WC="1.00" CC="00"/>
+						<SP ID="SP505" HPOS="1609" VPOS="1628" WIDTH="19"/>
+						<String ID="String672" HPOS="1628" VPOS="1594" WIDTH="106" HEIGHT="27" CONTENT="huish.-" WC="0.93" CC="0002002"/>
+					</TextLine>
+					<TextLine ID="TextLine168" HPOS="1345" VPOS="1633" WIDTH="52" HEIGHT="26">
+						<String ID="String673" HPOS="1345" VPOS="1633" WIDTH="52" HEIGHT="26" CONTENT="art." WC="0.98" CC="0000"/>
+					</TextLine>
+					<TextLine ID="TextLine169" HPOS="1235" VPOS="1665" WIDTH="503" HEIGHT="35">
+						<String ID="String674" HPOS="1235" VPOS="1668" WIDTH="33" HEIGHT="27" CONTENT="41" WC="0.90" CC="01"/>
+						<SP ID="SP506" HPOS="1269" VPOS="1695" WIDTH="44"/>
+						<String ID="String675" HPOS="1312" VPOS="1668" WIDTH="30" HEIGHT="27" CONTENT="L." WC="1.00" CC="00"/>
+						<SP ID="SP507" HPOS="1342" VPOS="1695" WIDTH="43"/>
+						<String ID="String676" HPOS="1384" VPOS="1667" WIDTH="178" HEIGHT="33" CONTENT="Verhoeven," WC="1.00" CC="0000000040"/>
+						<SP ID="SP508" HPOS="1563" VPOS="1700" WIDTH="45"/>
+						<String ID="String677" HPOS="1607" VPOS="1665" WIDTH="131" HEIGHT="35" CONTENT="graniet--" WC="0.99" CC="900000014"/>
+					</TextLine>
+					<TextLine ID="TextLine170" HPOS="1349" VPOS="1704" WIDTH="118" HEIGHT="26">
+						<String ID="String678" HPOS="1349" VPOS="1704" WIDTH="118" HEIGHT="26" CONTENT="werker." WC="1.00" CC="0000000"/>
+					</TextLine>
+					<TextLine ID="TextLine171" HPOS="1238" VPOS="1739" WIDTH="501" HEIGHT="38">
+						<String ID="String679" HPOS="1238" VPOS="1741" WIDTH="35" HEIGHT="27" CONTENT="43" WC="1.00" CC="00"/>
+						<SP ID="SP509" HPOS="1273" VPOS="1768" WIDTH="40"/>
+						<String ID="String680" HPOS="1313" VPOS="1741" WIDTH="33" HEIGHT="27" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP510" HPOS="1346" VPOS="1768" WIDTH="61"/>
+						<String ID="String681" HPOS="1408" VPOS="1739" WIDTH="331" HEIGHT="38" CONTENT="Maarschalkerweerd,," WC="0.93" CC="6000000000000000024"/>
+					</TextLine>
+					<TextLine ID="TextLine172" HPOS="1343" VPOS="1776" WIDTH="233" HEIGHT="32">
+						<String ID="String682" HPOS="1343" VPOS="1776" WIDTH="233" HEIGHT="32" CONTENT="granietwerker." WC="0.65" CC="76666409000000"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock25" HPOS="1230" VPOS="1809" WIDTH="507" HEIGHT="394" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="TextLine173" HPOS="1238" VPOS="1811" WIDTH="352" HEIGHT="28">
+						<String ID="String683" HPOS="1238" VPOS="1814" WIDTH="33" HEIGHT="25" CONTENT="45" WC="0.50" CC="90"/>
+						<SP ID="SP511" HPOS="1271" VPOS="1839" WIDTH="37"/>
+						<String ID="String684" HPOS="1307" VPOS="1812" WIDTH="44" HEIGHT="27" CONTENT="W." WC="1.00" CC="00"/>
+						<SP ID="SP512" HPOS="1351" VPOS="1839" WIDTH="24"/>
+						<String ID="String685" HPOS="1375" VPOS="1811" WIDTH="31" HEIGHT="28" CONTENT="0." WC="0.53" CC="90"/>
+						<SP ID="SP513" HPOS="1406" VPOS="1839" WIDTH="21"/>
+						<String ID="String686" HPOS="1427" VPOS="1820" WIDTH="59" HEIGHT="19" CONTENT="van" WC="0.96" CC="055"/>
+						<SP ID="SP514" HPOS="1486" VPOS="1839" WIDTH="21"/>
+						<String ID="String687" HPOS="1507" VPOS="1811" WIDTH="83" HEIGHT="28" CONTENT="Dam." WC="1.00" CC="0000"/>
+					</TextLine>
+					<TextLine ID="TextLine174" HPOS="1233" VPOS="1846" WIDTH="428" HEIGHT="33">
+						<String ID="String688" HPOS="1233" VPOS="1847" WIDTH="37" HEIGHT="27" CONTENT="47" WC="1.00" CC="00"/>
+						<SP ID="SP515" HPOS="1270" VPOS="1874" WIDTH="37"/>
+						<String ID="String689" HPOS="1306" VPOS="1847" WIDTH="45" HEIGHT="27" CONTENT="W." WC="0.51" CC="90"/>
+						<SP ID="SP516" HPOS="1351" VPOS="1874" WIDTH="21"/>
+						<String ID="String690" HPOS="1372" VPOS="1847" WIDTH="83" HEIGHT="32" CONTENT="Koot," WC="0.99" CC="30020"/>
+						<SP ID="SP517" HPOS="1455" VPOS="1879" WIDTH="24"/>
+						<String ID="String691" HPOS="1479" VPOS="1846" WIDTH="182" HEIGHT="28" CONTENT="caféhouder." WC="1.00" CC="00000000000"/>
+					</TextLine>
+					<TextLine ID="TextLine175" HPOS="1238" VPOS="1881" WIDTH="495" HEIGHT="36">
+						<String ID="String692" HPOS="1238" VPOS="1884" WIDTH="37" HEIGHT="26" CONTENT="49" WC="1.00" CC="00"/>
+						<SP ID="SP518" HPOS="1274" VPOS="1910" WIDTH="38"/>
+						<String ID="String693" HPOS="1312" VPOS="1883" WIDTH="45" HEIGHT="28" CONTENT="W." WC="1.00" CC="00"/>
+						<SP ID="SP519" HPOS="1357" VPOS="1911" WIDTH="45"/>
+						<String ID="String694" HPOS="1402" VPOS="1881" WIDTH="119" HEIGHT="35" CONTENT="Snijder," WC="1.00" CC="00000000"/>
+						<SP ID="SP520" HPOS="1521" VPOS="1917" WIDTH="44"/>
+						<String ID="String695" HPOS="1565" VPOS="1881" WIDTH="154" HEIGHT="27" CONTENT="koffiehuis" SUBS_TYPE="HypPart1" SUBS_CONTENT="koffiehuishouder." WC="1.00" CC="00000000000"/>
+						<HYP HPOS="1719" VPOS="1881" WIDTH="14" CONTENT="-"/>
+					</TextLine>
+					<TextLine ID="TextLine176" HPOS="1350" VPOS="1919" WIDTH="117" HEIGHT="27">
+						<String ID="String696" HPOS="1350" VPOS="1919" WIDTH="117" HEIGHT="27" CONTENT="houder." SUBS_TYPE="HypPart2" SUBS_CONTENT="koffiehuishouder." WC="1.00" CC="0000000"/>
+					</TextLine>
+					<TextLine ID="TextLine177" HPOS="1239" VPOS="1954" WIDTH="456" HEIGHT="34">
+						<String ID="String697" HPOS="1239" VPOS="1957" WIDTH="33" HEIGHT="27" CONTENT="51" WC="1.00" CC="00"/>
+						<SP ID="SP521" HPOS="1272" VPOS="1984" WIDTH="41"/>
+						<String ID="String698" HPOS="1313" VPOS="1956" WIDTH="31" HEIGHT="27" CONTENT="E." WC="1.00" CC="00"/>
+						<SP ID="SP522" HPOS="1344" VPOS="1984" WIDTH="26"/>
+						<String ID="String699" HPOS="1370" VPOS="1956" WIDTH="185" HEIGHT="32" CONTENT="Besamusca," WC="1.00" CC="0000000000"/>
+						<SP ID="SP523" HPOS="1556" VPOS="1988" WIDTH="25"/>
+						<String ID="String700" HPOS="1580" VPOS="1954" WIDTH="115" HEIGHT="30" CONTENT="bankw." WC="1.00" CC="000000"/>
+					</TextLine>
+					<TextLine ID="TextLine178" HPOS="1238" VPOS="1991" WIDTH="496" HEIGHT="36">
+						<String ID="String701" HPOS="1238" VPOS="1995" WIDTH="33" HEIGHT="27" CONTENT="53" WC="0.70" CC="05"/>
+						<SP ID="SP524" HPOS="1271" VPOS="2022" WIDTH="35"/>
+						<String ID="String702" HPOS="1306" VPOS="1994" WIDTH="34" HEIGHT="27" CONTENT="H." WC="0.66" CC="60"/>
+						<SP ID="SP525" HPOS="1341" VPOS="2022" WIDTH="19"/>
+						<String ID="String703" HPOS="1359" VPOS="2003" WIDTH="27" HEIGHT="19" CONTENT="V." WC="1.00" CC="00" STYLEREFS="TXT_2"/>
+						<SP ID="SP526" HPOS="1387" VPOS="2022" WIDTH="20"/>
+						<String ID="String704" HPOS="1407" VPOS="1993" WIDTH="135" HEIGHT="34" CONTENT="Meerten," WC="0.93" CC="40000010"/>
+						<SP ID="SP527" HPOS="1541" VPOS="2027" WIDTH="17"/>
+						<String ID="String705" HPOS="1558" VPOS="1991" WIDTH="176" HEIGHT="34" CONTENT="klo'mpenm." WC="0.72" CC="0524000590"/>
+					</TextLine>
+					<TextLine ID="TextLine179" HPOS="1244" VPOS="2027" WIDTH="393" HEIGHT="33">
+						<String ID="String706" HPOS="1244" VPOS="2029" WIDTH="35" HEIGHT="26" CONTENT="55" WC="1.00" CC="00"/>
+						<SP ID="SP528" HPOS="1279" VPOS="2055" WIDTH="40"/>
+						<String ID="String707" HPOS="1319" VPOS="2028" WIDTH="33" HEIGHT="27" CONTENT="G." WC="1.00" CC="00"/>
+						<SP ID="SP529" HPOS="1352" VPOS="2055" WIDTH="24"/>
+						<String ID="String708" HPOS="1376" VPOS="2028" WIDTH="181" HEIGHT="27" CONTENT="Kamerbeek" WC="1.00" CC="000000000"/>
+						<SP ID="SP530" HPOS="1557" VPOS="2055" WIDTH="20"/>
+						<String ID="String709" HPOS="1577" VPOS="2027" WIDTH="60" HEIGHT="33" CONTENT="Tz.," WC="0.90" CC="0300"/>
+					</TextLine>
+					<TextLine ID="TextLine180" HPOS="1356" VPOS="2065" WIDTH="119" HEIGHT="27">
+						<String ID="String710" HPOS="1356" VPOS="2065" WIDTH="119" HEIGHT="27" CONTENT="draaier." WC="1.00" CC="00000000"/>
+					</TextLine>
+					<TextLine ID="TextLine181" HPOS="1239" VPOS="2099" WIDTH="495" HEIGHT="34">
+						<String ID="String711" HPOS="1239" VPOS="2102" WIDTH="37" HEIGHT="27" CONTENT="57" WC="1.00" CC="00"/>
+						<SP ID="SP531" HPOS="1276" VPOS="2130" WIDTH="35"/>
+						<String ID="String712" HPOS="1311" VPOS="2101" WIDTH="39" HEIGHT="27" CONTENT="M." WC="1.00" CC="00"/>
+						<SP ID="SP532" HPOS="1350" VPOS="2130" WIDTH="21"/>
+						<String ID="String713" HPOS="1371" VPOS="2108" WIDTH="57" HEIGHT="20" CONTENT="van" WC="1.00" CC="000"/>
+						<SP ID="SP533" HPOS="1428" VPOS="2130" WIDTH="20"/>
+						<String ID="String714" HPOS="1448" VPOS="2100" WIDTH="115" HEIGHT="33" CONTENT="Schaik," WC="1.00" CC="0000000"/>
+						<SP ID="SP534" HPOS="1563" VPOS="2133" WIDTH="21"/>
+						<String ID="String715" HPOS="1584" VPOS="2099" WIDTH="150" HEIGHT="28" CONTENT="metaaldr." WC="0.99" CC="000000000"/>
+					</TextLine>
+					<TextLine ID="TextLine182" HPOS="1239" VPOS="2135" WIDTH="492" HEIGHT="37">
+						<String ID="String716" HPOS="1239" VPOS="2139" WIDTH="35" HEIGHT="27" CONTENT="59" WC="1.00" CC="00"/>
+						<SP ID="SP535" HPOS="1274" VPOS="2166" WIDTH="38"/>
+						<String ID="String717" HPOS="1312" VPOS="2138" WIDTH="69" HEIGHT="34" CONTENT="Mej." WC="0.87" CC="0050"/>
+						<SP ID="SP536" HPOS="1381" VPOS="2172" WIDTH="27"/>
+						<String ID="String718" HPOS="1408" VPOS="2138" WIDTH="38" HEIGHT="27" CONTENT="M." WC="1.00" CC="00"/>
+						<SP ID="SP537" HPOS="1446" VPOS="2172" WIDTH="28"/>
+						<String ID="String719" HPOS="1474" VPOS="2137" WIDTH="35" HEIGHT="27" CONTENT="de" WC="1.00" CC="00"/>
+						<SP ID="SP538" HPOS="1509" VPOS="2172" WIDTH="26"/>
+						<String ID="String720" HPOS="1535" VPOS="2137" WIDTH="85" HEIGHT="34" CONTENT="Laak," WC="0.99" CC="60000"/>
+						<SP ID="SP539" HPOS="1620" VPOS="2172" WIDTH="53"/>
+						<String ID="String721" HPOS="1674" VPOS="2135" WIDTH="57" HEIGHT="27" CONTENT="afd." WC="1.00" CC="0000"/>
+					</TextLine>
+					<TextLine ID="TextLine183" HPOS="1351" VPOS="2173" WIDTH="73" HEIGHT="28">
+						<String ID="String722" HPOS="1351" VPOS="2173" WIDTH="73" HEIGHT="28" CONTENT="chef." WC="1.00" CC="00000"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock26" HPOS="1234" VPOS="2206" WIDTH="506" HEIGHT="276" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="TextLine184" HPOS="1237" VPOS="2210" WIDTH="484" HEIGHT="34">
+						<String ID="String723" HPOS="1237" VPOS="2212" WIDTH="31" HEIGHT="26" CONTENT="61" WC="1.00" CC="00"/>
+						<SP ID="SP540" HPOS="1267" VPOS="2238" WIDTH="39"/>
+						<String ID="String724" HPOS="1306" VPOS="2211" WIDTH="35" HEIGHT="27" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP541" HPOS="1342" VPOS="2238" WIDTH="19"/>
+						<String ID="String725" HPOS="1361" VPOS="2219" WIDTH="59" HEIGHT="19" CONTENT="van" WC="0.97" CC="007"/>
+						<SP ID="SP542" HPOS="1420" VPOS="2238" WIDTH="20"/>
+						<String ID="String726" HPOS="1440" VPOS="2210" WIDTH="109" HEIGHT="34" CONTENT="Noord," WC="0.99" CC="900010"/>
+						<SP ID="SP543" HPOS="1548" VPOS="2244" WIDTH="20"/>
+						<String ID="String727" HPOS="1569" VPOS="2210" WIDTH="152" HEIGHT="27" CONTENT="timmerm." WC="0.86" CC="00820000"/>
+					</TextLine>
+					<TextLine ID="TextLine185" HPOS="1310" VPOS="2258" WIDTH="281" HEIGHT="30">
+						<String ID="String728" HPOS="1310" VPOS="2258" WIDTH="281" HEIGHT="30" CONTENT="Noteboomenlaan." WC="0.72" CC="605300066020071" STYLEREFS="TXT_5"/>
+					</TextLine>
+					<TextLine ID="TextLine186" HPOS="1237" VPOS="2307" WIDTH="501" HEIGHT="35">
+						<String ID="String729" HPOS="1237" VPOS="2309" WIDTH="33" HEIGHT="26" CONTENT="67" WC="1.00" CC="00"/>
+						<SP ID="SP544" HPOS="1270" VPOS="2335" WIDTH="37"/>
+						<String ID="String730" HPOS="1306" VPOS="2308" WIDTH="28" HEIGHT="27" CONTENT="J." WC="1.00" CC="00"/>
+						<SP ID="SP545" HPOS="1335" VPOS="2335" WIDTH="15"/>
+						<String ID="String731" HPOS="1350" VPOS="2308" WIDTH="66" HEIGHT="34" CONTENT="Bos," WC="0.98" CC="0060"/>
+						<SP ID="SP546" HPOS="1416" VPOS="2342" WIDTH="18"/>
+						<String ID="String732" HPOS="1434" VPOS="2308" WIDTH="31" HEIGHT="27" CONTENT="in" WC="1.00" CC="00"/>
+						<SP ID="SP547" HPOS="1465" VPOS="2342" WIDTH="15"/>
+						<String ID="String733" HPOS="1480" VPOS="2307" WIDTH="133" HEIGHT="27" CONTENT="kruiden," WC="1.00" CC="00000000"/>
+						<SP ID="SP548" HPOS="1613" VPOS="2342" WIDTH="17"/>
+						<String ID="String734" HPOS="1630" VPOS="2313" WIDTH="107" HEIGHT="20" CONTENT="waren." WC="0.99" CC="060060"/>
+					</TextLine>
+					<TextLine ID="TextLine187" HPOS="1237" VPOS="2342" WIDTH="500" HEIGHT="32">
+						<String ID="String735" HPOS="1237" VPOS="2344" WIDTH="34" HEIGHT="26" CONTENT="69" WC="0.63" CC="70"/>
+						<SP ID="SP549" HPOS="1271" VPOS="2370" WIDTH="37"/>
+						<String ID="String736" HPOS="1307" VPOS="2343" WIDTH="31" HEIGHT="27" CONTENT="F." WC="0.66" CC="60"/>
+						<SP ID="SP550" HPOS="1338" VPOS="2370" WIDTH="18"/>
+						<String ID="String737" HPOS="1356" VPOS="2343" WIDTH="45" HEIGHT="27" CONTENT="W." WC="1.00" CC="00"/>
+						<SP ID="SP551" HPOS="1401" VPOS="2370" WIDTH="18"/>
+						<String ID="String738" HPOS="1419" VPOS="2352" WIDTH="28" HEIGHT="19" CONTENT="V." WC="1.00" CC="00" STYLEREFS="TXT_2"/>
+						<SP ID="SP552" HPOS="1447" VPOS="2370" WIDTH="19"/>
+						<String ID="String739" HPOS="1466" VPOS="2342" WIDTH="28" HEIGHT="27" CONTENT="d." WC="1.00" CC="00"/>
+						<SP ID="SP553" HPOS="1494" VPOS="2370" WIDTH="18"/>
+						<String ID="String740" HPOS="1512" VPOS="2342" WIDTH="100" HEIGHT="32" CONTENT="Vaart," WC="1.00" CC="600000"/>
+						<SP ID="SP554" HPOS="1612" VPOS="2374" WIDTH="20"/>
+						<String ID="String741" HPOS="1632" VPOS="2342" WIDTH="104" HEIGHT="32" CONTENT="slager." WC="0.99" CC="0009000"/>
+					</TextLine>
+					<TextLine ID="TextLine188" HPOS="1237" VPOS="2376" WIDTH="500" HEIGHT="36">
+						<String ID="String742" HPOS="1237" VPOS="2381" WIDTH="32" HEIGHT="26" CONTENT="71" WC="1.00" CC="00"/>
+						<SP ID="SP555" HPOS="1269" VPOS="2407" WIDTH="38"/>
+						<String ID="String743" HPOS="1306" VPOS="2380" WIDTH="30" HEIGHT="27" CONTENT="J." WC="0.69" CC="60"/>
+						<SP ID="SP556" HPOS="1336" VPOS="2407" WIDTH="25"/>
+						<String ID="String744" HPOS="1361" VPOS="2388" WIDTH="59" HEIGHT="18" CONTENT="van" WC="1.00" CC="000"/>
+						<SP ID="SP557" HPOS="1420" VPOS="2407" WIDTH="25"/>
+						<String ID="String745" HPOS="1444" VPOS="2379" WIDTH="107" HEIGHT="33" CONTENT="Haren," WC="1.00" CC="500000"/>
+						<SP ID="SP558" HPOS="1552" VPOS="2412" WIDTH="26"/>
+						<String ID="String746" HPOS="1578" VPOS="2376" WIDTH="158" HEIGHT="28" CONTENT="winkelier." WC="1.00" CC="0055300000"/>
+					</TextLine>
+					<TextLine ID="TextLine189" HPOS="1237" VPOS="2414" WIDTH="481" HEIGHT="31">
+						<String ID="String747" HPOS="1237" VPOS="2417" WIDTH="34" HEIGHT="26" CONTENT="73" WC="0.50" CC="90"/>
+						<SP ID="SP559" HPOS="1271" VPOS="2443" WIDTH="38"/>
+						<String ID="String748" HPOS="1309" VPOS="2414" WIDTH="81" HEIGHT="28" CONTENT="Gebr." WC="0.70" CC="07700"/>
+						<SP ID="SP560" HPOS="1390" VPOS="2443" WIDTH="20"/>
+						<String ID="String749" HPOS="1410" VPOS="2414" WIDTH="31" HEIGHT="27" CONTENT="O." WC="0.58" CC="80"/>
+						<SP ID="SP561" HPOS="1441" VPOS="2443" WIDTH="19"/>
+						<String ID="String750" HPOS="1460" VPOS="2422" WIDTH="38" HEIGHT="19" CONTENT="en" WC="1.00" CC="00"/>
+						<SP ID="SP562" HPOS="1498" VPOS="2443" WIDTH="18"/>
+						<String ID="String751" HPOS="1515" VPOS="2414" WIDTH="31" HEIGHT="27" CONTENT="G." WC="1.00" CC="00"/>
+						<SP ID="SP563" HPOS="1546" VPOS="2443" WIDTH="18"/>
+						<String ID="String752" HPOS="1564" VPOS="2414" WIDTH="154" HEIGHT="31" CONTENT="Stiekema," WC="0.72" CC="707000640"/>
+					</TextLine>
+					<TextLine ID="TextLine190" HPOS="1350" VPOS="2454" WIDTH="155" HEIGHT="27">
+						<String ID="String753" HPOS="1350" VPOS="2454" WIDTH="155" HEIGHT="27" CONTENT="monteurs." WC="1.00" CC="007000010"/>
+					</TextLine>
+				</TextBlock>
+				<TextBlock ID="TextBlock27" HPOS="1233" VPOS="2484" WIDTH="503" HEIGHT="286" STYLEREFS="TXT_1 PAR_LEFT">
+					<TextLine ID="TextLine191" HPOS="1240" VPOS="2485" WIDTH="423" HEIGHT="33">
+						<String ID="String754" HPOS="1240" VPOS="2487" WIDTH="35" HEIGHT="27" CONTENT="75" WC="0.70" CC="05"/>
+						<SP ID="SP564" HPOS="1276" VPOS="2515" WIDTH="38"/>
+						<String ID="String755" HPOS="1313" VPOS="2486" WIDTH="33" HEIGHT="27" CONTENT="A." WC="1.00" CC="00"/>
+						<SP ID="SP565" HPOS="1346" VPOS="2515" WIDTH="19"/>
+						<String ID="String756" HPOS="1365" VPOS="2493" WIDTH="56" HEIGHT="20" CONTENT="van" WC="1.00" CC="000"/>
+						<SP ID="SP566" HPOS="1421" VPOS="2515" WIDTH="20"/>
+						<String ID="String757" HPOS="1441" VPOS="2485" WIDTH="84" HEIGHT="33" CONTENT="Dam," WC="0.99" CC="4000"/>
+						<SP ID="SP567" HPOS="1525" VPOS="2518" WIDTH="20"/>
+						<String ID="String758" HPOS="1545" VPOS="2485" WIDTH="118" HEIGHT="33" CONTENT="kapper." WC="1.00" CC="0000000"/>
+					</TextLine>
+					<TextLine ID="TextLine192" HPOS="1237" VPOS="2519" WIDTH="497" HEIGHT="38">
+						<String ID="String759" HPOS="1237" VPOS="2524" WIDTH="34" HEIGHT="27" CONTENT="77" WC="1.00" CC="00"/>
+						<SP ID="SP568" HPOS="1271" VPOS="2551" WIDTH="39"/>
+						<String ID="String760" HPOS="1310" VPOS="2523" WIDTH="22" HEIGHT="34" CONTENT="J." WC="1.00" CC="00"/>
+						<SP ID="SP569" HPOS="1332" VPOS="2557" WIDTH="24"/>
+						<String ID="String761" HPOS="1356" VPOS="2523" WIDTH="33" HEIGHT="28" CONTENT="D." WC="1.00" CC="00"/>
+						<SP ID="SP570" HPOS="1389" VPOS="2557" WIDTH="24"/>
+						<String ID="String762" HPOS="1413" VPOS="2522" WIDTH="191" HEIGHT="35" CONTENT="Nengerman," WC="0.99" CC="0000000010"/>
+						<SP ID="SP571" HPOS="1604" VPOS="2557" WIDTH="24"/>
+						<String ID="String763" HPOS="1628" VPOS="2519" WIDTH="106" HEIGHT="28" CONTENT="chauff." WC="0.81" CC="0000660"/>
+					</TextLine>
+					<TextLine ID="TextLine193" HPOS="1237" VPOS="2557" WIDTH="446" HEIGHT="33">
+						<String ID="String764" HPOS="1237" VPOS="2561" WIDTH="34" HEIGHT="26" CONTENT="79" WC="0.08" CC="89"/>
+						<SP ID="SP572" HPOS="1271" VPOS="2587" WIDTH="35"/>
+						<String ID="String765" HPOS="1306" VPOS="2558" WIDTH="34" HEIGHT="27" CONTENT="D." WC="0.84" CC="30"/>
+						<SP ID="SP573" HPOS="1341" VPOS="2587" WIDTH="21"/>
+						<String ID="String766" HPOS="1362" VPOS="2558" WIDTH="149" HEIGHT="32" CONTENT="Methorst," WC="0.86" CC="000000560"/>
+						<SP ID="SP574" HPOS="1511" VPOS="2590" WIDTH="20"/>
+						<String ID="String767" HPOS="1531" VPOS="2557" WIDTH="60" HEIGHT="27" CONTENT="afd." WC="0.63" CC="0680"/>
+						<SP ID="SP575" HPOS="1591" VPOS="2590" WIDTH="19"/>
+						<String ID="String768" HPOS="1610" VPOS="2557" WIDTH="73" HEIGHT="27" CONTENT="chef." WC="1.00" CC="00020"/>
+					</TextLine>
+					<TextLine ID="TextLine194" HPOS="1237" VPOS="2593" WIDTH="376" HEIGHT="34">
+						<String ID="String769" HPOS="1237" VPOS="2596" WIDTH="31" HEIGHT="26" CONTENT="81" WC="1.00" CC="00"/>
+						<SP ID="SP576" HPOS="1267" VPOS="2622" WIDTH="43"/>
+						<String ID="String770" HPOS="1310" VPOS="2594" WIDTH="31" HEIGHT="28" CONTENT="C." WC="1.00" CC="00"/>
+						<SP ID="SP577" HPOS="1341" VPOS="2622" WIDTH="17"/>
+						<String ID="String771" HPOS="1357" VPOS="2594" WIDTH="120" HEIGHT="33" CONTENT="Mulder," WC="1.00" CC="0000003"/>
+						<SP ID="SP578" HPOS="1478" VPOS="2627" WIDTH="17"/>
+						<String ID="String772" HPOS="1494" VPOS="2593" WIDTH="118" HEIGHT="28" CONTENT="tailleur." WC="1.00" CC="000000000"/>
+					</TextLine>
+					<TextLine ID="TextLine195" HPOS="1241" VPOS="2628" WIDTH="441" HEIGHT="33">
+						<String ID="String773" HPOS="1241" VPOS="2629" WIDTH="35" HEIGHT="28" CONTENT="83" WC="1.00" CC="00"/>
+						<SP ID="SP579" HPOS="1277" VPOS="2657" WIDTH="37"/>
+						<String ID="String774" HPOS="1313" VPOS="2629" WIDTH="45" HEIGHT="27" CONTENT="W." WC="1.00" CC="00"/>
+						<SP ID="SP580" HPOS="1358" VPOS="2657" WIDTH="19"/>
+						<String ID="String775" HPOS="1377" VPOS="2636" WIDTH="26" HEIGHT="20" CONTENT="V." WC="1.00" CC="00" STYLEREFS="TXT_2"/>
+						<SP ID="SP581" HPOS="1403" VPOS="2657" WIDTH="20"/>
+						<String ID="String776" HPOS="1423" VPOS="2629" WIDTH="27" HEIGHT="27" CONTENT="d." WC="1.00" CC="00" STYLEREFS="TXT_2"/>
+						<SP ID="SP582" HPOS="1450" VPOS="2657" WIDTH="20"/>
+						<String ID="String777" HPOS="1470" VPOS="2628" WIDTH="72" HEIGHT="33" CONTENT="Wel," WC="1.00" CC="0000"/>
+						<SP ID="SP583" HPOS="1543" VPOS="2661" WIDTH="21"/>
+						<String ID="String778" HPOS="1564" VPOS="2634" WIDTH="118" HEIGHT="27" CONTENT="gepens." WC="1.00" CC="0000000"/>
+					</TextLine>
+					<TextLine ID="TextLine196" HPOS="1235" VPOS="2662" WIDTH="499" HEIGHT="35">
+						<String ID="String779" HPOS="1235" VPOS="2667" WIDTH="35" HEIGHT="27" CONTENT="85" WC="1.00" CC="00"/>
+						<SP ID="SP584" HPOS="1271" VPOS="2694" WIDTH="38"/>
+						<String ID="String780" HPOS="1309" VPOS="2665" WIDTH="34" HEIGHT="28" CONTENT="G." WC="1.00" CC="00"/>
+						<SP ID="SP585" HPOS="1343" VPOS="2694" WIDTH="27"/>
+						<String ID="String781" HPOS="1370" VPOS="2673" WIDTH="57" HEIGHT="20" CONTENT="van" WC="1.00" CC="000"/>
+						<SP ID="SP586" HPOS="1427" VPOS="2694" WIDTH="27"/>
+						<String ID="String782" HPOS="1454" VPOS="2665" WIDTH="51" HEIGHT="28" CONTENT="der" WC="1.00" CC="000"/>
+						<SP ID="SP587" HPOS="1505" VPOS="2694" WIDTH="26"/>
+						<String ID="String783" HPOS="1531" VPOS="2663" WIDTH="113" HEIGHT="33" CONTENT="Weerd," WC="0.92" CC="000004"/>
+						<SP ID="SP588" HPOS="1644" VPOS="2696" WIDTH="30"/>
+						<String ID="String784" HPOS="1674" VPOS="2662" WIDTH="46" HEIGHT="35" CONTENT="gla" SUBS_TYPE="HypPart1" SUBS_CONTENT="glazenwasscher." WC="0.69" CC="9000"/>
+						<HYP HPOS="1720" VPOS="2662" WIDTH="14" CONTENT="-"/>
+					</TextLine>
+					<TextLine ID="TextLine197" HPOS="1349" VPOS="2700" WIDTH="209" HEIGHT="27">
+						<String ID="String785" HPOS="1349" VPOS="2700" WIDTH="209" HEIGHT="27" CONTENT="zenwasscher." SUBS_TYPE="HypPart2" SUBS_CONTENT="glazenwasscher." WC="0.92" CC="300000000050"/>
+					</TextLine>
+					<TextLine ID="TextLine198" HPOS="1239" VPOS="2734" WIDTH="441" HEIGHT="34">
+						<String ID="String786" HPOS="1239" VPOS="2738" WIDTH="37" HEIGHT="27" CONTENT="87" WC="1.00" CC="00"/>
+						<SP ID="SP589" HPOS="1276" VPOS="2765" WIDTH="35"/>
+						<String ID="String787" HPOS="1311" VPOS="2735" WIDTH="83" HEIGHT="30" CONTENT="Wed." WC="1.00" CC="0000"/>
+						<SP ID="SP590" HPOS="1394" VPOS="2765" WIDTH="25"/>
+						<String ID="String788" HPOS="1419" VPOS="2734" WIDTH="261" HEIGHT="34" CONTENT="Remkes-Spronk." WC="1.00" CC="00000000000000"/>
+					</TextLine>
+				</TextBlock>
+			</PrintSpace>
+		</Page>
+	</Layout>
+</alto>

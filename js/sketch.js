@@ -18,8 +18,11 @@ const SHIFT = 16;
 const ALT = 18;
 
 function preload() {
-  xml = loadXML('data/02_alto.xml');
-  img = loadImage("data/02.jpg");
+  xml = loadXML('data/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041_alto.xml');
+  img = loadImage("data/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041.jpg");
+
+  // xml = loadXML('data/04_alto.xml');
+  // img = loadImage("data/04.jpg");
 }
 
 function setup() {
