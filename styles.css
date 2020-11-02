@@ -45,3 +45,6 @@ canvas {
   background-color: #aaa;
 }
 
+.overflow-fix {
+  overflow: visible;
+}

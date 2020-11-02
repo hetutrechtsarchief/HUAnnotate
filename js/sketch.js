@@ -10,7 +10,13 @@ let rulers = new Rulers();
 let toolbar;
 let menu;
 let cellSelect;
+let wordSelect;
 let clipboard;
+let page;
+// let groups = [];
+let entities = [];
+let highliteWords = [];
+let lastSearchQuery = ".*,";
 
 const META_L = 91;
 const META_R = 93;
@@ -21,8 +27,8 @@ function preload() {
   xml = loadXML('data/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041_alto.xml');
   img = loadImage("data/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041.jpg");
 
-  // xml = loadXML('data/04_alto.xml');
-  // img = loadImage("data/04.jpg");
+  // xml = loadXML('data/02_alto.xml');
+  // img = loadImage("data/02.jpg");
 }
 
 function setup() {
@@ -31,18 +37,19 @@ function setup() {
 
   view = new Viewport(0, 0, width, height, img.width, img.height);
 
-  p = new Page();
-  p.parseAltoXML(xml);
+  page = new Page();
+  page.parseAltoXML(xml);
 
   toolbar = new Toolbar();
 
   mouse = createVector();
 
   cellSelect = new CellSelect();
+  wordSelect = new WordSelect();
 
   loadSettings();
 
-  toolbar.setTool(toolbar.CellSelect);
+  toolbar.setTool(toolbar.WordSelect);
 
   clipboard = new Clipboard();
 }
@@ -64,12 +71,12 @@ function draw() {
   image(img,0,0);
   // ellipse(40,40,100,100);
 
-  noFill();
-  stroke(0);
-  strokeWeight(1);
-  for (let w of p.words) {
-    let r = w.poly.getBounds();
-    rect(r.x, r.y, r.width, r.height);
+  for (let w of page.words) {
+    w.draw();
+  }
+
+  for (let e of entities) {
+    e.draw();
   }
 
   if (selecting) {
@@ -91,11 +98,26 @@ function draw() {
     t.draw();
   }
 
+  for (let w of highliteWords) {
+    fill(255,255,0,150);
+    noStroke()
+    let r = w.getBounds();
+    rect(r.x, r.y, r.width, r.height);
+  }
+
   rulers.draw();
 
   if (toolbar.tool==toolbar.CellSelect) cellSelect.draw();
+  else if (toolbar.tool==toolbar.WordSelect) wordSelect.draw();
 
   view.end();
+
+  if (!focused) {
+    fill(255,0,0);
+  } else {
+    fill(0,255,0);
+  }
+  rect(0,0,100,100)
 }
 
 function saveSettings() {
@@ -122,7 +144,7 @@ function keyIsDownMeta() {
 }
 
 function printCellInfo(cell) {
-  for (let w of p.words) {
+  for (let w of page.words) {
     let r = w.poly.getBounds();
     if (r.intersects(cell)) {
       if (cell.getIntersection(r).getArea() / r.getArea() > .5) {
@@ -134,7 +156,7 @@ function printCellInfo(cell) {
 
 function getTextAtCell(cell) {
   let words = [];
-  for (let w of p.words) {
+  for (let w of page.words) {
     let r = w.poly.getBounds();
     if (r.intersects(cell)) {
       if (cell.getIntersection(r).getArea() / r.getArea() > .5) {

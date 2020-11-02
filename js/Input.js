@@ -27,7 +27,9 @@ function mousePressed() {
   else if (toolbar.tool==toolbar.CellSelect) {
     cellSelect.mousePressed();
   }
-
+  else if (toolbar.tool==toolbar.WordSelect) {
+    wordSelect.mousePressed();
+  }
 
   // if (keyIsDown(16) || keyIsDown(18)) { //SHIFT or ALT
   //   // box = new Rectangle(mouseX, mouseY, 0, 0);
@@ -48,6 +50,8 @@ function mouseDragged() {
 
   if (toolbar.tool==toolbar.CellSelect) {
     cellSelect.mouseDragged();
+  } else if (toolbar.tool==toolbar.WordSelect) {
+    wordSelect.mouseDragged();
   } else if (toolbar.tool==toolbar.AreaSelect) { //keyIsDown(16) || keyIsDown(18)) { //SHIFT or ALT
     selecting = true;
     let x1 = min(down.x, mouse.x);
@@ -78,6 +82,7 @@ function mouseClicked() {
   if (toolbar.tool==toolbar.HRuler) rulers.addHRuler(mouse.y);
   else if (toolbar.tool==toolbar.VRuler) rulers.addVRuler(mouse.x);
   else if (toolbar.tool==toolbar.CellSelect) cellSelect.mouseClicked();
+  else if (toolbar.tool==toolbar.WordSelect) wordSelect.mouseClicked();
 }
 
 function mouseReleased() {
@@ -89,17 +94,23 @@ function mouseReleased() {
     if (area && area.width>0 && area.height>0) {
       areas.push(area);
     }
-  } 
-
-  else if (toolbar.tool==toolbar.CellSelect) {
+  } else if (toolbar.tool==toolbar.CellSelect) {
     cellSelect.mouseReleased();
+  } else if (toolbar.tool==toolbar.WordSelect) {
+    wordSelect.mouseReleased();
   }
 }
 
 function keyPressed() {
 
+  // if (textInput.visible) return;
+
   if (toolbar.tool==toolbar.CellSelect) {
     if (cellSelect.keyPressed()) {
+      return false; //preventDefault when tool already reacted to event
+    }
+  } else if (toolbar.tool==toolbar.WordSelect) {
+    if (wordSelect.keyPressed()) {
       return false; //preventDefault when tool already reacted to event
     }
   }
@@ -111,6 +122,8 @@ function keyPressed() {
     tables = [];
     rulers.clear();
     cellSelect.deselectAll();
+    wordSelect.deselectAll();
+    entities = [];
   } else if (keyCode==BACKSPACE) {
     if (toolbar.tool==toolbar.HRuler) rulers.removeHRuler(mouse.y);
     else if (toolbar.tool==toolbar.VRuler) rulers.removeVRuler(mouse.x);

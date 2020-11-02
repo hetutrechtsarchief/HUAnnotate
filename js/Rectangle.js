@@ -11,6 +11,10 @@ class Rectangle {
     this.height = h || 0;
   }
 
+  setFrom(r) {
+    this.setBounds(r.x,r.y,r.width,r.height);
+  }
+
   copy() {
     return new Rectangle(this.x,this.y,this.width,this.height);
   }
@@ -48,6 +52,18 @@ class Rectangle {
     let x2 = min(this.x + this.width, other.x + other.width);
     let y2 = min(this.y + this.height, other.y + other.height);
     return new Rectangle(x1,y1,x2-x1,y2-y1);
+  }
+
+  getUnion(other) {
+    let x1 = min(this.x, other.x);
+    let y1 = min(this.y, other.y);
+    let x2 = max(this.x + this.width, other.x + other.width);
+    let y2 = max(this.y + this.height, other.y + other.height);
+    return new Rectangle(x1,y1,x2-x1,y2-y1);
+  }
+
+  grow(other) {
+    this.setFrom(this.getUnion(other));
   }
 
 }

@@ -4,6 +4,8 @@ class CellSelect {
     this.selectedCells = [];
     this.newlySelectedCells = [];
     this.area = new Rectangle();
+    //elke Cell zou ook refs moeten hebben naar de Words die er in staan. Dus Cell zou een eigen class moeten krijgen.
+    //misschien is Cell wel een Subclass van zoiets als (Text)Region/Group
   }
 
   mousePressed() {
