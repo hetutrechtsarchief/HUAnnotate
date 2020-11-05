@@ -3,7 +3,7 @@ class Rulers {
   constructor() {
     this.hRulers = [];
     this.vRulers = [];
-    this.snap = 5;
+    this.snap = 15;
     this.cells = [];
     this.visible = false; //hidden by default
   }
@@ -77,7 +77,7 @@ class Rulers {
     this.updateCells();
   }
 
-  removeVRuler(x) { //'snap' 3px
+  removeVRuler(x) { //'snap' 
     for (let i=0; i<this.vRulers.length; i++) {
       if (abs(x-this.vRulers[i])<this.snap) {
         this.vRulers.splice(i,1);
@@ -86,7 +86,7 @@ class Rulers {
     }
   }
 
-  removeHRuler(y) { //'snap' 3px
+  removeHRuler(y) { //'snap' 
     for (let i=0; i<this.hRulers.length; i++) {
       if (abs(y-this.hRulers[i])<this.snap) {
         this.hRulers.splice(i,1);
@@ -115,7 +115,7 @@ class Rulers {
     
     //h-rulers
     for (let y of this.hRulers) {
-      if (abs(y-mouse.y)<this.snap && toolbar.tool==toolbar.HRuler) {
+      if (abs(y-mouse.y)<this.snap && toolbar.tool==toolbar.Ruler && !keyIsDown(ALT)) {
         hSnap = true;
         stroke(255,255,0); 
       } else stroke(0,255,255);
@@ -124,7 +124,7 @@ class Rulers {
 
     //v-rulers
     for (let x of this.vRulers) {
-      if (abs(x-mouse.x)<this.snap && toolbar.tool==toolbar.VRuler) {
+      if (abs(x-mouse.x)<this.snap && toolbar.tool==toolbar.Ruler && keyIsDown(ALT)) {
         vSnap = true;
         stroke(255,255,0); 
       } else stroke(0,255,255);
@@ -133,9 +133,11 @@ class Rulers {
   
     //potentional new ruler (under mouse cursor)
     stroke(0,255,255);
-    if (toolbar.tool==toolbar.HRuler && !hSnap) {
+
+
+    if (toolbar.tool==toolbar.Ruler && !hSnap && !keyIsDown(ALT)) {
       line(0,mouse.y,view.contentWidth,mouse.y);
-    } else if (toolbar.tool==toolbar.VRuler && !vSnap) {
+    } else if (toolbar.tool==toolbar.Ruler && keyIsDown(ALT) && !vSnap) {
       line(mouse.x,0,mouse.x,view.contentHeight);
     }
   }

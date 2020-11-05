@@ -20,6 +20,8 @@ class CellSelect {
       //single select
       this.selectedCells = [ cell ];
 
+      wordSelect.selectedWords = [];
+
       printCellInfo(cell); //tmp
 
     } else if (keyIsDownMeta()) { 
@@ -69,11 +71,21 @@ class CellSelect {
     print(rulers.cells.length);
 
     this.newlySelectedCells = []; //tmp
+
+    wordSelect.newlySelectedWords = [];  //?? tmp ?
+
     for (let c of rulers.cells) {
       if (this.area.intersects(c)) {
         this.newlySelectedCells.push(c);
+
+        //select words in cell
+        for (let w of this.getWordsAtCell(c)) {
+          wordSelect.newlySelectedWords.push(w);
+        }
+
       }
     }
+
     // print("this.newlySelectedCells",this.newlySelectedCells.length);
   }
 
@@ -95,15 +107,23 @@ class CellSelect {
     this.isDragging = false;
 
     if (keyIsDown(ALT)) { //ALT -> remove newlySelectedCells from selectedCells
-
       this.selectedCells = this.selectedCells.filter(item => !this.newlySelectedCells.includes(item));
-
     } else { // add newlySelectedCells to selectedCells
       this.selectedCells = this.selectedCells.concat(this.newlySelectedCells);
     }
 
     this.selectedCells = this.selectedCells.filter((v, i, a) => a.indexOf(v) === i); //unique
     this.newlySelectedCells = [];
+
+    //words
+    wordSelect.selectedWords = [];
+    for (let c of this.selectedCells) {
+      for (let w of this.getWordsAtCell(c)) {
+        wordSelect.selectedWords.push(w);
+      }
+    }
+    wordSelect.selectedWords = wordSelect.selectedWords.filter((v, i, a) => a.indexOf(v) === i); //unique
+    wordSelect.newlySelectedWords = [];
   }
 
   deselectAll() {
@@ -120,16 +140,72 @@ class CellSelect {
     this.selectedCells = rulers.cells.filter(item => !this.selectedCells.includes(item));
   }
 
+  createEntitiesFromCells(cells) {
+    let cellEntities = [];
+    for (let c of cells) {
+      let e = new Entity();
+      e.type = "cell";
+      e.label = "cell";
+      e.bounds = c.copy();
+      cellEntities.push(e);
+    }
+    return cellEntities;
+  }
+
+  createTableFromSelectedCells() {
+    let cellEntities = this.createEntitiesFromCells(this.selectedCells);
+
+    let e = new Entity();
+    e.type = "table";
+    e.label = "table";
+    e.addChildren(cellEntities);
+    e.calculateBoundsFromChildren();
+
+    entities.push(e)
+  }
+
+  showTypeDialog() {
+    let type = prompt("Stel type in voor elke geselecteerde 'cell' (creëert nieuwe entities):", lastUsedType);
+    if (!type) return;
+
+    lastUsedType = type;
+
+    if (type=="table") {
+      this.createTableFromSelectedCells();
+    }
+
+    print("entities",entities);
+  }
+
   keyPressed() {
     if (keyIsDownMeta() && key=='d') { this.deselectAll(); return true; } //return true used for 'reacted to event'
     else if (keyIsDownMeta() && key=='a') { this.selectAll(); return true; }
     else if (keyIsDownMeta() && key=='i') { this.invertSelection(); return true; }
     else if (keyCode==LEFT_ARROW) print("LEFT");
     else if (keyIsDownMeta() && key=='c') { this.copyData(); return true; }
+    else if (key=='t') this.showTypeDialog();
   }
 
   isTableSelected() {
     return true;
+  }
+
+  getTextAtCell(cell) {
+    let words = getWordsAtCell(cell);
+    return words.map(o=>o.txt).join(" ");
+  }
+
+  getWordsAtCell(cell) {
+    let words = [];
+    for (let w of page.words) {
+      let r = w.getBounds();
+      if (r.intersects(cell)) {
+        if (cell.getIntersection(r).getArea() / r.getArea() > .5) {
+          words.push(w);
+        }
+      }
+    }
+    return words;
   }
 
   copyData() {

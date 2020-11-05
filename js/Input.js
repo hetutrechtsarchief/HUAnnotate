@@ -16,11 +16,6 @@ function mousePressed() {
   updateMouse();
   down = view.fromScreenToView(mouseX, mouseY); //in Viewport coordiates
 
-  // if (toolbar.tool=="splitVertical") {
-  //   table.splitVertical(down.x);
-  // } else if (toolbar.tool=="splitHorizontal") {
-  //   table.splitHorizontal(down.y);
-  // } else 
   if (toolbar.tool==toolbar.AreaSelect) {
     area = new Area(down.x, down.y, 0, 0);
   }
@@ -30,10 +25,6 @@ function mousePressed() {
   else if (toolbar.tool==toolbar.WordSelect) {
     wordSelect.mousePressed();
   }
-
-  // if (keyIsDown(16) || keyIsDown(18)) { //SHIFT or ALT
-  //   // box = new Rectangle(mouseX, mouseY, 0, 0);
-  // }
 }
 
 function mouseMoved() {
@@ -46,6 +37,8 @@ function mouseMoved() {
 }
 
 function mouseDragged() {
+  if (millis()-lastToolChange<100) return; //if tool was changed recently ignore this event
+
   updateMouse();
 
   if (toolbar.tool==toolbar.CellSelect) {
@@ -62,30 +55,31 @@ function mouseDragged() {
   }
 
   //if dragging an existing ruler just remove it
-  if (toolbar.tool==toolbar.HRuler) rulers.removeHRuler(down.y); ///not mouse, but down
-  else if (toolbar.tool==toolbar.VRuler) rulers.removeVRuler(down.x);
+  if (toolbar.tool==toolbar.Ruler) {
+    print("remove")
+    if (!keyIsDown(ALT)) rulers.removeHRuler(down.y); ///not mouse, but down
+    else rulers.removeVRuler(down.x);
+  }
 
-
-  // if (keyIsDown(16)) { //SHIFT
-  //   // print("SHIFT")
-  // }
-  // else if (keyIsDown(18)) { //ALT
-  //   // print("ALT")
-  // } else {
-
-  if (keyIsDown(32)) {
+  if (toolbar.tool==toolbar.Hand) {
     view.moveBy(movedX, movedY);
   }
 }
 
 function mouseClicked() {
-  if (toolbar.tool==toolbar.HRuler) rulers.addHRuler(mouse.y);
-  else if (toolbar.tool==toolbar.VRuler) rulers.addVRuler(mouse.x);
-  else if (toolbar.tool==toolbar.CellSelect) cellSelect.mouseClicked();
+  if (millis()-lastToolChange<100) return; //if tool was changed recently ignore this event
+
+  if (toolbar.tool==toolbar.Ruler) {
+    print("mouseClick add ruler?")
+    if (keyIsDown(ALT)) rulers.addVRuler(mouse.x);
+    else (rulers.addHRuler(mouse.y));
+  } else if (toolbar.tool==toolbar.CellSelect) cellSelect.mouseClicked();
   else if (toolbar.tool==toolbar.WordSelect) wordSelect.mouseClicked();
 }
 
 function mouseReleased() {
+  if (millis()-lastToolChange<100) return; //if tool was changed recently ignore this event
+
   updateMouse();
   selecting = false;
   print("area",area)
@@ -102,8 +96,6 @@ function mouseReleased() {
 }
 
 function keyPressed() {
-
-  // if (textInput.visible) return;
 
   if (toolbar.tool==toolbar.CellSelect) {
     if (cellSelect.keyPressed()) {
@@ -125,8 +117,8 @@ function keyPressed() {
     wordSelect.deselectAll();
     entities = [];
   } else if (keyCode==BACKSPACE) {
-    if (toolbar.tool==toolbar.HRuler) rulers.removeHRuler(mouse.y);
-    else if (toolbar.tool==toolbar.VRuler) rulers.removeVRuler(mouse.x);
+    if (toolbar.tool==toolbar.Ruler && !keyIsDown(ALT)) rulers.removeHRuler(mouse.y);
+    else if (toolbar.tool==toolbar.VRuler && keyIsDown(ALT)) rulers.removeVRuler(mouse.x);
   } else if (key=='l') {
     loadSettings();
   } else if (key=='\'') {
@@ -136,12 +128,14 @@ function keyPressed() {
     return false; //preventDefault
   } else if (keyCode==27) {
     toolbar.setTool(toolbar.CellSelect);
-  } 
+  } else if (key=='i') {
+    printInfo();    
+  }
 
 }
 
 function keyReleased() {
-  if (key==' ' && toolbar.tool==toolbar.Hand) {
+  if ((key==' ' || key=='h') && toolbar.tool==toolbar.Hand) {
     toolbar.setTool(toolbar.prevTool);
   }
 }

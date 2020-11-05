@@ -23,7 +23,8 @@ class Word {
     // } else {
     //   noFill();
     // }
-    stroke(0);
+    // stroke(0);
+    noStroke();
     // noStroke();
     rect(r.x, r.y, r.width, r.height);
   }

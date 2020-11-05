@@ -13,10 +13,12 @@ let cellSelect;
 let wordSelect;
 let clipboard;
 let page;
+let lastToolChange = 0;
 // let groups = [];
 let entities = [];
 let highliteWords = [];
 let lastSearchQuery = ".*,";
+let lastUsedType = "";
 
 const META_L = 91;
 const META_R = 93;
@@ -24,11 +26,13 @@ const SHIFT = 16;
 const ALT = 18;
 
 function preload() {
-  xml = loadXML('data/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041_alto.xml');
-  img = loadImage("data/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041.jpg");
+  // xml = loadXML('data/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041_alto.xml');
+  // img = loadImage("data/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041.jpg");
 
   // xml = loadXML('data/02_alto.xml');
   // img = loadImage("data/02.jpg");
+
+  img = loadImage("data/Saftleven-1669-27570.jpg");
 }
 
 function setup() {
@@ -60,8 +64,7 @@ function draw() {
   else if (toolbar.tool==toolbar.Move) cursor("move");
   else if (toolbar.tool==toolbar.CellSelect) cursor("cell");
   else if (toolbar.tool==toolbar.AreaSelect) cursor(CROSS);
-  else if (toolbar.tool==toolbar.HRuler) cursor("row-resize");
-  else if (toolbar.tool==toolbar.VRuler) cursor("col-resize");
+  else if (toolbar.tool==toolbar.Ruler) if (keyIsDown(ALT)) cursor("col-resize"); else cursor("row-resize");
 
   // else cursor(CROSS);
   // print(toolbar.tool);
@@ -107,17 +110,19 @@ function draw() {
 
   rulers.draw();
 
-  if (toolbar.tool==toolbar.CellSelect) cellSelect.draw();
-  else if (toolbar.tool==toolbar.WordSelect) wordSelect.draw();
+  // if (toolbar.tool==toolbar.CellSelect) 
+  cellSelect.draw();
+// else if (toolbar.tool==toolbar.WordSelect) 
+  wordSelect.draw();
 
   view.end();
 
-  if (!focused) {
-    fill(255,0,0);
-  } else {
-    fill(0,255,0);
-  }
-  rect(0,0,100,100)
+  // if (!focused) {
+  //   fill(255,0,0);
+  // } else {
+  //   fill(0,255,0);
+  // }
+  // rect(0,0,100,100)
 }
 
 function saveSettings() {
@@ -134,37 +139,36 @@ function loadSettings() {
 
 function onToolSelected(tool) {
   print("sketch.onToolSelected",tool);
-  if (tool==toolbar.HRuler || tool==toolbar.VRuler) {
+  lastToolChange = millis();
+
+  if (tool==toolbar.Ruler) {
     rulers.show();
+  } else if (tool==toolbar.CellSelect) {
+    wordSelect.deselectAll();
+  } else if (tool==toolbar.WordSelect) {
+    cellSelect.deselectAll();
   }
+
 }
 
 function keyIsDownMeta() {
   return keyIsDown(META_L) || keyIsDown(META_R);
 }
 
-function printCellInfo(cell) {
-  for (let w of page.words) {
-    let r = w.poly.getBounds();
-    if (r.intersects(cell)) {
-      if (cell.getIntersection(r).getArea() / r.getArea() > .5) {
-        print("Word:",w.txt); //, cell.getIntersection(r).getArea() / r.getArea());
-      }
-    }
-  }  
-}
-
-function getTextAtCell(cell) {
-  let words = [];
-  for (let w of page.words) {
-    let r = w.poly.getBounds();
-    if (r.intersects(cell)) {
-      if (cell.getIntersection(r).getArea() / r.getArea() > .5) {
-        words.push(w.txt);
-      }
-    }
+function printInfo() {
+  for (let a of areas) {
+    print("area",a);
   }
-  return words.join(" ");
 }
 
+// function printCellInfo(cell) {
+//   for (let w of page.words) {
+//     let r = w.poly.getBounds();
+//     if (r.intersects(cell)) {
+//       if (cell.getIntersection(r).getArea() / r.getArea() > .5) {
+//         print("Word:",w.txt); //, cell.getIntersection(r).getArea() / r.getArea());
+//       }
+//     }
+//   }  
+// }
 

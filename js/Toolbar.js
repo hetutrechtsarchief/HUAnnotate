@@ -10,8 +10,8 @@ class Toolbar {
     this.CellSelect = this.makeButton("select cells (s)","icons/select-cells.png");
     this.WordSelect = this.makeButton("word cells (w)","icons/select-text.png");
     
-    this.HRuler = this.makeButton("horizontal ruler (h)","icons/h-ruler.png");
-    this.VRuler = this.makeButton("vertical ruler (v)","icons/v-ruler.png");
+    // this.HRuler = this.makeButton("horizontal ruler","icons/h-ruler.png");
+    this.Ruler = this.makeButton("ruler","icons/h-ruler.png");
 
     this.Hand = this.makeButton("hand tool (space)", "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAACgBAMAAAB54XoeAAAAHlBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC3KG9qAAAACnRSTlMA/w/xgcApBeBI4LcAVQAAAyNJREFUeJzt2s+P0kAUB/CGIITjpMMGb03cgx5rUK8lstG9UQN6hQhmj3tw945u1CN78cd/K+30xwyF+fW+MRo7p5ahn7z2zaNlOkFg0/oX8d3O6puWbcMYG0Y4r7Pdg+wNDuxmHhviwEc5yBIYOBHgU7F3+4EMpgLk+c55zMZLIrgV4Cjb7mc6vyZ5feGxMNsRCXpLAjsyuBLBLmFgkaB3MFBJEAIsEsQ8nN7FfNcEmT84KX8QZLDjD3arHwQQeF9dewzYF1d/BwNFRbAZDHwgjjuDgat6AGPAosSGMDBtIjQwBoPHkH8TvP0VQcFNzIZLIJiX0xgIisFq9RhlBRb1/hUGSuWJAVOxafUUZQWqGW/BFmzBFmzBFmzBFmzBFvzLwOxxf0AFM6Rbbs+q/+UE8HkQvC+3eTG1QQJHu145mcTCZBCTQTaqPGXbHzzR/kPwGg3u6rlZDDiTBjwE5NVcEQgMX22qbQgoNxuwb2bcwMDM/FlwvZhGSDAbUc+WQDAfUXwJA3tx/vkYBpY3igQFFjNEyhQRCayKMgGBadnDQWB960kwYFx1cQwo9SUQULrzcgiYHgmRBE6kTo4AV3JvAgC7ci8HgMpFLEKkgTfNEGlgbyv3J3SwfkitQiSCSlryEImgMhTzEKlgI0QqmL96l0OkgsHVQYhksLjzVSGSwfovjQiRDqpp4XRQHTlO7QR4Yz7SDexszYc6gWpBI8CB+VA30DstJ8Gu+Vg3UC1oABg8RoNqQQPAg4IGgH5p0YB+I0cH+hT0SAf6FLT+7a1HQevfL3sU9EMt6JGWF3rQfeTM9KB7QSd60Lmgw8gAuha0eRHBvRt4ZgQd02LISdbcRo7Fyg6nEK2WTbiEaL6EjiEmNmDw0tobRVZgPb1saoZfhqpdmSmXM96XS2rnDa1XxH60Az/ZepZ5cVkPa3XSX+w9q5N2XLD70wg6LinumCrQeZn7QH+TDhNHb38ZY+AJ522t8cZeq7w3Jz0e+XinRf917euj1/HOM76snacNLrz054JsYfaBN/9B8vbtyWspuvl3KpeT08VnFn5bTC8j/Rd/A77Qy3Uri4NyAAAAAElFTkSuQmCC");
 
@@ -32,7 +32,7 @@ class Toolbar {
   }
 
   setTool(tool) {
-    print("tooblar.setTool",tool);
+    print("toolbar.setTool",tool);
     this.prevTool = this.tool;
 
     for (let b of selectAll('.toolbar button')) {
@@ -46,13 +46,13 @@ class Toolbar {
   }
 
   keyPressed() {
-    if (key=='v') this.setTool(this.VRuler);
-    else if (key=='h') this.setTool(this.HRuler);
+    if (key=='r') this.setTool(this.Ruler);
+    // else if (key=='h') this.setTool(this.HRuler);
     else if (key=='a') this.setTool(this.AreaSelect);
     else if (key=='m') this.setTool(this.Move);
     else if (key=='s') this.setTool(this.CellSelect);
     else if (key=='w') this.setTool(this.WordSelect);
-    else if (key==' ') this.setTool(this.Hand);
+    else if (key==' ' || key=='h') this.setTool(this.Hand);
   }
 
 

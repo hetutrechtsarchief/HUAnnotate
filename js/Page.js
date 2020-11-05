@@ -38,6 +38,7 @@ class Page {
 
   parseAltoXML(xml) {
     this.words = [];
+    if (!xml) return;
 
     for (let layout of xml.getChildren("Layout")) {
       for (let page of layout.getChildren("Page")) {

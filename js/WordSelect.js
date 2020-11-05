@@ -123,31 +123,33 @@ class WordSelect {
   }
 
   groupSelection() { //into an entity
+    let type = prompt("Wat is het 'type' van deze groep van " + this.selectedWords.length + " items?", lastUsedType);
+    if (!type) return;
+    lastUsedType = type;
+
     let e = new Entity();
     e.addChildren(this.selectedWords); //copy of the array, containing the original references to the children
-    e.type = prompt("Wat is het 'type' van deze groep van " + this.selectedWords.length + " items?", "groupOfWords");
-
+    e.calculateBoundsFromChildren();
+    e.type = type;
     let label = this.selectedWords.map(o=>o.txt).join(" ");
-
-    // print(label);
-
-    // .reduce(result,obj,i)=>{
-    //   // print(i,obj,result);
-    //   if (typeof result == Word) result = obj.txt;
-    //   result += " " + obj.txt;
-    //   return result;
-    // });
     e.label = prompt("Wat is het 'label' van deze groep?", label)
-
     entities.push(e);
-    print(e)
   }
 
   showTypeDialog() {
-    let type = prompt("Stel type in voor elk geselecteerde woord (creëert nieuwe entities):");
+    let type = prompt("Stel type in voor elk geselecteerde woord (creëert nieuwe entities):", lastUsedType);
+    if (!type) return;
+    lastUsedType = type;
+
     for (let w of this.selectedWords) {
-      w.type = type;
+      let e = new Entity();
+      e.label = w.txt;
+      e.type = type
+      e.addChild(w);
+      e.calculateBoundsFromChildren();
+      entities.push(e);
     }
+    this.deselectAll();
   }
 
   keyPressed() {
@@ -167,8 +169,10 @@ class WordSelect {
   }
 
   find() {
-    let q = prompt("Zoekactie met Regular Expressions (bijv .*, of \\d+ of \\w{5,}\\. )", lastSearchQuery);
-    if (q) lastSearchQuery = q;
+    let q = prompt("Zoekactie met Regular Expressions (bijv .*, of \\d+ of \\w{5,}\\. of ^\\w\\.)", lastSearchQuery);
+    if (!q) return;
+    
+    lastSearchQuery = q;
 
     var re = new RegExp(q, "i");
 
