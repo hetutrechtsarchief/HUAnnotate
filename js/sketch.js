@@ -8,6 +8,8 @@ let area; //current area
 let tables = [];
 let rulers = new Rulers();
 let toolbar;
+let exportMenu;
+let pageSlider;
 let menu;
 let cellSelect;
 let wordSelect;
@@ -19,21 +21,36 @@ let entities = [];
 let highliteWords = [];
 let lastSearchQuery = ".*,";
 let lastUsedType = "";
+let mainSettings;
+let docSettings;
 
 const META_L = 91;
 const META_R = 93;
 const SHIFT = 16;
 const ALT = 18;
 
+let vid;
+
+
 function preload() {
-  // xml = loadXML('data/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041_alto.xml');
-  // img = loadImage("data/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041.jpg");
+  mainSettings = loadJSON("data/settings.json", (e)=>{
+    print(e.collection);
+    print(e.document);
+    docSettings = loadJSON("data/"+mainSettings.collection+"/"+mainSettings.document+"/info.json", (e)=>{
+      docSettings.path = "data/"+mainSettings.collection+"/"+mainSettings.document;
+      print(e)
+    });
+  });
 
-  // xml = loadXML('data/02_alto.xml');
-  // img = loadImage("data/02.jpg");
+  // xml = loadXML('data/adresboeken/1931/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041_alto.xml');
+  // img = loadImage("data/adresboeken/1931/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041.jpg");
 
-  img = loadImage("data/Saftleven-1669-27570.jpg");
+
+  xml = loadXML('data/gevangenisregisters/1919/02_alto.xml');
+  img = loadImage("data/gevangenisregisters/1919/02.jpg"); 
 }
+
+// img = loadImage("data/Saftleven-1669-27570.jpg");
 
 function setup() {
   frameRate(40)
@@ -45,6 +62,8 @@ function setup() {
   page.parseAltoXML(xml);
 
   toolbar = new Toolbar();
+  pageSlider = new PageSlider();
+  exportMenu = new ExportMenu();
 
   mouse = createVector();
 
@@ -56,9 +75,26 @@ function setup() {
   toolbar.setTool(toolbar.WordSelect);
 
   clipboard = new Clipboard();
+
+
+  // vid = createVideo(
+  //   ['data/collections/adresboeken/1860/1860-thumb.mov'],
+  //   vidLoad
+  // );
+  // vid.hide(); 
+  //   vid.loop();
+
 }
 
+// This function is called when the video loads
+// function vidLoad() {
+//   print("test")
+//   vid.loop();
+//   vid.volume(0);
+// }
+
 function draw() {
+
   // if (keyIsDown(32)) cursor(HAND);
   if (toolbar.tool==toolbar.Hand) cursor("all-scroll");
   else if (toolbar.tool==toolbar.Move) cursor("move");
@@ -117,12 +153,16 @@ function draw() {
 
   view.end();
 
+  pageSlider.draw();
+  
   // if (!focused) {
   //   fill(255,0,0);
   // } else {
   //   fill(0,255,0);
   // }
   // rect(0,0,100,100)
+
+  
 }
 
 function saveSettings() {

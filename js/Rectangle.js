@@ -27,7 +27,7 @@ class Rectangle {
     (other.y + other.height < this.y         ));
   }
 
-  contains(other) {
+  contains(other) { //Rectangle!
     return ( //haakje belangrijk, anders return undefined
       this.x <= other.x &&
       this.y <= other.y &&

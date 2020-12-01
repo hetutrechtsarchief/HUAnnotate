@@ -25,6 +25,10 @@ function mousePressed() {
   else if (toolbar.tool==toolbar.WordSelect) {
     wordSelect.mousePressed();
   }
+
+  pageSlider.mousePressed()
+
+
 }
 
 function mouseMoved() {
@@ -64,6 +68,8 @@ function mouseDragged() {
   if (toolbar.tool==toolbar.Hand) {
     view.moveBy(movedX, movedY);
   }
+
+  pageSlider.mouseDragged();
 }
 
 function mouseClicked() {
@@ -93,6 +99,8 @@ function mouseReleased() {
   } else if (toolbar.tool==toolbar.WordSelect) {
     wordSelect.mouseReleased();
   }
+
+  pageSlider.mouseReleased();
 }
 
 function keyPressed() {
@@ -130,6 +138,9 @@ function keyPressed() {
     toolbar.setTool(toolbar.CellSelect);
   } else if (key=='i') {
     printInfo();    
+  } else if (keyIsDownMeta() && key=='o') {
+    prompt("Document openen - Type hier (tijdelijk) de naam van het document:\n1\n2\n");
+    return false;
   }
 
 }
