@@ -3,6 +3,7 @@ let inp;
 let table;
 // let mode;
 
+let thumbnails = [];
 let areas = [];
 let area; //current area
 let tables = [];
@@ -37,7 +38,7 @@ function preload() {
     print(e.collection);
     print(e.document);
     docSettings = loadJSON("data/"+mainSettings.collection+"/"+mainSettings.document+"/info.json", (e)=>{
-      docSettings.path = "data/"+mainSettings.collection+"/"+mainSettings.document;
+      docSettings.path = "http://iiif.hualab.nl:8080/iiif/2/"+mainSettings.collection+"%2f"+mainSettings.document;
       print(docSettings)
 
 
@@ -48,7 +49,7 @@ function preload() {
   // img = loadImage("data/adresboeken/1931/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041.jpg");
 
   xml = loadXML('data/adresboeken/1860/alto/MMUTRA01_001427001_00020_master.xml');
-  img = loadImage("data/adresboeken/1860/originals/MMUTRA01_001427001_00020_master.jpg"); 
+  img = loadImage("http://iiif.hualab.nl:8080/iiif/2/adresboeken%2f1860%2fMMUTRA01_001427001_00001_master.jpg/full/800,/0/default.jpg"); 
 }
 
 // img = loadImage("data/Saftleven-1669-27570.jpg");
@@ -84,6 +85,23 @@ function setup() {
   // );
   // vid.hide(); 
   //   vid.loop();
+
+  for (let i=0; i<docSettings.filenames.length; i++) {
+    let filename = docSettings.path + "%2f" + docSettings.filenames[i] + "/full/400,/0/default.jpg";
+    thumbnails.push(loadImage(filename));
+    print(filename)
+  }
+
+  //   00001.jpg
+  //   00002.jpg
+  //   00010.jpg
+  //   00100.jpg
+
+
+  // }
+  // 
+
+
 
 }
 
