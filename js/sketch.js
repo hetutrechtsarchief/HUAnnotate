@@ -38,16 +38,17 @@ function preload() {
     print(e.document);
     docSettings = loadJSON("data/"+mainSettings.collection+"/"+mainSettings.document+"/info.json", (e)=>{
       docSettings.path = "data/"+mainSettings.collection+"/"+mainSettings.document;
-      print(e)
+      print(docSettings)
+
+
     });
   });
 
   // xml = loadXML('data/adresboeken/1931/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041_alto.xml');
   // img = loadImage("data/adresboeken/1931/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041.jpg");
 
-
-  xml = loadXML('data/gevangenisregisters/1919/02_alto.xml');
-  img = loadImage("data/gevangenisregisters/1919/02.jpg"); 
+  xml = loadXML('data/adresboeken/1860/alto/MMUTRA01_001427001_00020_master.xml');
+  img = loadImage("data/adresboeken/1860/originals/MMUTRA01_001427001_00020_master.jpg"); 
 }
 
 // img = loadImage("data/Saftleven-1669-27570.jpg");
