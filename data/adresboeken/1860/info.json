@@ -1,6 +1,8 @@
 {
   "orginalsFolder": "originals",
   "thumbsFolder": "thumbs",
+  "dataType": "alto",
+  "iiifServer": "http://iiif.hualab.nl:8080/iiif/2/",
 
   "filenames": [
     "MMUTRA01_001427001_00001_master.jpg",
