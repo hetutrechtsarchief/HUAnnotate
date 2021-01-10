@@ -38,7 +38,7 @@ function preload() {
     print(e.collection);
     print(e.document);
     docSettings = loadJSON("data/"+mainSettings.collection+"/"+mainSettings.document+"/info.json", (e)=>{
-      docSettings.path = "http://iiif.hualab.nl:8080/iiif/2/"+mainSettings.collection+"%2f"+mainSettings.document;
+      docSettings.path = "http://iiif2.hualab.nl/iiif/2/"+mainSettings.collection+"%2f"+mainSettings.document;
       print(docSettings)
 
 
@@ -49,7 +49,7 @@ function preload() {
   // img = loadImage("data/adresboeken/1931/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041.jpg");
 
   xml = loadXML('data/adresboeken/1860/alto/MMUTRA01_001427001_00020_master.xml');
-  img = loadImage("http://iiif.hualab.nl:8080/iiif/2/adresboeken%2f1860%2fMMUTRA01_001427001_00001_master.jpg/full/800,/0/default.jpg"); 
+  img = loadImage("http://iiif2.hualab.nl/iiif/2/adresboeken%2f1860%2fMMUTRA01_001427001_00001_master.jpg/full/800,/0/default.jpg"); 
 }
 
 // img = loadImage("data/Saftleven-1669-27570.jpg");
