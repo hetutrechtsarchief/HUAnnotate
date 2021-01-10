@@ -1,0 +1,3 @@
+[submodule "HUAnnotate-data"]
+	path = HUAnnotate-data
+	url = https://github.com/hetutrechtsarchief/HUAnnotate-data.git
