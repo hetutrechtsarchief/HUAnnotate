@@ -1,3 +1,6 @@
 [submodule "HUAnnotate-data"]
 	path = HUAnnotate-data
 	url = https://github.com/hetutrechtsarchief/HUAnnotate-data.git
+[submodule "data"]
+	path = data
+	url = https://github.com/hetutrechtsarchief/HUAnnotate-data.git
