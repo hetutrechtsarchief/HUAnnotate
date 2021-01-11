@@ -4,36 +4,44 @@ class Page {
     this.words = [];
   }
 
+  parseXML(xml) {
+    if (xml.getName()=="PcGts") this.parsePageXML(xml);
+    else if (xml.getName()=="alto") this.parseAltoXML(xml);
+    else print("invalid xml format",xml.getName())
+  }
+
   parsePageXML(xml) {
-    print("fixme");
-    // return;
+    if (!xml) return;
+    this.words = [];
 
-    // for (let page of xml.getChildren("Page")) {
-    //   let w = page.getString("imageWidth");
-    //   let h = page.getString("imageHeight");
-    //   for (let textRegion of page.getChildren("TextRegion")) {
-    //     let textRegionId = textRegion.getString("id");
-    //     for (let textLine of textRegion.getChildren("TextLine")) {
-    //       let textLineId = textLine.getString("id");
-    //       for (let wordXML of textLine.getChildren("Word")) {
-    //         print(wordXML)
-    //         // Word word = new Word(wordXML.getString("id"), "");
-    //         // words.add(word);
-    //         // for (let coordXML of wordXML.getChildren("Coords")) {
-    //         //   let coords[] = coordXML.getString("points").split(" ");
+    for (let page of xml.getChildren("Page")) {
+      let w = page.getString("imageWidth");
+      let h = page.getString("imageHeight");
+      for (let textRegion of page.getChildren("TextRegion")) {
+        let textRegionId = textRegion.getString("id");
+        for (let textLine of textRegion.getChildren("TextLine")) {
+          let textLineId = textLine.getString("id");
+          for (let wordXML of textLine.getChildren("Word")) {
+            let id = wordXML.getString("id");
+            let word = new Word(id, "");
+            this.words.push(word);
+            
+            for (let coordXML of wordXML.getChildren("Coords")) {
+              let coords = coordXML.getString("points").split(" ");
+              
+              for (let c of coords) {
+                let xy = c.split(",");
+                word.poly.addPoint(int(xy[0]), int(xy[1]));
+              }
 
-    //         //   for (let c of coords) {
-    //         //     let xy[] = c.split(",");
-    //         //     word.poly.addPoint(int(xy[0]), int(xy[1]));
-    //         //   }
-    //         //   for (let textEquiv of wordXML.getChildren("TextEquiv")) {
-    //         //     word.txt = textEquiv.getContent("Unicode");
-    //         //   }
-    //         // }
-    //       }
-    //     }
-    //   }
-    // }
+              for (let textEquiv of wordXML.getChildren("TextEquiv")) {
+                word.txt = textEquiv.getContent("Unicode");
+              }
+            }
+          }
+        }
+      }
+    }
   }
 
   parseAltoXML(xml) {
