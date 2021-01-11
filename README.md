@@ -11,6 +11,17 @@ git clone --recursive https://github.com/hetutrechtsarchief/HUAnnotate.git
 serve # of een ander commando om een webserver te starten.
 ```
 
+## Gebruik
+* Open het webadres van je webserver (bijv http://localhost:5000 in je browser.
+* door de scrollen/trackpad in en uitzoomen
+* met 'h' of 'spatie' draggen
+* met 'w' (Word Select / [T]icoon in de toolbar) kun je woorden selecteren. Met de muis hele gebieden. Met Ctrl/Cmd woorden (de)selecteren. Met Alt kun je een 'negatieve' selectie maken, dus woorden verwijderen uit je selectie.
+* met 'r' kun je rulers plaatsen/verplaatsen. Standaard horizontaal, met Alt ingedrukt ook verticaal. De 'cellen' die hierdoor ontstaan en de woorden daarbinnen kun je met de Cell Select tool selecteren.
+* met 's' (Cell Select) kun je cellen selecteren (nadat je 'cellen' hebt gemaakt d.m.v het plaatsen van Rulers) 
+* met 'f' verschijnt een Zoek dialoog. Je kunt op de pagina naar woorden zoeken. Gevonden woorden worden dan 'geselecteerd'. Regular Expressions zijn mogeijk bijv \w{5,}\,  (woorden langer dan 5 tekens gevolgd door een comma. In het huidige voorbeeld (pagina 14 van adresboek 1860) is het effect beperkt omdat het veel OCR fouten in de pagina zitten. Comma's/punten niet goed te onderscheiden.
+* met 't' kun je 'taggen'. Individuele woorden worden dan geselecteerd en voorzien van de tag die je invoerd bijv 'naam' of 'huisnummer'. Woorden die zijn getagged verschijnen in een andere kleur.
+
+
 ## Aanleiding
 * Sinds kort zijn de ‘[Adresboeken van de stad Utrecht](https://hetutrechtsarchief.nl/onderzoek/resultaten/archieven?mivast=39&mizig=352&miadt=39&milang=nl&mizk_alle=adresboeken&miview=ldt)’ gepubliceerd op website van Het Utrechts Archief. De adresboeken bevatten voornamelijk lijsten met persoonsnamen, adressen en beroepen. De scans van deze boeken zijn d.m.v. OCR op inhoud doorzoekbaar gemaakt. Dit is een erg mooie ontwikkeling waarmee het publiek nu full-text kan zoeken door zo’n 37.000 pagina’s. Uit onderzoek blijkt echter dat de manier van zoeken onvoldoende aansluit bij de behoefte van de gebruiker. Men verwacht dat de namen in de adresboeken ook vindbaar zijn in de ‘[personendatabase](https://hetutrechtsarchief.nl/onderzoek/resultaten/personen-mais)’ op de website waarin al zo’n 11 miljoen persoonsvermeldingen zijn opgenomen.
 * Om dit mogelijk te maken moet er van ‘ruwe’ teksten uit de adresboeken ‘gestructureerde data’ worden gemaakt die in het collectiebeheersysteem kan worden opgenomen. Persoonsnamen, adressen en beroepen worden dan gekoppeld aan de scan en de positie op de scan waar deze informatie vermeld staat. [...] 
