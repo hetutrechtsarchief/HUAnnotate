@@ -13,6 +13,7 @@ function updateMouse() {
 }
 
 function mousePressed() {
+  if (!toolbar) return;
   updateMouse();
   down = view.fromScreenToView(mouseX, mouseY); //in Viewport coordiates
 
@@ -33,6 +34,8 @@ function mousePressed() {
 
 function mouseMoved() {
   if (frameCount==0) return;
+  if (!toolbar) return;
+
   updateMouse();
 
   if (toolbar.tool==toolbar.CellSelect) {
@@ -41,6 +44,8 @@ function mouseMoved() {
 }
 
 function mouseDragged() {
+  if (!toolbar) return;
+
   if (millis()-lastToolChange<100) return; //if tool was changed recently ignore this event
 
   updateMouse();
@@ -73,6 +78,8 @@ function mouseDragged() {
 }
 
 function mouseClicked() {
+  if (!toolbar) return;
+
   if (millis()-lastToolChange<100) return; //if tool was changed recently ignore this event
 
   if (toolbar.tool==toolbar.Ruler) {
@@ -84,6 +91,8 @@ function mouseClicked() {
 }
 
 function mouseReleased() {
+  if (!toolbar) return;
+
   if (millis()-lastToolChange<100) return; //if tool was changed recently ignore this event
 
   updateMouse();
@@ -104,6 +113,7 @@ function mouseReleased() {
 }
 
 function keyPressed() {
+  if (!toolbar) return;
 
   if (toolbar.tool==toolbar.CellSelect) {
     if (cellSelect.keyPressed()) {
@@ -128,7 +138,7 @@ function keyPressed() {
     if (toolbar.tool==toolbar.Ruler && !keyIsDown(ALT)) rulers.removeHRuler(mouse.y);
     else if (toolbar.tool==toolbar.VRuler && keyIsDown(ALT)) rulers.removeVRuler(mouse.x);
   } else if (key=='l') {
-    loadSettings();
+    // loadSettings();
   } else if (key=='\'') {
     rulers.toggle();
   } else if (keyIsDownMeta() && key=='s') {

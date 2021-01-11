@@ -4,6 +4,7 @@ class Document {
   	this.title = "";
     this.pages = [];
     this.currentPage = null;
+    this.collection = null;
   }
 
 }

@@ -1,4 +1,4 @@
-let img,view,xml,selecting,down,mouse;
+let view,selecting,down,mouse;
 let inp;
 let table;
 // let mode;
@@ -15,7 +15,6 @@ let menu;
 let cellSelect;
 let wordSelect;
 let clipboard;
-let page;
 let lastToolChange = 0;
 // let groups = [];
 let entities = [];
@@ -24,103 +23,87 @@ let lastSearchQuery = ".*,";
 let lastUsedType = "";
 let mainSettings;
 let docSettings;
+let loaded = false;
+
+//state
+let collection; //current collection
+let doc; //current document
+let page; //current page
+let currentPageIndex = 14; //zero based
 
 const META_L = 91;
 const META_R = 93;
 const SHIFT = 16;
 const ALT = 18;
 
-let vid;
-let collection;
-let doc;
 
+function setup() {
+  frameRate(40)
+  createCanvas(windowWidth, windowHeight);
 
-function preload() {
+  loadSettings((mainSettings, docSettings)=>{
+    loaded = false;
+    collection = new Collection();
+    collection.currentDocument = doc = new Document();
+    collection.currentDocument.currentPage = page = new Page();
+
+    loadXML(docSettings.dataPath + "/" + docSettings.xmlFilenames[currentPageIndex], (xml)=>{
+
+      print(docSettings.dataPath + "/" + docSettings.xmlFilenames[currentPageIndex])
+      
+      page.parseXML(xml); //automatically detects the type PageXML/AltoXML
+
+      page.currentImageFilename = docSettings.imageFilenames[currentPageIndex]; //FIXME! now always 0
+
+      img = loadImage(docSettings.imagePath + "%2f" + page.currentImageFilename + "/full/full/0/default.jpg", ()=>{
+
+        for (let i=0; i<docSettings.imageFilenames.length; i++) {
+          let filename = docSettings.imagePath + "%2f" + docSettings.imageFilenames[i] + "/full/400,/0/default.jpg";
+          thumbnails.push(loadImage(filename));
+        }
+        setupInterfaceComponents();
+
+        loaded = true;
+      });
+
+    });
+
+  });
+}
+
+function setupInterfaceComponents() {
+  toolbar = new Toolbar();
+  pageSlider = new PageSlider();
+  exportMenu = new ExportMenu();
+  mouse = createVector();
+  cellSelect = new CellSelect();
+  wordSelect = new WordSelect();
+  clipboard = new Clipboard();
+  view = new Viewport(0, 0, width, height, img.width, img.height);
+  toolbar.setTool(toolbar.WordSelect);
+  pageSlider.setPage(currentPageIndex);
+
+  rulers.hRulers = getItem('hRulers') || []; //read from localStorage
+  rulers.vRulers = getItem('vRulers') || [];
+  rulers.updateCells();
+}
+
+function loadSettings(cb) {
+  print("loadSettings")
   mainSettings = loadJSON("data/settings.json", (e)=>{
     print(e.collection);
     print(e.document);
     docSettings = loadJSON("data/"+mainSettings.collection+"/"+mainSettings.document+"/info.json", (e)=>{
-      docSettings.path = mainSettings.iiifserver+mainSettings.collection+"%2f"+mainSettings.document;
-      print(docSettings)
+      docSettings.imagePath = mainSettings.iiifserver+mainSettings.collection+"%2f"+mainSettings.document;
+      docSettings.dataPath = "data/"+mainSettings.collection+"/"+mainSettings.document;
+      cb(mainSettings, docSettings);
     });
   });
-
-  // xml = loadXML('data/adresboeken/1931/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041_alto.xml');
-  // img = loadImage("data/adresboeken/1931/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041.jpg");
-
-  xml = loadXML('data/adresboeken/1860/alto/MMUTRA01_001427001_00020_master.xml');
-  img = loadImage("http://iiif2.hualab.nl/iiif/2/adresboeken%2f1860%2fMMUTRA01_001427001_00001_master.jpg/full/800,/0/default.jpg");
 }
-
-// img = loadImage("data/Saftleven-1669-27570.jpg");
-
-function setup() {
-  frameRate(40)
-  createCanvas(windowWidth, windowHeight); //todo: clipping in WEBGL drawingContext = canvas.getContext('webgl');
-
-  view = new Viewport(0, 0, width, height, img.width, img.height);
-
-  // --- FIXME
-  // collection = new Collection();
-  // collection.currentDocument = new Document();
-  // collection.currentDocument.currentPage = new Page();
-
-  // collection = loadCollection(mainSettings.collection);
-  // collection.loadDocument(mainSettings.document);
-
-  page = new Page();
-  page.parseAltoXML(xml);
-
-  toolbar = new Toolbar();
-  pageSlider = new PageSlider();
-  exportMenu = new ExportMenu();
-
-  mouse = createVector();
-
-  cellSelect = new CellSelect();
-  wordSelect = new WordSelect();
-
-  loadSettings();
-
-  toolbar.setTool(toolbar.WordSelect);
-
-  clipboard = new Clipboard();
-
-
-  // vid = createVideo(
-  //   ['data/collections/adresboeken/1860/1860-thumb.mov'],
-  //   vidLoad
-  // );
-  // vid.hide(); 
-  //   vid.loop();
-
-  for (let i=0; i<docSettings.filenames.length; i++) {
-    let filename = docSettings.path + "%2f" + docSettings.filenames[i] + "/full/400,/0/default.jpg";
-    thumbnails.push(loadImage(filename));
-    //print(filename)
-  }
-
-  //   00001.jpg
-  //   00002.jpg
-  //   00010.jpg
-  //   00100.jpg
-
-
-  // }
-  // 
-
-
-
-}
-
-// This function is called when the video loads
-// function vidLoad() {
-//   print("test")
-//   vid.loop();
-//   vid.volume(0);
-// }
 
 function draw() {
+  if (!loaded) return;
+  if (!toolbar) return; // loading XML and Image might not be finished
 
   // if (keyIsDown(32)) cursor(HAND);
   if (toolbar.tool==toolbar.Hand) cursor("all-scroll");
@@ -128,9 +111,6 @@ function draw() {
   else if (toolbar.tool==toolbar.CellSelect) cursor("cell");
   else if (toolbar.tool==toolbar.AreaSelect) cursor(CROSS);
   else if (toolbar.tool==toolbar.Ruler) if (keyIsDown(ALT)) cursor("col-resize"); else cursor("row-resize");
-
-  // else cursor(CROSS);
-  // print(toolbar.tool);
 
   background(0);
   view.begin();
@@ -173,35 +153,18 @@ function draw() {
 
   rulers.draw();
 
-  // if (toolbar.tool==toolbar.CellSelect) 
   cellSelect.draw();
-// else if (toolbar.tool==toolbar.WordSelect) 
   wordSelect.draw();
 
   view.end();
 
   pageSlider.draw();
-  
-  // if (!focused) {
-  //   fill(255,0,0);
-  // } else {
-  //   fill(0,255,0);
-  // }
-  // rect(0,0,100,100)
-
-  
 }
 
 function saveSettings() {
   print("saveSettings");
   storeItem('hRulers', rulers.hRulers);
   storeItem('vRulers', rulers.vRulers);
-}
-
-function loadSettings() {
-  rulers.hRulers = getItem('hRulers') || [];
-  rulers.vRulers = getItem('vRulers') || [];
-  rulers.updateCells();
 }
 
 function onToolSelected(tool) {

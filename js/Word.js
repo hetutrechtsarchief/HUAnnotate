@@ -18,14 +18,7 @@ class Word {
     strokeWeight(1);
 
     let r = this.getBounds();
-    // if (this.selected) {
-    //   fill(0,255,255,50);
-    // } else {
-    //   noFill();
-    // }
-    // stroke(0);
-    noStroke();
-    // noStroke();
+    stroke(0,50);
     rect(r.x, r.y, r.width, r.height);
   }
   

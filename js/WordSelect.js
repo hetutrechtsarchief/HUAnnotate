@@ -176,8 +176,6 @@ class WordSelect {
 
     var re = new RegExp(q, "i");
 
-    // print(re.test("henk,"))
-
     highliteWords = [];
     for (let w of page.words) {
       if (re.test(w.txt)) { ///let op w.txt (of later: .label)
@@ -189,62 +187,7 @@ class WordSelect {
     //add found words to selection
     this.selectedWords = highliteWords.slice(); ///this.selectedWords.concat(highliteWords);
 
-    highliteWords = []
-
-
-    // let inp = createInput('');
-    // inp.elt.focus();
-    // inp.input(function() {
-    //     console.log('you are typing: ', this.value());
-    // });
-
-    // $(".dialog").fadeIn();
-
-    // var availableTags = [
-    //   "ActionScript",
-    //   "AppleScript",
-    //   "Asp",
-    //   "BASIC",
-    //   "C",
-    //   "C++",
-    //   "Clojure",
-    //   "COBOL",
-    //   "ColdFusion",
-    //   "Erlang",
-    //   "Fortran",
-    //   "Groovy",
-    //   "Haskell",
-    //   "Java",
-    //   "JavaScript",
-    //   "Lisp",
-    //   "Perl",
-    //   "PHP",
-    //   "Python",
-    //   "Ruby",
-    //   "Scala",
-    //   "Scheme"
-    // ];
-
-    // $(".dialog").dialog({
-    //   dialogClass: "overflow-fix",
-    //   width: "auto"
-    // });
-
-    // $( "#tags" ).autocomplete({
-    //   source: availableTags,
-    //   appendTo: $("#dlgFind"),
-
-    // });
-
-    
-
-
-    // $(function() {
-    
-
-
-    // });
-
+    highliteWords = [];
   }
 
   copyData() {
