@@ -16,15 +16,17 @@ Annotatie Tool om gestructureerde data uit OCR's van scans te verkrijgen
 [![HUAnnotate screengrab](http://img.youtube.com/vi/ggIXrlRBZLc/0.jpg)](https://www.youtube.com/watch?v=ggIXrlRBZLc "HUAnnotate")
 
 ## Install
-```
-#'recursief' omdat deze een git submodule bevat met 'data'
+```bash
+#'--recursive' omdat deze een git submodule bevat met 'data'
 git clone --recursive https://github.com/hetutrechtsarchief/HUAnnotate.git 
 
-serve # of een ander commando om een webservertje te starten.
+serve # of een ander commando om een webserver te starten.
 ```
 
 ## Vervolg
-Op dit moment wordt gebruikt gemaakt van de Javascript library [P5js](https://p5js.org/). De code is modulair opgebouwd in classes maar er wordt geen gebruik gemaakt van een HTML componenten. Dit zorgt nu voor problemen waardoor we nu willen overstappen naar een framework zoals Angular, React of VUE. We hebben gekozen voor VUE en het omzetten begint in januari 2021.
+Op dit moment wordt gebruikt gemaakt van de Javascript library [P5js](https://p5js.org/). De code is modulair opgebouwd in classes maar er wordt geen gebruik gemaakt van een HTML/DOM structuur. Dit zorgt nu voor opschalingsproblemen waardoor we nu willen overstappen naar een framework zoals Angular, React of VUE. We hebben gekozen voor VUE en het omzetten begint in januari 2021 met hulp van @hay.
+
+
 
 
 
