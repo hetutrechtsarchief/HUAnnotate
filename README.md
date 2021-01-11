@@ -21,10 +21,7 @@ serve # of een ander commando om een webserver te starten.
 Alle functionaliteiten uit het eerdere Annotatie-Experiment zijn inmiddels overgenomen.
 * [Annotatie-Experiment repo](https://github.com/hetutrechtsarchief/Annotatie-Experiment)
 
-<img src="https://github.com/hetutrechtsarchief/Annotatie-Experiment/raw/master/doc/blokken-selecteren-muis.jpg" width="200">
-<img src="https://github.com/hetutrechtsarchief/Annotatie-Experiment/raw/master/doc/tussenvoegsels-regex.jpg" width="200">
-<img src="https://github.com/hetutrechtsarchief/Annotatie-Experiment/raw/master/doc/namen-lookup.jpg" width="200">
-<img src="https://github.com/hetutrechtsarchief/Annotatie-Experiment/raw/master/doc/adressen-lookup.jpg" width="200">
+<img src="https://github.com/hetutrechtsarchief/Annotatie-Experiment/raw/master/doc/blokken-selecteren-muis.jpg" width="200"><img src="https://github.com/hetutrechtsarchief/Annotatie-Experiment/raw/master/doc/tussenvoegsels-regex.jpg" width="200"><img src="https://github.com/hetutrechtsarchief/Annotatie-Experiment/raw/master/doc/namen-lookup.jpg" width="200"><img src="https://github.com/hetutrechtsarchief/Annotatie-Experiment/raw/master/doc/adressen-lookup.jpg" width="200">
 
 ## Filmpje van huidige versie
 toegepast op een andere bron dan de Adresboeken, namelijk 'Gevangenisregisters':
