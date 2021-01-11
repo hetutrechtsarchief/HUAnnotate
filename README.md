@@ -9,6 +9,7 @@ Annotatie Tool om gestructureerde data uit OCR's van scans te verkrijgen
 * Bij het archief worden regelmatig projecten door vrijwilligers uitgevoerd waarbij scans met persoonsnamen handmatig worden overgetypt. Dit is veel werk en zou in het geval van de adresboeken mogelijk deels automatisch kunnen door het toepassen van moderne technieken. Voor het adresboek van 1860 is hiervoor een proef gedaan waarbij de OCR geconverteerd is naar een [online spreadsheet](https://docs.google.com/spreadsheets/d/1Q0PEbc-84Ze_rFbrCnBRH41sEOHuqk6ceTEqxEMNUQ8/edit?usp=sharing) dmv scripting, spreadsheet-formules, regular expressions, look-up tables en ook nog wat handwerk.
 * [Stage opdracht](https://docs.google.com/document/d/13DwrZrvOC_OL0jQChSvOgc0-kadowbwkkJirB00c8R8/edit?usp=sharing): Wij zouden graag de proef voor het semi-automatisch ontsluiten van de Adresboeken een vervolg geven in de vorm van een stageopdracht met een focus op programmeren/scripten/coderen en het omvormen van ‘ruwe tekst’ naar ‘gestructureerde data’. [...]
 
+## Zie ook
 * [Annotatie-Experiment repo](https://github.com/hetutrechtsarchief/Annotatie-Experiment)
 * [Adresboeken-to-CSV](https://github.com/hetutrechtsarchief/Adresboeken-to-CSV)
 
