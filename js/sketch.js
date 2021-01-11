@@ -31,6 +31,8 @@ const SHIFT = 16;
 const ALT = 18;
 
 let vid;
+let collection;
+let doc;
 
 
 function preload() {
@@ -38,10 +40,8 @@ function preload() {
     print(e.collection);
     print(e.document);
     docSettings = loadJSON("data/"+mainSettings.collection+"/"+mainSettings.document+"/info.json", (e)=>{
-      docSettings.path = "http://iiif2.hualab.nl/iiif/2/"+mainSettings.collection+"%2f"+mainSettings.document;
+      docSettings.path = mainSettings.iiifserver+mainSettings.collection+"%2f"+mainSettings.document;
       print(docSettings)
-
-
     });
   });
 
@@ -49,7 +49,7 @@ function preload() {
   // img = loadImage("data/adresboeken/1931/BIBLIO_STIJD_58-16104_Het-adresboek_1931_00041.jpg");
 
   xml = loadXML('data/adresboeken/1860/alto/MMUTRA01_001427001_00020_master.xml');
-  img = loadImage("http://iiif2.hualab.nl/iiif/2/adresboeken%2f1860%2fMMUTRA01_001427001_00001_master.jpg/full/800,/0/default.jpg"); 
+  img = loadImage("http://iiif2.hualab.nl/iiif/2/adresboeken%2f1860%2fMMUTRA01_001427001_00001_master.jpg/full/800,/0/default.jpg");
 }
 
 // img = loadImage("data/Saftleven-1669-27570.jpg");
@@ -59,6 +59,14 @@ function setup() {
   createCanvas(windowWidth, windowHeight); //todo: clipping in WEBGL drawingContext = canvas.getContext('webgl');
 
   view = new Viewport(0, 0, width, height, img.width, img.height);
+
+  // --- FIXME
+  // collection = new Collection();
+  // collection.currentDocument = new Document();
+  // collection.currentDocument.currentPage = new Page();
+
+  // collection = loadCollection(mainSettings.collection);
+  // collection.loadDocument(mainSettings.document);
 
   page = new Page();
   page.parseAltoXML(xml);
@@ -89,7 +97,7 @@ function setup() {
   for (let i=0; i<docSettings.filenames.length; i++) {
     let filename = docSettings.path + "%2f" + docSettings.filenames[i] + "/full/400,/0/default.jpg";
     thumbnails.push(loadImage(filename));
-    print(filename)
+    //print(filename)
   }
 
   //   00001.jpg
