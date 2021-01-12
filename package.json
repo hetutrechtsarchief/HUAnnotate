@@ -1,0 +1,12 @@
+{
+    "dependencies": {
+        "jquery": "1.12.4",
+        "p5": "1.1.9"
+    },
+    "devDependencies": {
+        "http-server": "^0.12.3"
+    },
+    "scripts" : {
+        "serve" : "http-server -o index.html"
+    }
+}

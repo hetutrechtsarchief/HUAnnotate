@@ -1,4 +1,3 @@
-
 .DS_Store
 data/saftleven-panorama-1684.jpg
 data/IMG_9684.JPG
@@ -7,3 +6,4 @@ data/
 !data/settings.json
 !data/gevangenisregisters/1919/info.json
 !settings.json
+node_modules
