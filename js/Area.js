@@ -1,6 +1,0 @@
-class Area extends Rectangle {
-
-  
-  
-
-}
