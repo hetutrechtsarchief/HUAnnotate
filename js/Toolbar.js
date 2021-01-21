@@ -9,7 +9,8 @@ class Toolbar {
     // this.AreaSelect = this.makeButton("select text (t)","data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAACgAQMAAACxAfVuAAAABlBMVEUAAAAAAAClZ7nPAAAAAnRSTlMA/iyWEiMAAAA9SURBVHicY2AYBVQF/0EASsO5g1EQi9NHBckXHAUjEwzCpDgqSAfBUTAywSBMiqOC9BAchE04bIKjgKoAACuiXrD5nX1PAAAAAElFTkSuQmCC");
     this.CellSelect = this.makeButton("select cells (s)","img/select-cells.png");
     this.WordSelect = this.makeButton("word cells (w)","img/select-text.png");
-
+    this.CellSelect = this.makeButton("select cells (s)","icons/select-cells.png");
+    this.WordSelect = this.makeButton("word cells (w)","icons/select-text.png");
     // this.HRuler = this.makeButton("horizontal ruler","icons/h-ruler.png");
     this.Ruler = this.makeButton("ruler","img/h-ruler.png");
 
@@ -48,8 +49,8 @@ class Toolbar {
   keyPressed() {
     if (key=='r') this.setTool(this.Ruler);
     // else if (key=='h') this.setTool(this.HRuler);
-    else if (key=='a') this.setTool(this.AreaSelect);
-    else if (key=='m') this.setTool(this.Move);
+    // else if (key=='a') this.setTool(this.AreaSelect);
+    // else if (key=='m') this.setTool(this.Move);
     else if (key=='s') this.setTool(this.CellSelect);
     else if (key=='w') this.setTool(this.WordSelect);
     else if (key==' ' || key=='h') this.setTool(this.Hand);
