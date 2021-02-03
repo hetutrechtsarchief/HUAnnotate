@@ -9,6 +9,8 @@
 </template>
 
 <script>
+    import { PageXml } from '../pagexml.js';
+
     export default {
         data() {
             return {
@@ -18,31 +20,43 @@
         },
 
         methods : {
+            async handleDrop(e) {
+                this.dragover = false;
+                e.preventDefault();
+
+                if (!e.dataTransfer.items) {
+                    return;
+                }
+
+                const items = e.dataTransfer.items;
+
+                if (items.length > 1) {
+                    this.error = 'Please only drop one file...';
+                    return;
+                }
+
+                const item = items[0].getAsFile();
+
+                if (item.type !== 'text/xml') {
+                    this.error = 'Only XML files are accepted';
+                    return;
+                }
+
+                // Parse and check for erros
+                let page;
+
+                try {
+                    const xml = await item.text();
+                    page = new PageXml(xml);
+                } catch (e) {
+                    this.error = `Parsing error: ${e}`;
+                }
+
+                this.$emit('update', page);
+            },
+
             initDrop() {
-                this.$el.addEventListener('drop', (e) => {
-                    this.dragover = false;
-                    e.preventDefault();
-
-                    if (!e.dataTransfer.items) {
-                        return;
-                    }
-
-                    const items = e.dataTransfer.items;
-
-                    if (items.length > 1) {
-                        this.error = 'Please only drop one file...';
-                        return;
-                    }
-
-                    const item = items[0].getAsFile();
-
-                    if (item.type !== 'text/xml') {
-                        this.error = 'Only XML files are accepted';
-                        return;
-                    }
-
-                    this.$emit('update', item);
-                });
+                this.$el.addEventListener('drop', (e) => this.handleDrop(e));
 
                 this.$el.addEventListener('dragleave', () => {
                     this.dragover = false;
