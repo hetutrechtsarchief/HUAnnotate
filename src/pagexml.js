@@ -36,7 +36,7 @@ export class PageXml {
             return {
                 "coordinates" : coords,
                 "id" : d._attributes.id,
-                "text" : d.TextEquiv.Unicode._text
+                "text" : d?.TextEquiv?.Unicode._text
             };
         });
     }
