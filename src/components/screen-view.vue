@@ -19,8 +19,7 @@
             <el-viewer
                 v-if="pageData"
                 class="screen-view__viewer"
-                v-bind:imageSrc="'test-data/page.jpg'"
-                zv-bind:imageSrc="pageData.imageSrc"
+                v-bind:imageSrc="pageData.imageSrc"
                 v-bind:imageHeight="pageData.imageHeight"
                 v-bind:imageWidth="pageData.imageWidth"></el-viewer>
 

@@ -15,13 +15,6 @@
     let extent, map, projection;
 
     export default {
-        data() {
-            return {
-                map : null,
-                projection : null
-            }
-        },
-
         methods : {
             initMap() {
                 map = new Map({
@@ -55,9 +48,8 @@
 
         mounted() {
             extent = [0, 0, this.imageWidth, this.imageHeight];
-            this.initMap();
             this.initProjection();
-            console.log(map, projection);
+            this.initMap();
         },
 
         props : {
