@@ -5,8 +5,7 @@ Vue.use(Vuex)
 
 export const store = new Vuex.Store({
     state : {
-        pageData : null,
-        screen : 'home'
+        pageData : null
     },
 
     getters : {
@@ -16,6 +15,10 @@ export const store = new Vuex.Store({
     mutations : {
         pageData(state, pageData) {
             state.pageData = pageData;
+        },
+
+        resetPageData(state) {
+            state.pageData = null;
         }
     },
 

@@ -6,12 +6,14 @@
             </h1>
 
             <nav class="header__nav">
-                <router-link
+                <button
                     class="header__link"
-                    to="/home">Home</router-link>
-                <router-link
+                    v-on:click="useTestXml">Test XML</button>
+
+                <button
+                    v-if="pageData"
                     class="header__link"
-                    to="/testpagexml">Test XML</router-link>
+                    v-on:click="resetPageData">Reset</button>
             </nav>
         </header>
 
@@ -23,23 +25,21 @@
                 v-bind:imageHeight="pageData.imageHeight"
                 v-bind:imageWidth="pageData.imageWidth"></el-viewer>
 
-            <div v-if="!pageData"
-                 class="screen-view__message">
-                <p>No pagedata, did you load an XML file?</p>
-
-                <button
-                    class="btn btn--link"
-                    v-on:click="useTestXml">Or use a test Page XML file</button>
-            </div>
+            <drag-drop
+                v-if="!pageData"
+                v-on:update="parseDrop"></drag-drop>
         </section>
     </div>
 </template>
 
 <script>
+    import axios from 'axios';
+    import { PageXml } from '../pagexml.js';
+    import DragDrop from './drag-drop.vue';
     import ElViewer from './el-viewer.vue';
 
     export default {
-        components : { ElViewer },
+        components : { DragDrop, ElViewer },
 
         computed : {
             pageData() {
@@ -48,8 +48,20 @@
         },
 
         methods : {
-            useTestXml() {
-                this.$router.push('testpagexml');
+            async parseDrop(pageData) {
+                this.$store.commit('pageData', pageData);
+            },
+
+            resetPageData() {
+                this.$store.commit('resetPageData');
+            },
+
+            async useTestXml() {
+                // Load test file and give that to pageData
+                const path = process.env.BASE_URL;
+                const xml = await axios.get(`${path}test-data/page.xml`);
+                const pageXml = new PageXml(xml.data);
+                this.$store.commit('pageData', pageXml);
             }
         }
     }
