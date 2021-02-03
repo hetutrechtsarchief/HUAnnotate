@@ -5,8 +5,13 @@ import xmljs from 'xml-js';
 export class PageXml {
     constructor(rawXml) {
         this.rawXml = rawXml;
-        this.data = null;
+        this.metadata = null;
+        this.page = null;
         this.parse();
+    }
+
+    get imageSrc() {
+        return this.metadata.TranskribusMetadata._attributes.imgUrl;
     }
 
     parse() {
@@ -23,6 +28,7 @@ export class PageXml {
             throw new Error('No TranskribusMetadata in this XML file');
         }
 
-        this.data = data;
+        this.metadata = data.PcGts.Metadata;
+        this.page = data.PcGts.Page;
     }
 }
