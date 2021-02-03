@@ -12,13 +12,9 @@
     import View from 'ol/View';
     import { getCenter } from 'ol/extent';
 
-    export default {
-        computed : {
-            extent() {
-                return [0, 0, this.imageWidth, this.imageHeight];
-            }
-        },
+    let extent, map, projection;
 
+    export default {
         data() {
             return {
                 map : null,
@@ -28,37 +24,40 @@
 
         methods : {
             initMap() {
-                this.map = new Map({
+                map = new Map({
                     layers : [
                         new ImageLayer({
                             source : new Static({
-                                imageExtent : this.extent,
-                                projection : this.projection,
+                                imageExtent : extent,
+                                projection : projection,
                                 url : this.imageSrc
                             })
                         })
                     ],
                     target : this.$el,
                     view : new View({
-                        center : getCenter( this.extent ),
+                        center : getCenter( extent ),
                         maxZoom : 8,
-                        projection : this.projection,
+                        projection : projection,
                         zoom : 2
                     })
                 });
             },
 
             initProjection() {
-                this.projection = new Projection({
-                    extent : this.extent,
+                projection = new Projection({
+                    code : 'page-image',
+                    extent : extent,
                     units : 'pixels'
                 });
             }
         },
 
         mounted() {
+            extent = [0, 0, this.imageWidth, this.imageHeight];
             this.initMap();
             this.initProjection();
+            console.log(map, projection);
         },
 
         props : {
