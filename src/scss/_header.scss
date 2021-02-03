@@ -1,0 +1,22 @@
+.header {
+    background: var(--c-1);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__nav {
+        display: flex;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-size: 2.4rem;
+    }
+
+    &__link {
+        color: white;
+        margin-left: 1rem;
+    }
+}

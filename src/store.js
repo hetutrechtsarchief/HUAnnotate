@@ -15,7 +15,6 @@ export const store = new Vuex.Store({
 
     mutations : {
         pageData(state, pageData) {
-            console.log('pageData', pageData);
             state.pageData = pageData;
         }
     },

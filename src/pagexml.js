@@ -10,8 +10,16 @@ export class PageXml {
         this.parse();
     }
 
+    get imageHeight() {
+        return parseInt(this.page._attributes.imageHeight);
+    }
+
     get imageSrc() {
         return this.metadata.TranskribusMetadata._attributes.imgUrl;
+    }
+
+    get imageWidth() {
+        return parseInt(this.page._attributes.imageWidth);
     }
 
     parse() {

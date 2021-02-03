@@ -10,6 +10,7 @@ export const router = new VueRouter({
     routes : [
         {
             path : '/',
+            alias : '/home',
             name : 'home',
             component : ScreenHome
         },
