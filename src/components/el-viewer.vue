@@ -6,11 +6,11 @@
     // Adapted from https://openlayers.org/en/latest/examples/static-image.html
     import 'ol/ol.css';
     import Feature from 'ol/Feature';
-    import GeoJSON from 'ol/format/GeoJSON';
     import ImageLayer from 'ol/layer/Image';
     import Map from 'ol/Map';
     import Polygon from 'ol/geom/Polygon';
     import Projection from 'ol/proj/Projection';
+    import Select from 'ol/interaction/Select';
     import Static from 'ol/source/ImageStatic';
     import View from 'ol/View';
     import VectorLayer from 'ol/layer/Vector';
@@ -21,6 +21,25 @@
 
     export default {
         methods : {
+            initInteraction() {
+                const select = new Select();
+                map.addInteraction(select);
+
+                select.on('select', (e) => {
+                    e.target.getFeatures().forEach((feature) => {
+                        // Get the feature by ID and return that,
+                        // only return a single feature
+                        const id = feature.getId();
+                        const region = this.regions.find(r => r.id === id);
+
+                        if (region) {
+                            this.$emit('selectregion', region);
+                            return;
+                        }
+                    });
+                });
+            },
+
             initMap() {
                 map = new Map({
                     layers : [
@@ -40,23 +59,6 @@
                         projection : projection,
                         zoom : 2
                     })
-                });
-
-                // Add interaction
-                map.on('click', (e) => {
-                    map.forEachFeatureAtPixel(e.pixel, (feature) => {
-                        if (feature) {
-                            // Get the feature by ID and return that,
-                            // only return a single feature
-                            const id = feature.getId();
-                            const region = this.regions.find(r => r.id === id);
-
-                            if (region) {
-                                console.log(region);
-                                return;
-                            }
-                        }
-                    });
                 });
             },
 
@@ -91,7 +93,7 @@
 
                     regionsLayer.getSource().addFeature(feature);
                 }
-            },
+            }
         },
 
         mounted() {
@@ -99,6 +101,7 @@
             this.initRegions();
             this.initProjection();
             this.initMap();
+            this.initInteraction();
         },
 
         props : {

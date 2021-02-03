@@ -11,4 +11,13 @@
     &__viewer {
         @include wh(100%);
     }
+
+    &__content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    &__content[details-visible] {
+        grid-template-columns: 1fr 25vw;
+    }
 }

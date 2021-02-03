@@ -1,0 +1,18 @@
+.el-detail {
+    background: var(--c-1);
+    padding: 2rem;
+
+    &__props {
+        display: grid;
+        grid-template-columns: 1fr;
+        color: white;
+    }
+
+    &__props dt {
+        font-weight: bold;
+    }
+
+    &__props dd {
+        margin-bottom: 1rem;
+    }
+}

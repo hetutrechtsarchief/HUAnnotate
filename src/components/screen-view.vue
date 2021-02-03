@@ -17,10 +17,13 @@
             </nav>
         </header>
 
-        <section class="screen-view__content">
+        <section
+            class="screen-view__content"
+            v-bind:details-visible="!!currentRegion">
             <el-viewer
                 v-if="pageData"
                 class="screen-view__viewer"
+                v-on:selectregion="selectRegion"
                 v-bind:regions="pageData.textRegions"
                 v-bind:imageSrc="pageData.imageSrc"
                 v-bind:imageHeight="pageData.imageHeight"
@@ -29,6 +32,11 @@
             <drag-drop
                 v-if="!pageData"
                 v-on:update="parseDrop"></drag-drop>
+
+            <el-detail
+                class="screen-view__details"
+                v-show="!!currentRegion"
+                v-bind:data="currentRegion"></el-detail>
         </section>
     </div>
 </template>
@@ -37,15 +45,22 @@
     import axios from 'axios';
     import { PageXml } from '../pagexml.js';
     import DragDrop from './drag-drop.vue';
+    import ElDetail from './el-detail.vue';
     import ElViewer from './el-viewer.vue';
 
     export default {
-        components : { DragDrop, ElViewer },
+        components : { DragDrop, ElDetail, ElViewer },
 
         computed : {
             pageData() {
                 return this.$store.state.pageData;
             }
+        },
+
+        data() {
+            return {
+                currentRegion : null
+            };
         },
 
         methods : {
@@ -55,6 +70,11 @@
 
             resetPageData() {
                 this.$store.commit('resetPageData');
+                this.currentRegion = null;
+            },
+
+            selectRegion(region) {
+                this.currentRegion = region;
             },
 
             async useTestXml() {
