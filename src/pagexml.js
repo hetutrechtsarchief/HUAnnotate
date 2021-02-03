@@ -22,6 +22,25 @@ export class PageXml {
         return parseInt(this.page._attributes.imageWidth);
     }
 
+    get textRegions() {
+        return this.page.TextRegion.map((d) => {
+            // We want to convert up the TextRegion format, which looks like this:
+            // "747,141 783,141 783,171 747,171"
+            // Into this:
+            // [ [747, 141], [783, 141], [783,171], [747,171] ]
+
+            const coords = d.Coords._attributes.points.split(' ').map((p) => {
+                return p.split(',').map(c => parseInt(c));
+            });
+
+            return {
+                "coordinates" : coords,
+                "id" : d._attributes.id,
+                "text" : d.TextEquiv.Unicode._text
+            };
+        });
+    }
+
     parse() {
         const data = xmljs.xml2js(this.rawXml, {
             compact : true
