@@ -1,6 +1,7 @@
 // To parse this format: https://github.com/OCR-D/PAGE-XML, as used by
 // Transkribus
 import xmljs from 'xml-js';
+import convert from 'xml-js';
 
 export class PageXml {
     constructor(rawXml) {
@@ -22,23 +23,57 @@ export class PageXml {
         return parseInt(this.page._attributes.imageWidth);
     }
 
+    // get textRegions() {
+    //     return this.page.TextRegion.map((d) => {
+    //         // We want to convert up the TextRegion format, which looks like this:
+    //         // "747,141 783,141 783,171 747,171"
+    //         // Into this:
+    //         // [ [747, 141], [783, 141], [783,171], [747,171] ]
+
+    //         const coords = d.Coords._attributes.points.split(' ').map((p) => {
+    //             return p.split(',').map(c => parseInt(c));
+    //         });
+
+    //         return {
+    //             "coordinates" : coords,
+    //             "id" : d._attributes.id,
+    //             "text" : d?.TextEquiv?.Unicode._text
+    //         };
+    //     });
+    // }
+
     get textRegions() {
-        return this.page.TextRegion.map((d) => {
-            // We want to convert up the TextRegion format, which looks like this:
-            // "747,141 783,141 783,171 747,171"
-            // Into this:
-            // [ [747, 141], [783, 141], [783,171], [747,171] ]
+        
+        //this can/should be modernized with reducers and map functions.
 
-            const coords = d.Coords._attributes.points.split(' ').map((p) => {
-                return p.split(',').map(c => parseInt(c));
-            });
+        const lines = [];
 
-            return {
-                "coordinates" : coords,
-                "id" : d._attributes.id,
-                "text" : d?.TextEquiv?.Unicode._text
-            };
-        });
+        for (let i=0; i<this.page.TextRegion.length; i++) {
+
+            let region = this.page.TextRegion[i];
+
+            if (!Array.isArray(region.TextLine)) {
+                region.TextLine = [region.TextLine];
+            }
+
+            for (let j=0; j<region.TextLine.length; j++) {
+
+                let line = region.TextLine[j]; //region.TextLine[j];
+
+                const coords = line.Coords._attributes.points.split(' ').map((p) => {
+                    return p.split(',').map(c => parseInt(c));
+                });
+
+                lines.push({
+                    "coordinates" : coords,
+                    "id" : line._attributes.id,
+                    "text" : line?.TextEquiv?.Unicode._text
+                }); 
+
+            }
+        }
+
+        return lines;
     }
 
     parse() {
