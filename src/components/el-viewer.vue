@@ -26,17 +26,26 @@
                 map.addInteraction(select);
 
                 select.on('select', (e) => {
+                    let hasFeature = false;
+
                     e.target.getFeatures().forEach((feature) => {
                         // Get the feature by ID and return that,
                         // only return a single feature
-                        const id = feature.getId();
-                        const region = this.regions.find(r => r.id === id);
+                        const regionId = feature.getId();
+                        const region = this.regions.find(r => r.id === regionId);
 
                         if (region) {
                             this.$emit('selectregion', region);
+                            hasFeature = true;
                             return;
                         }
                     });
+
+                    if (!hasFeature) {
+                        // No feature found after select, emit an event
+                        // to indicate there are no regions selected
+                        this.$emit('blurregion');
+                    }
                 });
             },
 
@@ -93,6 +102,17 @@
 
                     regionsLayer.getSource().addFeature(feature);
                 }
+            },
+
+            selectNextRegion() {
+                // Find the index of the currentRegion in all regions,
+                // then emit an event with the next region in the list
+                const index = this.regions.findIndex(r => r.id === this.currentRegion.id);
+
+                // Add one to the index for the next one, but also add a module
+                // so that it wraps around if we are at the last element
+                const newIndex = (index + 1) % this.regions.length;
+                this.$emit('selectregion', this.regions[newIndex]);
             }
         },
 
@@ -105,6 +125,10 @@
         },
 
         props : {
+            currentRegion : {
+                type : Object
+            },
+
             imageHeight : {
                 type : Number
             },

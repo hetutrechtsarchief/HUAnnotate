@@ -22,8 +22,11 @@
             v-bind:details-visible="!!currentRegion">
             <el-viewer
                 v-if="pageData"
+                ref="viewer"
                 class="screen-view__viewer"
+                v-on:blurregion="blurRegion"
                 v-on:selectregion="selectRegion"
+                v-bind:currentRegion="currentRegion"
                 v-bind:regions="pageData.textLines"
                 v-bind:imageSrc="pageData.imageSrc"
                 v-bind:imageHeight="pageData.imageHeight"
@@ -64,6 +67,10 @@
         },
 
         methods : {
+            blurRegion() {
+                this.currentRegion = null;
+            },
+
             async parseDrop(pageData) {
                 this.$store.commit('pageData', pageData);
             },
@@ -84,6 +91,17 @@
                 const pageXml = new PageXml(xml.data);
                 this.$store.commit('pageData', pageXml);
             }
+        },
+
+        mounted() {
+            window.addEventListener('keydown', (e) => {
+                // If there is a detail pane, tab through all regions in
+                // the viewer if the <Tab> key is used
+                if (!!this.currentRegion && e.key === 'Tab') {
+                    e.preventDefault();
+                    this.$refs.viewer.selectNextRegion();
+                }
+            });
         }
     }
 </script>
