@@ -99,7 +99,13 @@
                 // the viewer if the <Tab> key is used
                 if (!!this.currentRegion && e.key === 'Tab') {
                     e.preventDefault();
-                    this.$refs.viewer.selectNextRegion();
+
+                    // If the shiftKey is also pressed, select previousRegion
+                    if (e.shiftKey) {
+                        this.$refs.viewer.selectPreviousRegion();
+                    } else {
+                        this.$refs.viewer.selectNextRegion();
+                    }
                 }
             });
         }

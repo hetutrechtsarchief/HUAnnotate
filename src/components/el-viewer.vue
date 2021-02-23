@@ -12,20 +12,50 @@
     import Projection from 'ol/proj/Projection';
     import Select from 'ol/interaction/Select';
     import Static from 'ol/source/ImageStatic';
-    import View from 'ol/View';
     import VectorLayer from 'ol/layer/Vector';
     import VectorSource from 'ol/source/Vector';
+    import { Fill, Stroke, Style } from 'ol/style';
+    import View from 'ol/View';
     import { getCenter } from 'ol/extent';
 
-    let extent, regionsLayer, map, projection;
+    let extent, regionsLayer, regionsSource, map, projection;
+
+    const STYLE_UNSELECTED = new Style({
+        fill : new Fill({
+            color : 'rgba(0, 0, 255, 0.1)'
+        })
+    });
+
+    const STYLE_SELECTED = new Style({
+        fill : new Fill({
+            color : 'rgba(255, 255, 255, 0.3)'
+        })
+    });
 
     export default {
+        computed : {
+            currentRegionIndex() {
+                if (this.currentRegion) {
+                    return this.regions.findIndex(r => r.id === this.currentRegion.id);
+                } else {
+                    return -1;
+                }
+            }
+        },
+
         methods : {
+            deselectAllFeatures() {
+                regionsLayer.getSource().forEachFeature((f) => {
+                    f.setStyle(STYLE_UNSELECTED);
+                });
+            },
+
             initInteraction() {
                 const select = new Select();
                 map.addInteraction(select);
 
                 select.on('select', (e) => {
+                    this.deselectAllFeatures();
                     let hasFeature = false;
 
                     e.target.getFeatures().forEach((feature) => {
@@ -93,10 +123,17 @@
                         return c;
                     });
 
+                    // We also need to add the first coordinate again, because
+                    // otherwise we can't make a proper rectangle
+
+                    region.coordinates.push(region.coordinates[0]);
+
                     // Note extra square brackets here!
                     const feature = new Feature(
                         new Polygon([ region.coordinates ])
                     );
+
+                    feature.setStyle(STYLE_UNSELECTED);
 
                     feature.setId(region.id);
 
@@ -104,14 +141,24 @@
                 }
             },
 
-            selectNextRegion() {
-                // Find the index of the currentRegion in all regions,
-                // then emit an event with the next region in the list
-                const index = this.regions.findIndex(r => r.id === this.currentRegion.id);
+            selectFeature(id) {
+                regionsLayer.getSource().forEachFeature((f) => {
+                    if (f.getId() === id) {
+                        f.setStyle(STYLE_SELECTED);
+                    }
+                });
+            },
 
+            selectNextRegion() {
                 // Add one to the index for the next one, but also add a module
                 // so that it wraps around if we are at the last element
-                const newIndex = (index + 1) % this.regions.length;
+                const newIndex = (this.currentRegionIndex + 1) % this.regions.length;
+                this.$emit('selectregion', this.regions[newIndex]);
+            },
+
+            selectPreviousRegion() {
+                let newIndex = this.currentRegionIndex - 1;
+                newIndex < 0 ? this.regions.length -1 : newIndex;
                 this.$emit('selectregion', this.regions[newIndex]);
             }
         },
@@ -143,6 +190,16 @@
 
             regions : {
                 type : Array
+            }
+        },
+
+        watch : {
+            currentRegion() {
+                this.deselectAllFeatures();
+
+                if (this.currentRegion) {
+                    this.selectFeature(this.currentRegion.id);
+                }
             }
         }
     }
