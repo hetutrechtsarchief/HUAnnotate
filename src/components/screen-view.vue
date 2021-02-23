@@ -24,7 +24,7 @@
                 v-if="pageData"
                 class="screen-view__viewer"
                 v-on:selectregion="selectRegion"
-                v-bind:regions="pageData.textRegions"
+                v-bind:regions="pageData.textLines"
                 v-bind:imageSrc="pageData.imageSrc"
                 v-bind:imageHeight="pageData.imageHeight"
                 v-bind:imageWidth="pageData.imageWidth"></el-viewer>

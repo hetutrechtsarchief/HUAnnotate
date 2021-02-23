@@ -42,24 +42,16 @@ export class PageXml {
     //     });
     // }
 
-    get textRegions() {
-        
-        //this can/should be modernized with reducers and map functions.
-
+    get textLines() {
         const lines = [];
 
-        for (let i=0; i<this.page.TextRegion.length; i++) {
-
-            let region = this.page.TextRegion[i];
-
+        for (const region of this.page.TextRegion) {
+            // TODO: does this actally happen?
             if (!Array.isArray(region.TextLine)) {
-                region.TextLine = [region.TextLine];
+                region.TextLine = [ region.TextLine ];
             }
 
-            for (let j=0; j<region.TextLine.length; j++) {
-
-                let line = region.TextLine[j]; //region.TextLine[j];
-
+            for (const line of region.TextLine) {
                 const coords = line.Coords._attributes.points.split(' ').map((p) => {
                     return p.split(',').map(c => parseInt(c));
                 });
@@ -68,8 +60,7 @@ export class PageXml {
                     "coordinates" : coords,
                     "id" : line._attributes.id,
                     "text" : line?.TextEquiv?.Unicode._text
-                }); 
-
+                });
             }
         }
 
