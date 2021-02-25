@@ -69,15 +69,12 @@
             }
         },
 
-        data() {
-            return {
-                currentRegionId : null
-            };
-        },
-
         methods : {
             blurRegion() {
-                this.currentRegionId = null;
+                this.$router.push({
+                    name : 'region',
+                    params : { currentRegionId : null }
+                });
             },
 
             async parseDrop(pageData) {
@@ -86,11 +83,14 @@
 
             resetPageData() {
                 this.$store.commit('resetPageData');
-                this.currentRegionId = null;
+                this.blurRegion();
             },
 
             selectRegion(regionId) {
-                this.currentRegionId = regionId;
+                this.$router.push({
+                    name : 'region',
+                    params : { currentRegionId : regionId }
+                });
             },
 
             async useTestXml() {
@@ -117,6 +117,10 @@
                     }
                 }
             });
+        },
+
+        props : {
+            currentRegionId : String
         }
     }
 </script>

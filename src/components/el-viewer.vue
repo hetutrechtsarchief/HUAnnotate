@@ -147,13 +147,13 @@
                 // Add one to the index for the next one, but also add a module
                 // so that it wraps around if we are at the last element
                 const newIndex = (this.currentRegionIndex + 1) % this.regions.length;
-                this.$emit('selectregion', this.regions[newIndex]);
+                this.$emit('selectregion', this.regions[newIndex].id);
             },
 
             selectPreviousRegion() {
                 let newIndex = this.currentRegionIndex - 1;
                 newIndex < 0 ? this.regions.length -1 : newIndex;
-                this.$emit('selectregion', this.regions[newIndex]);
+                this.$emit('selectregion', this.regions[newIndex].id);
             }
         },
 

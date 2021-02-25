@@ -7,8 +7,17 @@ Vue.use(VueRouter)
 export const router = new VueRouter({
     routes : [
         {
-            path : '/',
-            name : 'view',
+            path : '/region/:currentRegionId?',
+            name : 'region',
+            component : ScreenView,
+            props(route) {
+                const currentRegionId = route.params.currentRegionId ?? null;
+                return { currentRegionId };
+            }
+        },
+        {
+            path : '*',
+            name : 'start',
             component : ScreenView
         }
     ]
