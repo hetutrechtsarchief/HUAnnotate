@@ -46,7 +46,6 @@ export class PageXml {
         const lines = [];
 
         for (const region of this.page.TextRegion) {
-            // TODO: does this actally happen?
             if (!Array.isArray(region.TextLine)) {
                 region.TextLine = [ region.TextLine ];
             }
