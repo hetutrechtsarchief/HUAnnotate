@@ -1,7 +1,6 @@
 // To parse this format: https://github.com/OCR-D/PAGE-XML, as used by
 // Transkribus
 import xmljs from 'xml-js';
-import convert from 'xml-js';
 
 export class PageXml {
     constructor(rawXml) {
@@ -22,25 +21,6 @@ export class PageXml {
     get imageWidth() {
         return parseInt(this.page._attributes.imageWidth);
     }
-
-    // get textRegions() {
-    //     return this.page.TextRegion.map((d) => {
-    //         // We want to convert up the TextRegion format, which looks like this:
-    //         // "747,141 783,141 783,171 747,171"
-    //         // Into this:
-    //         // [ [747, 141], [783, 141], [783,171], [747,171] ]
-
-    //         const coords = d.Coords._attributes.points.split(' ').map((p) => {
-    //             return p.split(',').map(c => parseInt(c));
-    //         });
-
-    //         return {
-    //             "coordinates" : coords,
-    //             "id" : d._attributes.id,
-    //             "text" : d?.TextEquiv?.Unicode._text
-    //         };
-    //     });
-    // }
 
     get textLines() {
         const lines = [];

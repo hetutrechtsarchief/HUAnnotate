@@ -19,14 +19,14 @@
 
         <section
             class="screen-view__content"
-            v-bind:details-visible="!!currentRegion">
+            v-bind:details-visible="!!currentRegionId">
             <el-viewer
                 v-if="pageData"
                 ref="viewer"
                 class="screen-view__viewer"
                 v-on:blurregion="blurRegion"
                 v-on:selectregion="selectRegion"
-                v-bind:currentRegion="currentRegion"
+                v-bind:currentRegionId="currentRegionId"
                 v-bind:regions="pageData.textLines"
                 v-bind:imageSrc="pageData.imageSrc"
                 v-bind:imageHeight="pageData.imageHeight"
@@ -38,8 +38,8 @@
 
             <el-detail
                 class="screen-view__details"
-                v-show="!!currentRegion"
-                v-bind:data="currentRegion"></el-detail>
+                v-show="!!currentRegionData"
+                v-bind:data="currentRegionData"></el-detail>
         </section>
     </div>
 </template>
@@ -55,6 +55,15 @@
         components : { DragDrop, ElDetail, ElViewer },
 
         computed : {
+            currentRegionData() {
+                if (this.pageData) {
+                    const textLines = this.pageData.textLines;
+                    return textLines.find(l => l.id === this.currentRegionId);
+                } else {
+                    return null;
+                }
+            },
+
             pageData() {
                 return this.$store.state.pageData;
             }
@@ -62,13 +71,13 @@
 
         data() {
             return {
-                currentRegion : null
+                currentRegionId : null
             };
         },
 
         methods : {
             blurRegion() {
-                this.currentRegion = null;
+                this.currentRegionId = null;
             },
 
             async parseDrop(pageData) {
@@ -77,11 +86,11 @@
 
             resetPageData() {
                 this.$store.commit('resetPageData');
-                this.currentRegion = null;
+                this.currentRegionId = null;
             },
 
-            selectRegion(region) {
-                this.currentRegion = region;
+            selectRegion(regionId) {
+                this.currentRegionId = regionId;
             },
 
             async useTestXml() {
@@ -97,7 +106,7 @@
             window.addEventListener('keydown', (e) => {
                 // If there is a detail pane, tab through all regions in
                 // the viewer if the <Tab> key is used
-                if (!!this.currentRegion && e.key === 'Tab') {
+                if (!!this.currentRegionId && e.key === 'Tab') {
                     e.preventDefault();
 
                     // If the shiftKey is also pressed, select previousRegion

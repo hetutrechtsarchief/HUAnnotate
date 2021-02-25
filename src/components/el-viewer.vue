@@ -14,11 +14,11 @@
     import Static from 'ol/source/ImageStatic';
     import VectorLayer from 'ol/layer/Vector';
     import VectorSource from 'ol/source/Vector';
-    import { Fill, Stroke, Style } from 'ol/style';
+    import { Fill, Style } from 'ol/style';
     import View from 'ol/View';
     import { getCenter } from 'ol/extent';
 
-    let extent, regionsLayer, regionsSource, map, projection;
+    let extent, regionsLayer, map, projection;
 
     const STYLE_UNSELECTED = new Style({
         fill : new Fill({
@@ -35,8 +35,8 @@
     export default {
         computed : {
             currentRegionIndex() {
-                if (this.currentRegion) {
-                    return this.regions.findIndex(r => r.id === this.currentRegion.id);
+                if (this.currentRegionId) {
+                    return this.regions.findIndex(r => r.id === this.currentRegionId);
                 } else {
                     return -1;
                 }
@@ -59,16 +59,11 @@
                     let hasFeature = false;
 
                     e.target.getFeatures().forEach((feature) => {
-                        // Get the feature by ID and return that,
+                        // Get the feature's ID and return that,
                         // only return a single feature
-                        const regionId = feature.getId();
-                        const region = this.regions.find(r => r.id === regionId);
-
-                        if (region) {
-                            this.$emit('selectregion', region);
-                            hasFeature = true;
-                            return;
-                        }
+                        this.$emit('selectregion', feature.getId());
+                        hasFeature = true;
+                        return;
                     });
 
                     if (!hasFeature) {
@@ -125,7 +120,6 @@
 
                     // We also need to add the first coordinate again, because
                     // otherwise we can't make a proper rectangle
-
                     region.coordinates.push(region.coordinates[0]);
 
                     // Note extra square brackets here!
@@ -172,8 +166,9 @@
         },
 
         props : {
-            currentRegion : {
-                type : Object
+            // Refers to the id of the region
+            currentRegionId : {
+                type : String
             },
 
             imageHeight : {
@@ -188,17 +183,24 @@
                 type : Number
             },
 
+            // regions are expected to follow this format
+            // [
+            //  {
+            //    "id" : "a unique id",
+            //    "coordinates" : [ [x,y], [x,y], [x,y], [x,y] ]
+            //  }
+            // ]
             regions : {
                 type : Array
             }
         },
 
         watch : {
-            currentRegion() {
+            currentRegionId() {
                 this.deselectAllFeatures();
 
-                if (this.currentRegion) {
-                    this.selectFeature(this.currentRegion.id);
+                if (this.currentRegionId) {
+                    this.selectFeature(this.currentRegionId);
                 }
             }
         }
