@@ -19,6 +19,16 @@ export const store = new Vuex.Store({
 
         resetPageData(state) {
             state.pageData = null;
+        },
+
+        userText(state, payload) {
+            state.pageData.textLines.forEach((line) => {
+                if (line.id === payload.id) {
+                    line.userText = payload.text;
+                }
+
+                return line;
+            });
         }
     },
 

@@ -10,19 +10,19 @@ export class PageXml {
         this.parse();
     }
 
-    get imageHeight() {
+    getImageHeight() {
         return parseInt(this.page._attributes.imageHeight);
     }
 
-    get imageSrc() {
+    getImageSrc() {
         return this.metadata.TranskribusMetadata._attributes.imgUrl;
     }
 
-    get imageWidth() {
+    getImageWidth() {
         return parseInt(this.page._attributes.imageWidth);
     }
 
-    get textLines() {
+    getTextLines() {
         const lines = [];
 
         for (const region of this.page.TextRegion) {
@@ -35,10 +35,16 @@ export class PageXml {
                     return p.split(',').map(c => parseInt(c));
                 });
 
+                // We get the text from the lines, and add that to
+                // two different keys: both an 'originalText' and a
+                // 'userText' that we can edit later in the app
+                const text = line?.TextEquiv?.Unicode._text;
+
                 lines.push({
                     "coordinates" : coords,
                     "id" : line._attributes.id,
-                    "text" : line?.TextEquiv?.Unicode._text
+                    "originalText" : text,
+                    "userText" : text
                 });
             }
         }
@@ -62,5 +68,9 @@ export class PageXml {
 
         this.metadata = data.PcGts.Metadata;
         this.page = data.PcGts.Page;
+        this.imageHeight = this.getImageHeight();
+        this.imageSrc = this.getImageSrc();
+        this.imageWidth = this.getImageWidth();
+        this.textLines = this.getTextLines();
     }
 }

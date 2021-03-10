@@ -15,4 +15,9 @@
     &__props dd {
         margin-bottom: 1rem;
     }
+
+    &__textarea {
+        min-height: 20rem;
+        padding: 1rem;
+    }
 }

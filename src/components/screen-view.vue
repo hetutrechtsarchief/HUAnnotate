@@ -37,7 +37,9 @@
                 v-on:update="parseDrop"></drag-drop>
 
             <el-detail
+                v-bind:key="currentRegionId"
                 class="screen-view__details"
+                v-on:textupdate="updateText"
                 v-show="!!currentRegionData"
                 v-bind:data="currentRegionData"></el-detail>
         </section>
@@ -90,6 +92,13 @@
                 this.$router.push({
                     name : 'region',
                     params : { currentRegionId : regionId }
+                });
+            },
+
+            updateText(text) {
+                this.$store.commit('userText', {
+                    id : this.currentRegionId,
+                    text : text
                 });
             },
 
