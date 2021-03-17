@@ -2,22 +2,32 @@
     class RestApi {
         private $api;
 
-        public function __construct() {
-            $this->api = new TranskribusApi();
+        // See < https://mattryall.net/blog/default-content-type >
+        const DEFAULT_CONTENT_TYPE = "application/octet-stream";
+        const JSON_CONTENT_TYPE = "application/json; charset=utf-8";
+
+        public function __construct($api) {
+            $this->api = new $api();
         }
 
-        private function request($verb) {
-            try {
-                $res = $this->api->$verb();
-            } catch (Throwable $e) {
-                $this->jsonError($e->getMessage(), 400);
+        private function getContentType($res) {
+            if ($res->hasHeader("Content-Type")) {
+                $type = $res->getHeader("Content-Type")[0];
+
+                if (strpos($type, "json") !== false) {
+                    return self::JSON_CONTENT_TYPE;
+                } else {
+                    return $type;
+                }
+            } else {
+                // No Content-type, let's just assume it's text
+                return self::DEFAULT_CONTENT_TYPE;
             }
-
-            $this->jsonResponse($res);
         }
 
-        public function collections() {
-            $this->request("getCollections");
+        public function bodyResponse(string $body, string $type) {
+            header("Content-Type: $type");
+            die($body);
         }
 
         public function jsonError(string $msg, int $code) {
@@ -44,5 +54,31 @@
             } catch (Exception $e) {
                 $this->jsonError($e->getMessage(), 400);
             }
+        }
+
+        public function request($method) {
+            try {
+                $res = $this->api->getRequest($method);
+            } catch (Throwable $e) {
+                $this->jsonError($e->getMessage(), 400);
+            }
+
+            // If this is JSON, decode and return that, otherwise just
+            // return the body
+            $body = (string) $res->getBody();
+            $type = $this->getContentType($res);
+
+            if ($type == self::JSON_CONTENT_TYPE) {
+                $json = json_decode($body);
+
+                if (!$json) {
+                    $this->jsonError("Could not decode JSON response", 400);
+                }
+
+                $this->jsonResponse($json);
+            } else {
+                $this->bodyResponse($body, $type);
+            }
+
         }
     }

@@ -11,15 +11,12 @@
             ]);
         }
 
-        public function getCollections() {
-            $req = $this->httpClient->request("GET", "collections/list", [
+        public function getRequest(string $method) {
+            return  $this->httpClient->request("GET", $method, [
                 "headers" => [
                     "Cookie" => "JSESSIONID=" . $this->sessionId
                 ]
             ]);
-
-            $body = (string) $req->getBody();
-            return json_decode($body);
         }
 
         public function login(string $username, string $password) {

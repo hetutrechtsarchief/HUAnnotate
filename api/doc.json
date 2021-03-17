@@ -1,0 +1,13 @@
+{
+    "endpoints" : {
+        "GET get/collections/list" : "List all collections",
+        "GET get/collections/<coll_id>/list" : "Get all documents in a collection",
+        "GET get/collections/<coll_id>/<doc_id>/imageNames" : "Get names of all images in a document",
+        "GET get/collections/<coll_id>/<doc_id>/pageIds" : "Get page ids of pages in a document",
+        "GET get/collections/<coll_id>/<doc_id>/pages" : "Get all pages in a document",
+        "GET get/collections/<coll_id>/<doc_id>/transcriptIds" : "Get transcript ids of a document",
+        "GET get/collections/<coll_id>/<doc_id>/<page_id>" : "Get page information in XML format",
+        "GET get/collections/<coll_id>/<doc_id>/<page_id>/text" : "Get page XML of a page",
+        "GET get/collections/<coll_id>/<doc_id>/<page_id>/curr" : "Get current transcript info"
+    }
+}
