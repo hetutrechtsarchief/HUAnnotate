@@ -24,6 +24,9 @@
         // Before we start we set up the API and login
         // because that needs to happen before every request
         $api->login(TRANSKRIBUS_USER, TRANSKRIBUS_PASS);
+
+        // Make sure CORS is allowed
+        header('Access-Control-Allow-Origin: *');
     });
 
     Flight::start();

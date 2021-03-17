@@ -6,8 +6,8 @@
         "GET get/collections/<coll_id>/<doc_id>/pageIds" : "Get page ids of pages in a document",
         "GET get/collections/<coll_id>/<doc_id>/pages" : "Get all pages in a document",
         "GET get/collections/<coll_id>/<doc_id>/transcriptIds" : "Get transcript ids of a document",
-        "GET get/collections/<coll_id>/<doc_id>/<page_id>" : "Get page information in XML format",
-        "GET get/collections/<coll_id>/<doc_id>/<page_id>/text" : "Get page XML of a page",
-        "GET get/collections/<coll_id>/<doc_id>/<page_id>/curr" : "Get current transcript info"
+        "GET get/collections/<coll_id>/<doc_id>/<page_nr>" : "Get page information in XML format",
+        "GET get/collections/<coll_id>/<doc_id>/<page_nr>/text" : "Get page XML of a page",
+        "GET get/collections/<coll_id>/<doc_id>/<page_nr>/curr" : "Get current transcript info"
     }
 }

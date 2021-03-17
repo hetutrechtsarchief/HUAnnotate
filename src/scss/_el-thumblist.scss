@@ -1,0 +1,23 @@
+.el-thumblist {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 30rem));
+    grid-gap: 2rem;
+    padding: 2rem;
+    list-style: none;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        border: 3px solid var(--c-1);
+    }
+
+    &__title {
+        font-size: 2rem;
+    }
+
+    &__description {
+        font-size: 1.8rem;
+        font-weight: normal;
+    }
+}

@@ -1,29 +1,14 @@
 <template>
-    <div class="screen-view">
-        <header class="header">
-            <h1 class="header__title">
-                HUAnnotate
-            </h1>
-
-            <nav class="header__nav">
-                <button
-                    class="header__link"
-                    v-on:click="useTestXml">Test XML</button>
-
-                <button
-                    v-if="pageData"
-                    class="header__link"
-                    v-on:click="resetPageData">Reset</button>
-            </nav>
-        </header>
+    <div class="screen screen--view">
+        <el-header />
 
         <section
-            class="screen-view__content"
+            class="screen__content"
             v-bind:details-visible="!!currentRegionId">
             <el-viewer
                 v-if="pageData"
                 ref="viewer"
-                class="screen-view__viewer"
+                class="screen__viewer"
                 v-on:blurregion="blurRegion"
                 v-on:selectregion="selectRegion"
                 v-bind:currentRegionId="currentRegionId"
@@ -38,7 +23,7 @@
 
             <el-detail
                 v-bind:key="currentRegionId"
-                class="screen-view__details"
+                class="screen__details"
                 v-on:textupdate="updateText"
                 v-show="!!currentRegionData"
                 v-bind:data="currentRegionData"></el-detail>
@@ -48,13 +33,13 @@
 
 <script>
     import axios from 'axios';
-    import { PageXml } from '../pagexml.js';
     import DragDrop from './drag-drop.vue';
     import ElDetail from './el-detail.vue';
+    import ElHeader from './el-header.vue';
     import ElViewer from './el-viewer.vue';
 
     export default {
-        components : { DragDrop, ElDetail, ElViewer },
+        components : { DragDrop, ElDetail, ElHeader, ElViewer },
 
         computed : {
             currentRegionData() {
@@ -83,11 +68,6 @@
                 this.$store.commit('pageData', pageData);
             },
 
-            resetPageData() {
-                this.$store.commit('resetPageData');
-                this.blurRegion();
-            },
-
             selectRegion(regionId) {
                 this.$router.push({
                     name : 'region',
@@ -100,14 +80,6 @@
                     id : this.currentRegionId,
                     text : text
                 });
-            },
-
-            async useTestXml() {
-                // Load test file and give that to pageData
-                const path = process.env.BASE_URL;
-                const xml = await axios.get(`${path}test-data/page.xml`);
-                const pageXml = new PageXml(xml.data);
-                this.$store.commit('pageData', pageXml);
             }
         },
 
