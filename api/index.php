@@ -1,43 +1,20 @@
 <?php
     require 'config.php';
     require 'vendor/autoload.php';
+    require 'class-restapi.php';
     require 'class-transkribusapi.php';
 
-    $api = new TranskribusApi();
-
-    function json_error($msg, $code) {
-        json_response([
-            "error" => $msg
-        ], $code);
-    }
-
-    function json_response($data, $code = 200) {
-        Flight::json(
-            $data,
-            $code,
-            true,
-            'utf-8',
-            JSON_PARTIAL_OUTPUT_ON_ERROR
-        );
-    }
+    $api = new RestApi();
 
     Flight::set('flight.handle_errors', !DEBUG);
     Flight::set('flight.log_errors', DEBUG);
     Flight::set('flight.views.path', './');
 
     Flight::route('GET /', function() use ($api) {
-        json_response("ok");
+        $api->jsonResponse("ok");
     });
 
-    Flight::route('GET /collections', function() use ($api) {
-        try {
-            $res = $api->getCollections();
-        } catch (Exception $e) {
-            json_error($e->getMessage(), 400);
-        }
-
-        json_response($res);
-    });
+    Flight::route('GET /collections', [$api, "collections"]);
 
     Flight::before('start', function() use ($api) {
         // Before we start we set up the API and login
