@@ -4,7 +4,7 @@ import { Api } from './api.js';
 
 Vue.use(Vuex)
 
-const api = new Api('http://localhost/git/HUAnnotate/api');
+const api = new Api(process.env.VUE_APP_API_ENDPOINT);
 
 export const store = new Vuex.Store({
     state : {
