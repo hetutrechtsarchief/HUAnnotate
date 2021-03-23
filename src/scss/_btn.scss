@@ -1,4 +1,13 @@
 .btn {
+    &--action {
+        background: var(--c-1);
+        padding: 1rem;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        width: fit-content;
+    }
+
     &--link {
         text-decoration: underline;
         color: var(--c-3);

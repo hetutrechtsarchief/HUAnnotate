@@ -1,38 +1,30 @@
 <template>
-    <div class="screen">
-        <el-header />
+    <section class="screen__viewer">
+        <ul class="el-thumblist">
+            <li v-for="(item, index) in list"
+                class="el-thumblist__item"
+                v-bind:key="index">
+                <router-link
+                    v-bind:to="item.to">
+                    <img v-if="item.thumbUrl"
+                         v-bind:src="item.thumbUrl"
+                         v-bind:alt="'Thumbnail of collection <' + item.colName + '>'" />
 
-        <section class="screen__viewer">
-            <ul class="el-thumblist">
-                <li v-for="(item, index) in list"
-                    class="el-thumblist__item"
-                    v-bind:key="index">
-                    <router-link
-                        v-bind:to="item.to">
-                        <img v-if="item.thumbUrl"
-                             v-bind:src="item.thumbUrl"
-                             v-bind:alt="'Thumbnail of collection <' + item.colName + '>'" />
+                    <h2 class="el-thumblist__title">
+                        {{item.colName}}
+                    </h2>
 
-                        <h2 class="el-thumblist__title">
-                            {{item.colName}}
-                        </h2>
-
-                        <h3 class="el-thumblist__description">
-                            {{item.description}}
-                        </h3>
-                    </router-link>
-                </li>
-            </ul>
-        </section>
-    </div>
+                    <h3 class="el-thumblist__description">
+                        {{item.description}}
+                    </h3>
+                </router-link>
+            </li>
+        </ul>
+    </section>
 </template>
 
 <script>
-    import ElHeader from './el-header.vue';
-
     export default {
-        components : { ElHeader },
-
         computed : {
             list() {
                 return this.$store.state[this.value];

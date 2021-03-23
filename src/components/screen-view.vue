@@ -1,45 +1,40 @@
 <template>
-    <div class="screen screen--view">
-        <el-header />
+    <section
+        class="screen__content"
+        v-bind:details-visible="!!currentRegionId">
+        <el-viewer
+            v-if="pageData"
+            ref="viewer"
+            class="screen__viewer"
+            v-on:blurregion="blurRegion"
+            v-on:selectregion="selectRegion"
+            v-bind:currentRegionId="currentRegionId"
+            v-bind:regions="pageData.textLines"
+            v-bind:imageSrc="pageData.imageSrc"
+            v-bind:imageHeight="pageData.imageHeight"
+            v-bind:imageWidth="pageData.imageWidth"></el-viewer>
 
-        <section
-            class="screen__content"
-            v-bind:details-visible="!!currentRegionId">
-            <el-viewer
-                v-if="pageData"
-                ref="viewer"
-                class="screen__viewer"
-                v-on:blurregion="blurRegion"
-                v-on:selectregion="selectRegion"
-                v-bind:currentRegionId="currentRegionId"
-                v-bind:regions="pageData.textLines"
-                v-bind:imageSrc="pageData.imageSrc"
-                v-bind:imageHeight="pageData.imageHeight"
-                v-bind:imageWidth="pageData.imageWidth"></el-viewer>
+        <el-detail
+            v-bind:key="currentRegionId"
+            class="screen__details"
+            v-on:textupdate="updateText"
+            v-show="!!currentRegionData"
+            v-bind:data="currentRegionData"></el-detail>
 
-            <drag-drop
-                v-if="!pageData"
-                v-on:update="parseDrop"></drag-drop>
-
-            <el-detail
-                v-bind:key="currentRegionId"
-                class="screen__details"
-                v-on:textupdate="updateText"
-                v-show="!!currentRegionData"
-                v-bind:data="currentRegionData"></el-detail>
-        </section>
-    </div>
+        <div
+            v-if="!pageData"
+            class="wh-100 flex flex-center">
+            <p>No page data loaded. Please either use the browser function or upload a page XML file.</p>
+        </div>
+    </section>
 </template>
 
 <script>
-    import axios from 'axios';
-    import DragDrop from './drag-drop.vue';
     import ElDetail from './el-detail.vue';
-    import ElHeader from './el-header.vue';
     import ElViewer from './el-viewer.vue';
 
     export default {
-        components : { DragDrop, ElDetail, ElHeader, ElViewer },
+        components : { ElDetail, ElViewer },
 
         computed : {
             currentRegionData() {
@@ -62,10 +57,6 @@
                     name : 'region',
                     params : { currentRegionId : null }
                 });
-            },
-
-            async parseDrop(pageData) {
-                this.$store.commit('pageData', pageData);
             },
 
             selectRegion(regionId) {

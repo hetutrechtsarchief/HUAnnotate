@@ -1,8 +1,10 @@
 <template>
     <header class="header">
-        <h1 class="header__title">
+        <router-link
+            to="/"
+            class="header__title">
             HUAnnotate
-        </h1>
+        </router-link>
 
         <nav class="header__nav">
             <button
@@ -39,6 +41,7 @@
                 const xml = await axios.get(`${path}test-data/page.xml`);
                 const pageXml = new PageXml(xml.data);
                 this.$store.commit('pageData', pageXml);
+                this.$router.push('/view');
             }
         }
     }

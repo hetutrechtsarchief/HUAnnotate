@@ -1,5 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Screen404 from './components/screen-404.vue';
+import ScreenHome from './components/screen-home.vue';
+import ScreenImport from './components/screen-import.vue';
 import ScreenList from './components/screen-list.vue';
 import ScreenView from './components/screen-view.vue';
 
@@ -7,6 +10,16 @@ Vue.use(VueRouter)
 
 export const router = new VueRouter({
     routes : [
+        {
+            path : '/',
+            component : ScreenHome
+        },
+
+        {
+            path : '/import',
+            component : ScreenImport
+        },
+
         {
             path : '/collections/list',
             component : ScreenList,
@@ -46,8 +59,12 @@ export const router = new VueRouter({
         },
 
         {
-            path : '/region/:currentRegionId?',
-            name : 'region',
+            path : '/view',
+            component : ScreenView
+        },
+
+        {
+            path : '/view/region/:currentRegionId?',
             component : ScreenView,
             props(route) {
                 const currentRegionId = route.params.currentRegionId ?? null;
@@ -57,8 +74,8 @@ export const router = new VueRouter({
 
         {
             path : '*',
-            name : 'start',
-            component : ScreenView
+            name : '404',
+            component : Screen404
         }
     ]
 })

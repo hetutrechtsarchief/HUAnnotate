@@ -1,10 +1,10 @@
 <template>
-    <div class="drag-drop"
+    <div class="screen-import"
          v-bind:dragover="dragover">
-        <p class="drag-drop__help">🗳 Drop your file here</p>
+        <p class="screen-import__help">🗳 Drop your file here</p>
 
         <p v-show="error"
-           class="drag-drop__error">{{error}}</p>
+           class="screen-import__error">{{error}}</p>
     </div>
 </template>
 
@@ -52,7 +52,8 @@
                     this.error = `Parsing error: ${e}`;
                 }
 
-                this.$emit('update', page);
+                this.$store.commit('pageData', page);
+                this.$router.push('/view');
             },
 
             initDrop() {
