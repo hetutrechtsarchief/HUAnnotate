@@ -6,8 +6,12 @@ Vue.use(Vuex)
 
 const api = new Api(process.env.VUE_APP_API_ENDPOINT);
 
+// Make api available for all components
+Vue.prototype.$api = api;
+
 export const store = new Vuex.Store({
     state : {
+        apiAvailable : true,
         collections : [],
         documents : [],
         pageData : null,
@@ -19,6 +23,10 @@ export const store = new Vuex.Store({
     },
 
     mutations : {
+        apiAvailable(state, bool) {
+            state.apiAvailable = bool;
+        },
+
         collections(state, collections) {
             state.collections = collections;
         },
@@ -51,6 +59,17 @@ export const store = new Vuex.Store({
     },
 
     actions : {
+        async checkApiAvailable({ commit }) {
+            let req;
+
+            try {
+                req = await api.call('');
+            } catch (e) {
+                commit('apiAvailable', false);
+                return;
+            }
+        },
+
         async fillCollections({commit}) {
             let list = await api.call('get/collections/list');
 

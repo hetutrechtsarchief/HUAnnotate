@@ -9,7 +9,7 @@
             v-on:blurregion="blurRegion"
             v-on:selectregion="selectRegion"
             v-bind:currentRegionId="currentRegionId"
-            v-bind:regions="pageData.textLines"
+            v-bind:regions="regions"
             v-bind:imageSrc="pageData.imageSrc"
             v-bind:imageHeight="pageData.imageHeight"
             v-bind:imageWidth="pageData.imageWidth"></el-viewer>
@@ -23,8 +23,8 @@
 
         <div
             v-if="!pageData"
-            class="wh-100 flex flex-center">
-            <p>No page data loaded. Please either use the browser function or upload a page XML file.</p>
+            class="w-100 h-100vh flex flex-center">
+            <p>No page data loaded. Please either use the browse function or upload a page XML file.</p>
         </div>
     </section>
 </template>
@@ -39,7 +39,7 @@
         computed : {
             currentRegionData() {
                 if (this.pageData) {
-                    const textLines = this.pageData.textLines;
+                    const textLines = this.pageData.getTextLines();
                     return textLines.find(l => l.id === this.currentRegionId);
                 } else {
                     return null;
@@ -48,6 +48,21 @@
 
             pageData() {
                 return this.$store.state.pageData;
+            },
+
+            regions() {
+                return this.pageData.getTextLines();
+            }
+        },
+
+        async created() {
+            // If we have these three properties, load up the data from the API
+            if (this.collectionId && this.documentId && this.pageNr) {
+                const pageData = await this.$api.getPageData(
+                    this.collectionId, this.documentId, this.pageNr
+                );
+
+                this.$store.commit('pageData', pageData.page);
             }
         },
 
@@ -92,7 +107,10 @@
         },
 
         props : {
-            currentRegionId : String
+            collectionId : String,
+            currentRegionId : String,
+            documentId : String,
+            pageNr : String
         }
     }
 </script>

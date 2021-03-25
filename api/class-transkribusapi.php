@@ -21,10 +21,6 @@
 
         public function login(string $username, string $password) {
             $req = $this->httpClient->request("POST", "auth/login", [
-                "headers" => [
-                    // "Content-Type" => "application/x-www-form-urlencoded"
-                ],
-
                 "form_params" => [
                     "user" => $username,
                     "pw" => $password

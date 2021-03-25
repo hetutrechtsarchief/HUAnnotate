@@ -75,6 +75,7 @@
             },
 
             initMap() {
+                console.log(`Loading ${this.imageSrc}`);
                 map = new Map({
                     layers : [
                         new ImageLayer({
@@ -172,15 +173,18 @@
             },
 
             imageHeight : {
-                type : Number
+                type : Number,
+                required: true
             },
 
             imageSrc : {
-                type : String
+                type : String,
+                required: true
             },
 
             imageWidth : {
-                type : Number
+                type : Number,
+                required: true
             },
 
             // regions are expected to follow this format
@@ -191,7 +195,8 @@
             //  }
             // ]
             regions : {
-                type : Array
+                type : Array,
+                required: true
             }
         },
 

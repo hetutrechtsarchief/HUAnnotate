@@ -1,9 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Screen404 from './components/screen-404.vue';
+import ScreenCollections from './components/screen-collections.vue';
+import ScreenDocuments from './components/screen-documents.vue';
 import ScreenHome from './components/screen-home.vue';
 import ScreenImport from './components/screen-import.vue';
 import ScreenList from './components/screen-list.vue';
+import ScreenPages from './components/screen-pages.vue';
 import ScreenView from './components/screen-view.vue';
 
 Vue.use(VueRouter)
@@ -12,48 +15,56 @@ export const router = new VueRouter({
     routes : [
         {
             path : '/',
-            component : ScreenHome
+            component : ScreenHome,
+            name : 'home'
         },
 
         {
             path : '/import',
-            component : ScreenImport
+            component : ScreenImport,
+            name : 'import'
         },
+
+        // Collections --> Documents --> Pages --> Page
 
         {
             path : '/collections/list',
-            component : ScreenList,
-            props() {
-                return {
-                    action : 'fillCollections',
-                    value : 'collections'
-                };
-            }
+            component : ScreenCollections,
+            name : 'collections'
         },
 
         {
             path : '/collections/:id/list',
-            component : ScreenList,
+            component : ScreenDocuments,
+            name : 'documents',
             props(route) {
                 return {
-                    action : 'fillDocuments',
-                    actionArg : { id : route.params.id },
-                    value : 'documents'
+                    id : route.params.id
                 };
             }
         },
 
         {
-            path : '/collections/:colId/:docId/pages',
-            component : ScreenList,
+            path : '/collections/:collectionId/:documentId/pages',
+            component : ScreenPages,
+            name : 'pages',
             props(route) {
                 return {
-                    action : 'fillPages',
-                    actionArg : {
-                        colId : route.params.colId,
-                        docId : route.params.docId
-                    },
-                    value : 'pages'
+                    collectionId : route.params.collectionId,
+                    documentId : route.params.documentId
+                };
+            }
+        },
+
+        {
+            path : '/view/:collectionId/:documentId/:pageNr',
+            component : ScreenView,
+            name : 'view-api',
+            props(route) {
+                return {
+                    collectionId : route.params.collectionId,
+                    documentId : route.params.documentId,
+                    pageNr : route.params.pageNr
                 };
             }
         },

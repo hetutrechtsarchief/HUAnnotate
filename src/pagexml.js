@@ -3,11 +3,9 @@
 import xmljs from 'xml-js';
 
 export class PageXml {
-    constructor(rawXml) {
-        this.rawXml = rawXml;
+    constructor() {
         this.metadata = null;
         this.page = null;
-        this.parse();
     }
 
     getImageHeight() {
@@ -31,6 +29,10 @@ export class PageXml {
             }
 
             for (const line of region.TextLine) {
+                if (!line) {
+                    continue;
+                }
+
                 const coords = line.Coords._attributes.points.split(' ').map((p) => {
                     return p.split(',').map(c => parseInt(c));
                 });
@@ -52,8 +54,8 @@ export class PageXml {
         return lines;
     }
 
-    parse() {
-        const data = xmljs.xml2js(this.rawXml, {
+    parse(xml) {
+        const data = xmljs.xml2js(xml, {
             compact : true
         });
 
