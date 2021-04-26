@@ -1,8 +1,8 @@
 .screen-view {
-    display: grid;
     min-height: 100vh;
 
     &[details-visible] {
+        display: grid;
         grid-template-columns: 1fr 25vw;
     }
 

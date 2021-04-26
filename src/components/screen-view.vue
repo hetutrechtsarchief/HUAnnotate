@@ -8,7 +8,7 @@
             class="screen-view__viewer"
             v-on:blurregion="blurRegion"
             v-on:selectregion="selectRegion"
-            v-bind:regionId="regionId"
+            v-bind:currentRegionId="regionId"
             v-bind:regions="viewerData.regions"
             v-bind:imageSrc="viewerData.imageSrc"
             v-bind:imageHeight="viewerData.imageHeight"

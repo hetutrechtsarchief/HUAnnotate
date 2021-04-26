@@ -1,24 +1,24 @@
 # HUAnnotate
-Annotatie Tool om gestructureerde data uit OCR's van scans te verkrijgen
+Annotation tool to get data out of OCR-ed documents, written on top of the Transkribus API.
 
-!! Dit project is 'Work in progress'.
+## Description
+This application uses a PHP backend to interface with the Transkribus API (it's a pretty thin layer on top of that API), the frontend is built as a Vue.js application.
 
-## Installatie
-Clone de repo met `--recursive` omdat deze een git submodule bevat met 'data'
-```bash
-git clone --recursive https://github.com/hetutrechtsarchief/HUAnnotate.git
-```
+## Requirements
+This application has been tested and works with:
 
-Installeer de dependencies
+* Node.js 14.16.1
+* PHP 7.4.12 with [Composer](https://getcomposer.org/)
+* Chrome 90
 
-```
-npm install
-```
+## Installation
+Note that you need a `.env` file with a path to the API, by default this is set like this:
 
-En draai de applicatie met
+    VUE_APP_API_ENDPOINT=/api
 
-```
-npm run serve
-```
-
-En de site opent op `http://localhost:8080`
+1. Clone this repository
+2. Install the node dependencies using `npm install` in the root
+3. Install the PHP dependencies in `api` using `composer install`
+4. Copy `config-sample.php` from the `api` directory to `config.php` and fill in the missing values
+5. Make sure your webserver is configured [as documented here](https://flightphp.com/install) to make sure Flight PHP can serve proper URL's for the API
+6. Run the application with `npm run serve`
