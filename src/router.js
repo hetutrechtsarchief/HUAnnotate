@@ -75,7 +75,7 @@ export const router = new VueRouter({
             component : ScreenView,
             props(route) {
                 return {
-                    regionId : route.query.region ?? null
+                    regionId : route.query.regionId ?? null
                 };
             }
         },

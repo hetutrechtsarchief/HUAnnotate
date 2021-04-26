@@ -37,6 +37,10 @@
         components : { ElDetail, ElViewer },
 
         computed : {
+            pageData() {
+                return this.$store.state.pageData;
+            },
+
             regionData() {
                 if (this.pageData) {
                     const textLines = this.pageData.getTextLines();
@@ -46,17 +50,13 @@
                 }
             },
 
-            pageData() {
-                return this.$store.state.pageData;
-            },
-
             viewerData() {
                 const page = this.pageData;
 
                 return {
-                    imageHeight : page.getImageHeight(),
-                    imageSrc : page.getImageSrc(),
-                    imageWidth : page.getImageWidth(),
+                    imageHeight : page.imageHeight,
+                    imageSrc : page.imageSrc,
+                    imageWidth : page.imageWidth,
                     regions : page.getTextLines()
                 }
             }

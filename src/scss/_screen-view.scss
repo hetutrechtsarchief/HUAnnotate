@@ -1,4 +1,5 @@
 .screen-view {
+    display: grid;
     min-height: 100vh;
 
     &[details-visible] {

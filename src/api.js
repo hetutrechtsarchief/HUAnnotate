@@ -44,10 +44,10 @@ export class Api {
         // We're merging some data points here, because not everything is
         // in the page XML
         const page = new PageXml();
-        page.imageHeight = parseInt(data.height._text);
-        page.imageWidth = parseInt(data.width._text);
-        page.imageSrc = data.url._text;
-        page.page = parsedPage.PcGts.Page;
+        page.setImageHeight(parseInt(data.height._text));
+        page.setImageWidth(parseInt(data.width._text));
+        page.setImageSrc(data.url._text);
+        page.setPage(parsedPage.PcGts.Page);
 
         return { data, page };
     }

@@ -4,20 +4,11 @@ import xmljs from 'xml-js';
 
 export class PageXml {
     constructor() {
+        this.imageHeight = null;
+        this.imageSrc = null;
+        this.imageWidth = null;
         this.metadata = null;
         this.page = null;
-    }
-
-    getImageHeight() {
-        return parseInt(this.page._attributes.imageHeight);
-    }
-
-    getImageSrc() {
-        return this.metadata.TranskribusMetadata._attributes.imgUrl;
-    }
-
-    getImageWidth() {
-        return parseInt(this.page._attributes.imageWidth);
     }
 
     getTextLines() {
@@ -69,10 +60,26 @@ export class PageXml {
         }
 
         this.metadata = data.PcGts.Metadata;
-        this.page = data.PcGts.Page;
-        this.imageHeight = this.getImageHeight();
-        this.imageSrc = this.getImageSrc();
-        this.imageWidth = this.getImageWidth();
+        this.setPage(data.PcGts.Page);
+        this.setImageHeight(parseInt(this.page._attributes.imageHeight));
+        this.setImageSrc(this.metadata.TranskribusMetadata._attributes.imgUrl);
+        this.setImageWidth(parseInt(this.page._attributes.imageWidth));
         this.textLines = this.getTextLines();
+    }
+
+    setImageHeight(height) {
+        this.imageHeight = height;
+    }
+
+    setImageSrc(src) {
+        this.imageSrc = src;
+    }
+
+    setImageWidth(width) {
+        this.imageWidth = width;
+    }
+
+    setPage(page) {
+        this.page = page;
     }
 }
