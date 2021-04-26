@@ -1,0 +1,11 @@
+.screen-view {
+    min-height: 100vh;
+
+    &[details-visible] {
+        grid-template-columns: 1fr 25vw;
+    }
+
+    &__viewer {
+        @include wh(100%);
+    }
+}

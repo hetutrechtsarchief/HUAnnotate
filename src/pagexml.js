@@ -54,7 +54,7 @@ export class PageXml {
         return lines;
     }
 
-    parse(xml) {
+    populateFromXml(xml) {
         const data = xmljs.xml2js(xml, {
             compact : true
         });

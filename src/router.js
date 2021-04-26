@@ -64,22 +64,19 @@ export const router = new VueRouter({
                 return {
                     collectionId : route.params.collectionId,
                     documentId : route.params.documentId,
-                    pageNr : route.params.pageNr
+                    pageNr : route.params.pageNr,
+                    regionId : route.query.regionId ?? null
                 };
             }
         },
 
         {
             path : '/view',
-            component : ScreenView
-        },
-
-        {
-            path : '/view/region/:currentRegionId?',
             component : ScreenView,
             props(route) {
-                const currentRegionId = route.params.currentRegionId ?? null;
-                return { currentRegionId };
+                return {
+                    regionId : route.query.region ?? null
+                };
             }
         },
 

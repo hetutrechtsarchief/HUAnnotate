@@ -1,25 +1,25 @@
 <template>
     <section
-        class="screen__content"
-        v-bind:details-visible="!!currentRegionId">
+        class="screen-view"
+        v-bind:details-visible="!!regionId">
         <el-viewer
             v-if="pageData"
             ref="viewer"
-            class="screen__viewer"
+            class="screen-view__viewer"
             v-on:blurregion="blurRegion"
             v-on:selectregion="selectRegion"
-            v-bind:currentRegionId="currentRegionId"
-            v-bind:regions="regions"
-            v-bind:imageSrc="pageData.imageSrc"
-            v-bind:imageHeight="pageData.imageHeight"
-            v-bind:imageWidth="pageData.imageWidth"></el-viewer>
+            v-bind:regionId="regionId"
+            v-bind:regions="viewerData.regions"
+            v-bind:imageSrc="viewerData.imageSrc"
+            v-bind:imageHeight="viewerData.imageHeight"
+            v-bind:imageWidth="viewerData.imageWidth"></el-viewer>
 
         <el-detail
-            v-bind:key="currentRegionId"
-            class="screen__details"
+            v-bind:key="regionId"
+            class="screen-view__details"
             v-on:textupdate="updateText"
-            v-show="!!currentRegionData"
-            v-bind:data="currentRegionData"></el-detail>
+            v-show="!!regionData"
+            v-bind:data="regionData"></el-detail>
 
         <div
             v-if="!pageData"
@@ -37,10 +37,10 @@
         components : { ElDetail, ElViewer },
 
         computed : {
-            currentRegionData() {
+            regionData() {
                 if (this.pageData) {
                     const textLines = this.pageData.getTextLines();
-                    return textLines.find(l => l.id === this.currentRegionId);
+                    return textLines.find(l => l.id === this.regionId);
                 } else {
                     return null;
                 }
@@ -50,8 +50,15 @@
                 return this.$store.state.pageData;
             },
 
-            regions() {
-                return this.pageData.getTextLines();
+            viewerData() {
+                const page = this.pageData;
+
+                return {
+                    imageHeight : page.getImageHeight(),
+                    imageSrc : page.getImageSrc(),
+                    imageWidth : page.getImageWidth(),
+                    regions : page.getTextLines()
+                }
             }
         },
 
@@ -69,21 +76,21 @@
         methods : {
             blurRegion() {
                 this.$router.push({
-                    name : 'region',
-                    params : { currentRegionId : null }
+                    path : this.$route.path,
+                    query : { regionId : null }
                 });
             },
 
             selectRegion(regionId) {
                 this.$router.push({
-                    name : 'region',
-                    params : { currentRegionId : regionId }
+                    path : this.$route.path,
+                    query : { regionId : regionId }
                 });
             },
 
             updateText(text) {
                 this.$store.commit('userText', {
-                    id : this.currentRegionId,
+                    id : this.regionId,
                     text : text
                 });
             }
@@ -93,7 +100,7 @@
             window.addEventListener('keydown', (e) => {
                 // If there is a detail pane, tab through all regions in
                 // the viewer if the <Tab> key is used
-                if (!!this.currentRegionId && e.key === 'Tab') {
+                if (!!this.regionId && e.key === 'Tab') {
                     e.preventDefault();
 
                     // If the shiftKey is also pressed, select previousRegion
@@ -108,9 +115,9 @@
 
         props : {
             collectionId : String,
-            currentRegionId : String,
             documentId : String,
-            pageNr : String
+            pageNr : String,
+            regionId : String
         }
     }
 </script>

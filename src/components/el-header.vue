@@ -39,9 +39,14 @@
                 // Load test file and give that to pageData
                 const path = process.env.BASE_URL;
                 const xml = await axios.get(`${path}test-data/page.xml`);
-                const pageXml = new PageXml(xml.data);
+
+                const pageXml = new PageXml();
+                pageXml.populateFromXml(xml.data);
                 this.$store.commit('pageData', pageXml);
-                this.$router.push('/view');
+
+                if (this.$route.path !== '/view') {
+                    this.$router.push('/view');
+                }
             }
         }
     }
